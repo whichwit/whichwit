@@ -49,4 +49,4 @@ Log back into the game on the new character. You will probably get a bunch initi
 - Account macros are better than character macros:
   - not limited to 18 slots per character
   - single file to modify
-- My Grid2 [profile](https://raw.githubusercontent.com/whichwit/whichwit/main/wow/export/grid2.txt) (Priest/Druid oriented) to set up healer raid frame quickly.
+- My Grid2 [profile](https://raw.githubusercontent.com/whichwit/whichwit/main/wow/grid2/grid2.txt) and [explanation](https://github.com/whichwit/whichwit/tree/main/wow/grid2) to set up healer raid frame quickly.
