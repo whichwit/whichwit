@@ -7,10 +7,9 @@ Take a typical reference like the following:
 
 > `\WTF\Account\<account>\<realm>\<character>\`
 
-- `<account>` is the either your *live* account (e.g. `WOW1`, `ILOVETACOS`, etc.) or *ptr* account (e.g. `123456#01`)
-- `<realm>`
-
-
+- `<account>` is the either your *live* account (e.g. `WOW1`, `ILOVETACOS`, etc.) or *ptr* account (e.g. `123456#1`)
+- `<realm>` is `Faerlina` or `Classic PTR Realm 1`
+- `<character>` is your character name from either realm
 
 ### Character creation
 After installing the *ptr* client, create or copy a character. The character name doesn't have to match their *live* counterpart.
@@ -27,7 +26,7 @@ SET synchronizeBindings "0"
 ```
 This prevents the client pulling down old macros/bindings from the server
 
-**Copy addon settings:** Copy every files under `\WTF\Account\<account>\SavedVariable\` from *live* to *ptr*. These files contain saved addon setting and profiles. Specifically, WeakAura stores all its data in the `WeakAura.lua` file.
+**Copy addon settings:** Copy every files under `\WTF\Account\<account>\SavedVariables\` from *live* to *ptr*. These files contain saved addon setting and profiles. Specifically, WeakAura stores all its data in the `WeakAura.lua` file.
 
 ### Restore the UI
 With game and addon settings copied over to *ptr* you can proceed to restore the UI. Start with a small, essential set of addons and work your way up - action bar, unit/raid frame, WA, DBM, bags. You can always get additional addons as needed. I recommend import addon settings before importing action/binding/macros.
