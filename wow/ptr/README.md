@@ -1,4 +1,4 @@
-This is a short guide to replicate your character on the PTR. It assumes a fresh PTR environment.
+This is a short guide to replicate your character onto the PTR. It assumes a fresh PTR environment.
 
 ### Folder Structure
 Both *live* and *ptr* clients share similar folder structures. *live* files are by default installed under `<wow>\_classic_\` folder while *ptr* files are by default installed under `<wow>\_classic_ptr_\` folder. Any folder reference expects the root to mean `_classic_` or `_classic_ptr_` folder, depending on the environment context.
@@ -14,13 +14,13 @@ Take a typical reference like the following:
 ### Character creation
 After installing the *ptr* client, create or copy a character. The character name doesn't have to match their *live* counterpart.
 
-Log in the newly created/copied character, then exists the game. This scaffolds the `WTF` folder (among other things) for the account/character for us to migrate to.
+Log on the newly created/copied character, then exit the game. Doing so scaffolds the `WTF` folder (among other things) for the account/character for us to migrate to.
 
 ### Migrate game and addon settings
 
 **Copy game settings:** Copy `\WTF\Config.wtf` from *live* to *ptr*.
 
-If you run into any "assertion failure" error checkout [this Blizzard forum thread](https://eu.forums.blizzard.com/en/wow/t/crashing-on-launch-of-ptr-client-2022/404159/2). Essentially, add the following 2 lines to the end of `\WTF\Config.wtf` file:
+If you run into any "assertion failure" error check out [this Blizzard forum thread](https://eu.forums.blizzard.com/en/wow/t/crashing-on-launch-of-ptr-client-2022/404159/2). TLDR: add the following 2 lines to the end of `\WTF\Config.wtf` file:
 ```
 SET synchronizeMacros "0"
 SET synchronizeBindings "0"
@@ -34,19 +34,19 @@ With game and addon settings copied over to *ptr* you can proceed to restore the
 
 **Import addon settings:** While only a handful of addons support static import/export - Grid2, WA, Clique, to name a few - most popular addons are based on ACE and support profile import. With addon settings copied to *ptr*, we can now copy/use *live* profiles.
 
-Log back into the game on the new character. You will probably get a bunch initial set up or error messages (another reason to start small). For each of the ACE-based addons you should be able to go to the **Profile** section and import *live* profiles, usually named as `<character>-<realm>` pairs. Do this for all addons.
+Log back into the game on the new character. You will probably get a bunch initial set up or error messages (another reason to start small), ignore them. For each of the ACE-based addons you should be able to go to the **Profile** section and import *live* profiles, usually named as `<character>-<realm>` pairs. Do this for all addons.
 
-**Action/Binding/Macros**: It is recommended to use `myslot` addon to handle this instead of manual migration. The addon re-create the macros and re-apply action/binding to the new *ptr* character, instead of relying on the client matching correctly to a setting file.
+**Action/Binding/Macros**: It is recommended to use the addon [myslot](https://www.curseforge.com/wow/addons/myslot) to handle this instead of manual migration. The addon re-create the macros and re-apply action/binding to the new *ptr* character, instead of relying on the client matching correctly to a setting file.
 
 - Install `myslot` addon in both *live* and *ptr* environments.
 - Log onto *live*. Type `/myslot` in chat to open the addon window. Click `Export` and copy the whole string.
-- Log onto *ptr*. Type `/myselt` in chat to open the addon window. Paste the whoe export string. Click `Import` to re-create the macros and apply action mapping/key binding.
+- Log onto *ptr*. Type `/myslot` in chat to open the addon window. Paste the whoe export string. Click `Import` to re-create the macros and apply action mapping/key binding.
 - **PRO TIP:** If you save the export string in-game on *live* before copying the addon settings, you can simply import the string in-game on the *ptr*!
 
-### Additional considerations
+### Extras
 
-- Once set up, re-creating the character will retain addon settings but not action mapping nor key binding. Using `myslot` is a quick way to re-apply them.
-
+- Once set up, re-creating a character on the PTR with the same name will retain addon profile settings for that name but will not retain action mapping nor key binding. Using `myslot` is a quick way to re-apply them.
 - Account macros are better than character macros:
   - not limited to 18 slots per character
   - single file to modify
+- My Grid2 [profile](https://raw.githubusercontent.com/whichwit/whichwit/main/wow/export/grid2.txt) (Priest/Druid oriented) to set up healer raid frame quickly.
