@@ -17,7 +17,8 @@ After installing the *ptr* client, create or copy a character. The character nam
 Log in the newly created/copied character, then exists the game. This scaffolds the `WTF` folder (among other things) for the account/character for us to migrate to.
 
 ### Migrate game and addon settings
-**Copy game settings** Copy `\WTF\Config.wtf` from *live* to *ptr*.
+
+**Copy game settings:** Copy `\WTF\Config.wtf` from *live* to *ptr*.
 
 If you run into any "assertion failure" error checkout [this Blizzard forum thread](https://eu.forums.blizzard.com/en/wow/t/crashing-on-launch-of-ptr-client-2022/404159/2). Essentially, add the following 2 lines to the end of `\WTF\Config.wtf` file:
 ```
@@ -43,8 +44,9 @@ Log back into the game on the new character. You will probably get a bunch initi
 - **PRO TIP:** If you save the export string in-game on *live* before copying the addon settings, you can simply import the string in-game on the *ptr*!
 
 ### Additional considerations
-Once set up, re-creating the character will retain addon settings but not action mapping nor key binding. Using `myslot` is a quick way to re-apply them.
 
-Account macros are better than character macros:
-- not limited to 18 slots per character
-- single file to modify
+- Once set up, re-creating the character will retain addon settings but not action mapping nor key binding. Using `myslot` is a quick way to re-apply them.
+
+- Account macros are better than character macros:
+  - not limited to 18 slots per character
+  - single file to modify
