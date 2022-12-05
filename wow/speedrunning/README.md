@@ -20,8 +20,12 @@
 
 ## Military Wing
 
-### Razuvious 
+### Before Razuvious
 
+- First big pull at start, second big pull in the room
+- Be ready to HS due to cleave
+
+### Razuvious 
 ```
 |                 | Time | Note                |
 |-----------------|------|---------------------|
