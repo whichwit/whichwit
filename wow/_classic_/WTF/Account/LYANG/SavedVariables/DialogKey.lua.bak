@@ -1,0 +1,19 @@
+
+DialogKeyDB = {
+	["profileKeys"] = {
+		["Ehrpot - Blaumeux"] = "Default",
+		["Ehrmisc - Blaumeux"] = "Default",
+		["Ehr - Blaumeux"] = "Default",
+		["Joclyn - Blaumeux"] = "Default",
+		["Shardhell - Blaumeux"] = "Default",
+		["Ehrore - Blaumeux"] = "Default",
+		["Ehrherb - Blaumeux"] = "Default",
+		["Ehrvault - Blaumeux"] = "Default",
+		["Santorini - Blaumeux"] = "Default",
+		["Furore - Blaumeux"] = "Default",
+		["Bokar - Blaumeux"] = "Default",
+	},
+	["global"] = {
+		["shownBindWarning"] = true,
+	},
+}

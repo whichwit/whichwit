@@ -1,0 +1,110 @@
+
+NauticusClassic5DB = {
+	["char"] = {
+		["Furore - Blaumeux"] = {
+			["activeTransit"] = 2,
+		},
+		["Santorini - Blaumeux"] = {
+			["activeTransit"] = 2,
+		},
+	},
+	["profileKeys"] = {
+		["Ehrpot - Blaumeux"] = "Ehrpot - Blaumeux",
+		["Santorini - Blaumeux"] = "Santorini - Blaumeux",
+		["Ehrmisc - Blaumeux"] = "Ehrmisc - Blaumeux",
+		["Ehrvault - Blaumeux"] = "Ehrvault - Blaumeux",
+		["Ehrore - Blaumeux"] = "Ehrore - Blaumeux",
+		["Lorem - Blaumeux"] = "Lorem - Blaumeux",
+		["Zznaxxtwo - Blaumeux"] = "Zznaxxtwo - Blaumeux",
+		["Ehr - Blaumeux"] = "Ehr - Blaumeux",
+		["Aelysta - Benediction"] = "Aelysta - Benediction",
+		["Ehrherb - Blaumeux"] = "Ehrherb - Blaumeux",
+		["Caeli - Benediction"] = "Caeli - Benediction",
+		["Furore - Blaumeux"] = "Furore - Blaumeux",
+		["Shardhell - Blaumeux"] = "Shardhell - Blaumeux",
+	},
+	["global"] = {
+		["knownCycles"] = {
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = 937389.6839999999,
+			}, -- [1]
+			{
+				["swaps"] = 0,
+				["boots"] = 0,
+				["since"] = 469842.793606673,
+			}, -- [2]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = 372535.727,
+			}, -- [3]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = 459306.312,
+			}, -- [4]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = 1545183.282,
+			}, -- [5]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = 1651431.717,
+			}, -- [6]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = -287993.135,
+			}, -- [7]
+			{
+				["swaps"] = 1,
+				["boots"] = 0,
+				["since"] = -298035.117,
+			}, -- [8]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = 785337.1299999999,
+			}, -- [9]
+			{
+				["swaps"] = 2,
+				["boots"] = 0,
+				["since"] = 842013.0460000001,
+			}, -- [10]
+		},
+		["timestamp"] = 1628040515,
+		["uptime"] = 1787688.352,
+	},
+	["profiles"] = {
+		["Ehrpot - Blaumeux"] = {
+		},
+		["Santorini - Blaumeux"] = {
+		},
+		["Ehrmisc - Blaumeux"] = {
+		},
+		["Ehrvault - Blaumeux"] = {
+		},
+		["Ehrore - Blaumeux"] = {
+		},
+		["Lorem - Blaumeux"] = {
+		},
+		["Zznaxxtwo - Blaumeux"] = {
+		},
+		["Ehr - Blaumeux"] = {
+		},
+		["Aelysta - Benediction"] = {
+		},
+		["Ehrherb - Blaumeux"] = {
+		},
+		["Caeli - Benediction"] = {
+		},
+		["Furore - Blaumeux"] = {
+		},
+		["Shardhell - Blaumeux"] = {
+		},
+	},
+}

@@ -1,0 +1,2532 @@
+
+Dailies_Data = {
+	["Toons"] = {
+		["Futago-Faerlina"] = {
+			["Professions"] = {
+				[171] = 1,
+				[182] = 390,
+				[129] = 375,
+			},
+			["TotalDailies"] = 16,
+			["Quests"] = {
+				[11097] = {
+					["Ignored"] = false,
+					["Order"] = 46,
+				},
+				[11381] = {
+					["Order"] = 11,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11035] = {
+					["Ignored"] = false,
+					["Order"] = 10,
+				},
+				[11666] = {
+					["Order"] = 20,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11383] = {
+					["Ignored"] = false,
+					["Order"] = 37,
+				},
+				[11667] = {
+					["Order"] = 21,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11384] = {
+					["Ignored"] = false,
+					["Order"] = 25,
+				},
+				[11668] = {
+					["Order"] = 17,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11385] = {
+					["Order"] = 39,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11354] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1644961311,
+					["Order"] = 28,
+					["Duration"] = {
+						["Current"] = 1428,
+						["Fastest"] = 1428,
+						["Slowest"] = 1428,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1644959883,
+				},
+				[11008] = {
+					["Ignored"] = false,
+					["Order"] = 35,
+				},
+				[11387] = {
+					["Order"] = 26,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11388] = {
+					["Ignored"] = false,
+					["Order"] = 23,
+				},
+				[11389] = {
+					["Ignored"] = false,
+					["Order"] = 42,
+				},
+				[11516] = {
+					["Ignored"] = false,
+					["Order"] = 48,
+				},
+				[11076] = {
+					["Ignored"] = false,
+					["Order"] = 3,
+				},
+				[11513] = {
+					["Ignored"] = false,
+					["Order"] = 59,
+				},
+				[11077] = {
+					["Ignored"] = false,
+					["Order"] = 9,
+				},
+				[11380] = {
+					["Order"] = 27,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11015] = {
+					["Ignored"] = false,
+					["Order"] = 8,
+				},
+				[11362] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1650483485,
+					["Order"] = 47,
+					["Duration"] = {
+						["Current"] = 8716,
+						["Fastest"] = 8716,
+						["Slowest"] = 8716,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650474769,
+				},
+				[11515] = {
+					["Ignored"] = false,
+					["Order"] = 49,
+				},
+				[11363] = {
+					["Ignored"] = false,
+					["Order"] = 18,
+				},
+				[11386] = {
+					["Order"] = 38,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11364] = {
+					["Order"] = 16,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11538] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652377785,
+					["Order"] = 58,
+					["Duration"] = {
+						["Current"] = 211,
+						["Fastest"] = 211,
+						["Slowest"] = 211,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652377574,
+				},
+				[11370] = {
+					["Order"] = 30,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11523] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652378097,
+					["Order"] = 50,
+					["Duration"] = {
+						["Current"] = 897,
+						["Fastest"] = 897,
+						["Slowest"] = 897,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652377200,
+				},
+				[11496] = {
+					["Ignored"] = false,
+					["Order"] = 57,
+				},
+				[11020] = {
+					["Ignored"] = false,
+					["Order"] = 13,
+				},
+				[10110] = {
+					["Ignored"] = false,
+					["Order"] = 2,
+				},
+				[11525] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652378095,
+					["Order"] = 52,
+					["Duration"] = {
+						["Current"] = 890,
+						["Fastest"] = 890,
+						["Slowest"] = 890,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652377205,
+				},
+				[11368] = {
+					["Order"] = 41,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11373] = {
+					["Ignored"] = false,
+					["Order"] = 43,
+				},
+				[11369] = {
+					["Order"] = 15,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11086] = {
+					["Ignored"] = false,
+					["Order"] = 40,
+				},
+				[11055] = {
+					["Ignored"] = false,
+					["Order"] = 5,
+				},
+				[11339] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 19,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1644716849,
+				},
+				[11371] = {
+					["Order"] = 34,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11340] = {
+					["Order"] = 12,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11372] = {
+					["Order"] = 32,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11341] = {
+					["TimesCompleted"] = 1,
+					["Order"] = 24,
+					["Duration"] = {
+						["Last"] = 857,
+						["Fastest"] = 857,
+						["Slowest"] = 857,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1645202828,
+				},
+				[11499] = {
+					["Ignored"] = false,
+					["Order"] = 53,
+				},
+				[11342] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 14,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1644440369,
+				},
+				[11374] = {
+					["Order"] = 31,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11532] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652378153,
+					["Order"] = 55,
+					["Duration"] = {
+						["Current"] = 593,
+						["Fastest"] = 593,
+						["Slowest"] = 593,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652377560,
+				},
+				[11375] = {
+					["Ignored"] = false,
+					["Order"] = 44,
+				},
+				[11880] = {
+					["Ignored"] = false,
+					["Order"] = 56,
+				},
+				[11376] = {
+					["Ignored"] = false,
+					["Order"] = 22,
+				},
+				[11877] = {
+					["Ignored"] = false,
+					["Order"] = 54,
+				},
+				[11377] = {
+					["Order"] = 7,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11023] = {
+					["Ignored"] = false,
+					["Order"] = 36,
+				},
+				[11378] = {
+					["Ignored"] = false,
+					["Order"] = 45,
+				},
+				[11524] = {
+					["Ignored"] = false,
+					["Order"] = 51,
+				},
+				[11379] = {
+					["Order"] = 33,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11665] = {
+					["Order"] = 4,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11506] = {
+					["TimesCompleted"] = 9,
+					["Order"] = 6,
+					["Duration"] = {
+						["Last"] = 21603,
+						["Fastest"] = 1854,
+						["Slowest"] = 39861,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1645807417,
+				},
+				[11669] = {
+					["Order"] = 29,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+			},
+			["TotalGold"] = 2065000,
+		},
+		["Minsu-Faerlina"] = {
+			["Professions"] = {
+				[333] = 60,
+				[356] = 186,
+				[202] = 300,
+				[185] = 300,
+				[129] = 300,
+			},
+			["TotalDailies"] = 0,
+			["Quests"] = {
+				[11097] = {
+					["Ignored"] = false,
+					["Order"] = 46,
+				},
+				[11381] = {
+					["Ignored"] = false,
+					["Order"] = 3,
+				},
+				[11665] = {
+					["Ignored"] = false,
+					["Order"] = 7,
+				},
+				[11035] = {
+					["Ignored"] = false,
+					["Order"] = 4,
+				},
+				[11666] = {
+					["Order"] = 21,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11383] = {
+					["Ignored"] = false,
+					["Order"] = 31,
+				},
+				[11667] = {
+					["Ignored"] = false,
+					["Order"] = 17,
+				},
+				[11384] = {
+					["Ignored"] = false,
+					["Order"] = 24,
+				},
+				[11668] = {
+					["Order"] = 19,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11385] = {
+					["Order"] = 32,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11354] = {
+					["Order"] = 25,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11008] = {
+					["Ignored"] = false,
+					["Order"] = 33,
+				},
+				[11506] = {
+					["Ignored"] = false,
+					["Order"] = 10,
+				},
+				[11513] = {
+					["Ignored"] = false,
+					["Order"] = 65,
+				},
+				[11542] = {
+					["Ignored"] = false,
+					["Order"] = 63,
+				},
+				[11388] = {
+					["Ignored"] = false,
+					["Order"] = 29,
+				},
+				[11538] = {
+					["Ignored"] = false,
+					["Order"] = 62,
+				},
+				[11389] = {
+					["Ignored"] = false,
+					["Order"] = 40,
+				},
+				[11547] = {
+					["Ignored"] = false,
+					["Order"] = 51,
+				},
+				[11516] = {
+					["Ignored"] = false,
+					["Order"] = 52,
+				},
+				[11669] = {
+					["Ignored"] = false,
+					["Order"] = 22,
+				},
+				[11076] = {
+					["Ignored"] = false,
+					["Order"] = 16,
+				},
+				[11514] = {
+					["Ignored"] = false,
+					["Order"] = 49,
+				},
+				[11077] = {
+					["Ignored"] = false,
+					["Order"] = 14,
+				},
+				[11515] = {
+					["Ignored"] = false,
+					["Order"] = 50,
+				},
+				[11015] = {
+					["Ignored"] = false,
+					["Order"] = 20,
+				},
+				[11362] = {
+					["Ignored"] = false,
+					["Order"] = 47,
+				},
+				[11524] = {
+					["Ignored"] = false,
+					["Order"] = 53,
+				},
+				[11363] = {
+					["Ignored"] = false,
+					["Order"] = 13,
+				},
+				[11496] = {
+					["Ignored"] = false,
+					["Order"] = 54,
+				},
+				[11364] = {
+					["Order"] = 15,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11376] = {
+					["Ignored"] = false,
+					["Order"] = 23,
+				},
+				[11499] = {
+					["Ignored"] = false,
+					["Order"] = 58,
+				},
+				[11523] = {
+					["Ignored"] = false,
+					["Order"] = 56,
+				},
+				[11086] = {
+					["Ignored"] = false,
+					["Order"] = 43,
+				},
+				[11020] = {
+					["Ignored"] = false,
+					["Order"] = 9,
+				},
+				[11055] = {
+					["Ignored"] = false,
+					["Order"] = 2,
+				},
+				[11525] = {
+					["Ignored"] = false,
+					["Order"] = 57,
+				},
+				[11368] = {
+					["Ignored"] = false,
+					["Order"] = 41,
+				},
+				[11373] = {
+					["Ignored"] = false,
+					["Order"] = 42,
+				},
+				[11369] = {
+					["Order"] = 11,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11023] = {
+					["Ignored"] = false,
+					["Order"] = 34,
+				},
+				[10110] = {
+					["Ignored"] = false,
+					["Order"] = 8,
+				},
+				[11339] = {
+					["Order"] = 12,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11371] = {
+					["Ignored"] = false,
+					["Order"] = 35,
+				},
+				[11340] = {
+					["Ignored"] = false,
+					["Order"] = 5,
+				},
+				[11372] = {
+					["Ignored"] = false,
+					["Order"] = 36,
+				},
+				[11341] = {
+					["Order"] = 27,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11877] = {
+					["Ignored"] = false,
+					["Order"] = 59,
+				},
+				[11342] = {
+					["Order"] = 18,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11374] = {
+					["Ignored"] = false,
+					["Order"] = 37,
+				},
+				[11532] = {
+					["Ignored"] = false,
+					["Order"] = 60,
+				},
+				[11375] = {
+					["Ignored"] = false,
+					["Order"] = 44,
+				},
+				[11533] = {
+					["Ignored"] = false,
+					["Order"] = 61,
+				},
+				[11880] = {
+					["Ignored"] = false,
+					["Order"] = 55,
+				},
+				[11370] = {
+					["Order"] = 26,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11377] = {
+					["Order"] = 6,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11539] = {
+					["Ignored"] = false,
+					["Order"] = 48,
+				},
+				[11378] = {
+					["Ignored"] = false,
+					["Order"] = 45,
+				},
+				[11387] = {
+					["Order"] = 30,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11379] = {
+					["Ignored"] = false,
+					["Order"] = 39,
+				},
+				[11537] = {
+					["Ignored"] = false,
+					["Order"] = 64,
+				},
+				[11380] = {
+					["Order"] = 28,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11386] = {
+					["Order"] = 38,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+			},
+			["TotalGold"] = 0,
+		},
+		["Tiryns-Faerlina"] = {
+			["Professions"] = {
+				[333] = 375,
+				[356] = 312,
+				[171] = 375,
+				[185] = 375,
+				[129] = 375,
+			},
+			["TotalDailies"] = 192,
+			["Quests"] = {
+				[11097] = {
+					["TimesCompleted"] = 9,
+					["Completed"] = 1651363743,
+					["Order"] = 46,
+					["Duration"] = {
+						["Current"] = 32935,
+						["Last"] = 532,
+						["Slowest"] = 32935,
+						["Fastest"] = 310,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651330808,
+				},
+				[11381] = {
+					["TimesCompleted"] = 2,
+					["Completed"] = 1644416842,
+					["Order"] = 9,
+					["Duration"] = {
+						["Current"] = 361,
+						["Fastest"] = 361,
+						["Slowest"] = 361,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1644416481,
+				},
+				[11665] = {
+					["Order"] = 6,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11513] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652371231,
+					["Order"] = 53,
+					["Duration"] = {
+						["Current"] = 131521,
+						["Fastest"] = 131521,
+						["Slowest"] = 131521,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652239710,
+				},
+				[11666] = {
+					["Order"] = 20,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11383] = {
+					["Order"] = 37,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11667] = {
+					["Order"] = 19,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11384] = {
+					["Order"] = 25,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11668] = {
+					["Order"] = 15,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11385] = {
+					["Order"] = 39,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11354] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 26,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652120912,
+				},
+				[11008] = {
+					["Order"] = 35,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11506] = {
+					["TimesCompleted"] = 29,
+					["Completed"] = 1652116387,
+					["Order"] = 13,
+					["Duration"] = {
+						["Current"] = 962,
+						["Last"] = 255,
+						["Slowest"] = 2142362,
+						["Fastest"] = 255,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652115425,
+				},
+				[11387] = {
+					["Order"] = 27,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11514] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 61,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652486600,
+				},
+				[11388] = {
+					["Order"] = 22,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11389] = {
+					["Order"] = 45,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11515] = {
+					["TimesCompleted"] = 3,
+					["Completed"] = 1652371153,
+					["Order"] = 50,
+					["Duration"] = {
+						["Slowest"] = 71498,
+						["Current"] = 354,
+						["Fastest"] = 354,
+						["Last"] = 9016,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652370799,
+				},
+				[11547] = {
+					["TimesCompleted"] = 3,
+					["Completed"] = 1652635440,
+					["Order"] = 60,
+					["Duration"] = {
+						["Fastest"] = 281,
+						["Current"] = 916,
+						["Slowest"] = 916,
+						["Last"] = 733,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652634524,
+				},
+				[11516] = {
+					["TimesCompleted"] = 2,
+					["Completed"] = 1652370918,
+					["Order"] = 51,
+					["Duration"] = {
+						["Last"] = 75606,
+						["Current"] = 117,
+						["Fastest"] = 117,
+						["Slowest"] = 75606,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652370801,
+				},
+				[11542] = {
+					["TimesCompleted"] = 2,
+					["Completed"] = 1652635242,
+					["Order"] = 62,
+					["Duration"] = {
+						["Last"] = 3524,
+						["Current"] = 783,
+						["Fastest"] = 783,
+						["Slowest"] = 3524,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652634459,
+				},
+				[11076] = {
+					["TimesCompleted"] = 16,
+					["Completed"] = 1651364949,
+					["Order"] = 11,
+					["Duration"] = {
+						["Last"] = 1371,
+						["Current"] = 1152,
+						["Slowest"] = 9727,
+						["Fastest"] = 646,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651363797,
+				},
+				[11035] = {
+					["TimesCompleted"] = 13,
+					["Order"] = 5,
+					["Duration"] = {
+						["Last"] = 4187,
+						["Fastest"] = 2051,
+						["Slowest"] = 739936,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651363766,
+				},
+				[11077] = {
+					["TimesCompleted"] = 16,
+					["Completed"] = 1651364941,
+					["Order"] = 12,
+					["Duration"] = {
+						["Last"] = 1351,
+						["Current"] = 1128,
+						["Slowest"] = 9699,
+						["Fastest"] = 614,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651363813,
+				},
+				[11538] = {
+					["TimesCompleted"] = 4,
+					["Completed"] = 1652470917,
+					["Order"] = 54,
+					["Duration"] = {
+						["Current"] = 731,
+						["Last"] = 1245,
+						["Fastest"] = 148,
+						["Slowest"] = 1245,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652470186,
+				},
+				[11015] = {
+					["TimesCompleted"] = 9,
+					["Completed"] = 1651365535,
+					["Order"] = 10,
+					["Duration"] = {
+						["Current"] = 1766,
+						["Last"] = 4197,
+						["Fastest"] = 1766,
+						["Slowest"] = 4580879,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651363769,
+				},
+				[11362] = {
+					["Order"] = 47,
+					["Ignored"] = false,
+					["TimesCompleted"] = 0,
+				},
+				[11020] = {
+					["TimesCompleted"] = 2,
+					["Order"] = 3,
+					["Duration"] = {
+						["Last"] = 966,
+						["Fastest"] = 966,
+						["Slowest"] = 966,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650293379,
+				},
+				[11363] = {
+					["Order"] = 18,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11370] = {
+					["TimesCompleted"] = 4,
+					["Completed"] = 1650649901,
+					["Order"] = 30,
+					["Duration"] = {
+						["Current"] = 683,
+						["Last"] = 4843,
+						["Slowest"] = 4843,
+						["Fastest"] = 683,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650649218,
+				},
+				[11364] = {
+					["Order"] = 16,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11376] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1650046935,
+					["Order"] = 24,
+					["Duration"] = {
+						["Current"] = 1992533,
+						["Fastest"] = 1992533,
+						["Slowest"] = 1992533,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1648054402,
+				},
+				[11499] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652382071,
+					["Order"] = 58,
+					["Duration"] = {
+						["Current"] = 92580,
+						["Fastest"] = 92580,
+						["Slowest"] = 92580,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652289491,
+				},
+				[11523] = {
+					["TimesCompleted"] = 4,
+					["Completed"] = 1652637914,
+					["Order"] = 56,
+					["Duration"] = {
+						["Current"] = 2433,
+						["Last"] = 1289,
+						["Slowest"] = 11014,
+						["Fastest"] = 501,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652635481,
+				},
+				[11023] = {
+					["Order"] = 36,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11524] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652203115,
+					["Order"] = 49,
+					["Duration"] = {
+						["Current"] = 781,
+						["Fastest"] = 781,
+						["Slowest"] = 781,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652202334,
+				},
+				[10110] = {
+					["TimesCompleted"] = 1,
+					["Order"] = 2,
+					["Duration"] = {
+						["Last"] = 530234,
+						["Fastest"] = 530234,
+						["Slowest"] = 530234,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650303077,
+				},
+				[11525] = {
+					["TimesCompleted"] = 4,
+					["Completed"] = 1652637492,
+					["Order"] = 57,
+					["Duration"] = {
+						["Current"] = 2014,
+						["Last"] = 1273,
+						["Slowest"] = 10989,
+						["Fastest"] = 501,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652635478,
+				},
+				[11368] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1651795251,
+					["Order"] = 41,
+					["Duration"] = {
+						["Current"] = 12651,
+						["Fastest"] = 12651,
+						["Slowest"] = 12651,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651782600,
+				},
+				[11877] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652371210,
+					["Order"] = 59,
+					["Duration"] = {
+						["Current"] = 37553,
+						["Fastest"] = 37553,
+						["Slowest"] = 37553,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652333657,
+				},
+				[11369] = {
+					["Order"] = 17,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11086] = {
+					["TimesCompleted"] = 10,
+					["Order"] = 40,
+					["Duration"] = {
+						["Last"] = 4212,
+						["Fastest"] = 4212,
+						["Slowest"] = 175090,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651363748,
+				},
+				[11496] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652202521,
+					["Order"] = 48,
+					["Duration"] = {
+						["Current"] = 199,
+						["Fastest"] = 199,
+						["Slowest"] = 199,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652202322,
+				},
+				[11339] = {
+					["TimesCompleted"] = 11,
+					["Completed"] = 1651858466,
+					["Order"] = 21,
+					["Duration"] = {
+						["Slowest"] = 4009,
+						["Current"] = 1492,
+						["Fastest"] = 1063,
+						["Last"] = 1426,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651856974,
+				},
+				[11371] = {
+					["TimesCompleted"] = 2,
+					["Completed"] = 1650555451,
+					["Order"] = 34,
+					["Duration"] = {
+						["Current"] = 4843,
+						["Last"] = 1614,
+						["Fastest"] = 1614,
+						["Slowest"] = 4843,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650550608,
+				},
+				[11340] = {
+					["TimesCompleted"] = 5,
+					["Completed"] = 1650477216,
+					["Order"] = 7,
+					["Duration"] = {
+						["Current"] = 6477,
+						["Slowest"] = 1802645,
+						["Fastest"] = 622,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650470739,
+				},
+				[11372] = {
+					["Order"] = 31,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11341] = {
+					["TimesCompleted"] = 12,
+					["Order"] = 23,
+					["Duration"] = {
+						["Slowest"] = 139267,
+						["Fastest"] = 552,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651940512,
+				},
+				[11373] = {
+					["Order"] = 42,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11342] = {
+					["TimesCompleted"] = 9,
+					["Completed"] = 1650156587,
+					["Order"] = 14,
+					["Duration"] = {
+						["Current"] = 926,
+						["Last"] = 820,
+						["Fastest"] = 613,
+						["Slowest"] = 96960,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1650155661,
+				},
+				[11374] = {
+					["Order"] = 32,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11532] = {
+					["TimesCompleted"] = 3,
+					["Completed"] = 1652470914,
+					["Order"] = 55,
+					["Duration"] = {
+						["Fastest"] = 732,
+						["Last"] = 1251,
+						["Slowest"] = 15704,
+						["Current"] = 732,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652470182,
+				},
+				[11375] = {
+					["Order"] = 44,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11533] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652637888,
+					["Order"] = 64,
+					["Duration"] = {
+						["Current"] = 3361,
+						["Fastest"] = 3361,
+						["Slowest"] = 3361,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652634527,
+				},
+				[11880] = {
+					["TimesCompleted"] = 2,
+					["Completed"] = 1652371202,
+					["Order"] = 52,
+					["Duration"] = {
+						["Last"] = 51874,
+						["Current"] = 2303,
+						["Fastest"] = 2303,
+						["Slowest"] = 51874,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652368899,
+				},
+				[11055] = {
+					["TimesCompleted"] = 13,
+					["Completed"] = 1651365530,
+					["Order"] = 4,
+					["Duration"] = {
+						["Current"] = 1756,
+						["Last"] = 2708,
+						["Fastest"] = 1182,
+						["Slowest"] = 171989,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1651363774,
+				},
+				[11377] = {
+					["Order"] = 8,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11669] = {
+					["Order"] = 29,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11378] = {
+					["Order"] = 43,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11386] = {
+					["TimesCompleted"] = 0,
+					["Order"] = 38,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1645627508,
+				},
+				[11379] = {
+					["Order"] = 33,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11537] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652635442,
+					["Order"] = 65,
+					["Duration"] = {
+						["Current"] = 912,
+						["Fastest"] = 912,
+						["Slowest"] = 912,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652634530,
+				},
+				[11380] = {
+					["TimesCompleted"] = 1,
+					["Completed"] = 1652706667,
+					["Order"] = 28,
+					["Duration"] = {
+						["Current"] = 640,
+						["Fastest"] = 640,
+						["Slowest"] = 640,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652706027,
+				},
+				[11539] = {
+					["TimesCompleted"] = 2,
+					["Completed"] = 1652635255,
+					["Order"] = 63,
+					["Duration"] = {
+						["Last"] = 3518,
+						["Current"] = 817,
+						["Fastest"] = 817,
+						["Slowest"] = 3518,
+					},
+					["Ignored"] = false,
+					["Accepted"] = 1652634438,
+				},
+			},
+			["TotalGold"] = 24562700,
+		},
+		["Ehrvault-Faerlina"] = {
+			["Professions"] = {
+			},
+			["TotalDailies"] = 0,
+			["Quests"] = {
+				[11097] = {
+					["Ignored"] = false,
+					["Order"] = 46,
+				},
+				[11381] = {
+					["Ignored"] = false,
+					["Order"] = 3,
+				},
+				[11665] = {
+					["Order"] = 8,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11539] = {
+					["Ignored"] = false,
+					["Order"] = 65,
+				},
+				[11666] = {
+					["Order"] = 22,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11383] = {
+					["Ignored"] = false,
+					["Order"] = 34,
+				},
+				[11667] = {
+					["Order"] = 26,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11384] = {
+					["Ignored"] = false,
+					["Order"] = 15,
+				},
+				[11668] = {
+					["Order"] = 28,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11385] = {
+					["Order"] = 35,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11354] = {
+					["Order"] = 17,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11008] = {
+					["Ignored"] = false,
+					["Order"] = 36,
+				},
+				[11506] = {
+					["Ignored"] = false,
+					["Order"] = 10,
+				},
+				[11387] = {
+					["Order"] = 19,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11514] = {
+					["Ignored"] = false,
+					["Order"] = 60,
+				},
+				[11388] = {
+					["Ignored"] = false,
+					["Order"] = 21,
+				},
+				[11515] = {
+					["Ignored"] = false,
+					["Order"] = 49,
+				},
+				[11389] = {
+					["Ignored"] = false,
+					["Order"] = 41,
+				},
+				[11547] = {
+					["Ignored"] = false,
+					["Order"] = 61,
+				},
+				[11516] = {
+					["Ignored"] = false,
+					["Order"] = 48,
+				},
+				[11513] = {
+					["Ignored"] = false,
+					["Order"] = 59,
+				},
+				[11076] = {
+					["Ignored"] = false,
+					["Order"] = 14,
+				},
+				[11386] = {
+					["Order"] = 39,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11077] = {
+					["Ignored"] = false,
+					["Order"] = 13,
+				},
+				[11669] = {
+					["Order"] = 11,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11015] = {
+					["Ignored"] = false,
+					["Order"] = 29,
+				},
+				[11362] = {
+					["Ignored"] = false,
+					["Order"] = 47,
+				},
+				[11020] = {
+					["Ignored"] = false,
+					["Order"] = 6,
+				},
+				[11363] = {
+					["Ignored"] = false,
+					["Order"] = 20,
+				},
+				[11496] = {
+					["Ignored"] = false,
+					["Order"] = 52,
+				},
+				[11364] = {
+					["Order"] = 23,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11880] = {
+					["Ignored"] = false,
+					["Order"] = 55,
+				},
+				[11877] = {
+					["Ignored"] = false,
+					["Order"] = 56,
+				},
+				[11523] = {
+					["Ignored"] = false,
+					["Order"] = 50,
+				},
+				[11023] = {
+					["Ignored"] = false,
+					["Order"] = 37,
+				},
+				[11524] = {
+					["Ignored"] = false,
+					["Order"] = 57,
+				},
+				[11055] = {
+					["Ignored"] = false,
+					["Order"] = 2,
+				},
+				[11525] = {
+					["Ignored"] = false,
+					["Order"] = 51,
+				},
+				[11368] = {
+					["Ignored"] = false,
+					["Order"] = 42,
+				},
+				[11499] = {
+					["Ignored"] = false,
+					["Order"] = 53,
+				},
+				[11369] = {
+					["Order"] = 16,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11086] = {
+					["Ignored"] = false,
+					["Order"] = 40,
+				},
+				[11370] = {
+					["Ignored"] = false,
+					["Order"] = 18,
+				},
+				[11339] = {
+					["Order"] = 30,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11371] = {
+					["Ignored"] = false,
+					["Order"] = 38,
+				},
+				[11340] = {
+					["Order"] = 5,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11372] = {
+					["Order"] = 31,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11341] = {
+					["Order"] = 24,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11373] = {
+					["Ignored"] = false,
+					["Order"] = 43,
+				},
+				[11342] = {
+					["Ignored"] = false,
+					["Order"] = 27,
+				},
+				[11374] = {
+					["Order"] = 32,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11532] = {
+					["Ignored"] = false,
+					["Order"] = 54,
+				},
+				[11375] = {
+					["Order"] = 44,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11533] = {
+					["Ignored"] = false,
+					["Order"] = 63,
+				},
+				[11376] = {
+					["Ignored"] = false,
+					["Order"] = 12,
+				},
+				[10110] = {
+					["Ignored"] = false,
+					["Order"] = 7,
+				},
+				[11377] = {
+					["Order"] = 9,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11538] = {
+					["Ignored"] = false,
+					["Order"] = 58,
+				},
+				[11378] = {
+					["Ignored"] = false,
+					["Order"] = 45,
+				},
+				[11542] = {
+					["Ignored"] = false,
+					["Order"] = 62,
+				},
+				[11379] = {
+					["Order"] = 33,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11537] = {
+					["Ignored"] = false,
+					["Order"] = 64,
+				},
+				[11380] = {
+					["Order"] = 25,
+					["Duration"] = {
+					},
+					["Ignored"] = false,
+				},
+				[11035] = {
+					["Ignored"] = false,
+					["Order"] = 4,
+				},
+			},
+			["TotalGold"] = 0,
+		},
+	},
+	["TotalDailies"] = 208,
+	["Quests"] = {
+		[11097] = {
+			["TodayUntil"] = 1651330800,
+			["Honor"] = 0,
+			["Money"] = 182800,
+			["Text"] = "Assist Commander Hobb and the Scryers in defending the Sanctum of the Stars. Once all of the Dragonmaw forces have been defeated, return to Overlord Mor'ghor at Dragonmaw Base Camp with the Scryer Medals.\r\n",
+			["Xp"] = 0,
+			["Title"] = "The Deadliest Trap Ever Laid",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Commander Hobb",
+			["Zone"] = "Shadowmoon Valley",
+			["SubZone"] = "Sanctum of the Stars",
+			["Frequency"] = "Daily",
+		},
+		[11381] = {
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "The Rokk in Lower City has asked you to cook up some Spiritual Soup using his cooking pot.  Return to him when it's done.",
+			["Xp"] = 0,
+			["Title"] = "Soup for the Soul",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "The Rokk",
+			["SubZone"] = "Lower City",
+			["Zone"] = "Shattrath City",
+			["Frequency"] = "Daily",
+		},
+		[11665] = {
+			["Honor"] = 0,
+			["Money"] = 0,
+			["Text"] = "Bring a Baby Crocolisk to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
+			["Xp"] = 0,
+			["Title"] = "Crocolisks in the City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Old Man Barlo",
+			["Zone"] = "Terokkar Forest",
+			["SubZone"] = "Silmyr Lake",
+			["Frequency"] = "Daily",
+		},
+		[11513] = {
+			["TodayUntil"] = 1652454000,
+			["Honor"] = 0,
+			["Money"] = 101000,
+			["Text"] = "Obtain 10 Smuggled Mana Cells and return them to Exarch Nasuun on the Terrace of Light in Shattrath City.",
+			["Xp"] = 0,
+			["Title"] = "Intercepting the Mana Cells",
+			["Frequency"] = "Daily",
+			["NPC"] = "Exarch Nasuun",
+			["SubZone"] = "Terrace of Light",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11666] = {
+			["Honor"] = 0,
+			["Money"] = 0,
+			["Text"] = "Bring a Blackfin Darter to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
+			["Xp"] = 0,
+			["Title"] = "Bait Bandits",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Old Man Barlo",
+			["Zone"] = "Terokkar Forest",
+			["SubZone"] = "Silmyr Lake",
+			["Frequency"] = "Daily",
+		},
+		[11383] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun wants you to kill 4 Rift Lords. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Rift Lords",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["Zone"] = "",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11667] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 0,
+			["Text"] = "Catch the World's Largest Mudfish and bring it to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
+			["Xp"] = 0,
+			["Title"] = "The One That Got Away",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Old Man Barlo",
+			["SubZone"] = "Silmyr Lake",
+			["Zone"] = "Terokkar Forest",
+			["Frequency"] = "Daily",
+		},
+		[11384] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain a Warp Splinter Clipping. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: A Warp Splinter Clipping",
+			["NPC"] = "Wind Trader Zhareem",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11668] = {
+			["Honor"] = 0,
+			["Money"] = 0,
+			["Text"] = "Bring 10 Giant Freshwater Shrimp to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
+			["Xp"] = 0,
+			["Title"] = "Shrimpin' Ain't Easy",
+			["Frequency"] = "Daily",
+			["NPC"] = "Old Man Barlo",
+			["Zone"] = "Terokkar Forest",
+			["SubZone"] = "Silmyr Lake",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11385] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun wants you to kill 6 Sunseeker Channelers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Sunseeker Channelers",
+			["Frequency"] = "Daily",
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11354] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain Nazan's Riding Crop. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Nazan's Riding Crop",
+			["Frequency"] = "Daily",
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11008] = {
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Seek out Monstrous Kaliri Eggs on the tops of Skettis dwellings and use the Skyguard Blasting Charges on them.  Return to Sky Sergeant Doryn.",
+			["Xp"] = 0,
+			["Title"] = "Fires Over Skettis",
+			["Frequency"] = "Daily",
+			["NPC"] = "Sky Sergeant Doryn",
+			["SubZone"] = "Blackwind Landing",
+			["Zone"] = "Terokkar Forest",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11506] = {
+			["TodayUntil"] = 1652194800,
+			["Honor"] = 943,
+			["Money"] = 119900,
+			["Text"] = "Help the Horde secure a Spirit Tower in the Bone Wastes.",
+			["Xp"] = 0,
+			["Title"] = "Spirits of Auchindoun",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Exorcist Vaisha",
+			["SubZone"] = "Stonebreaker Hold",
+			["Zone"] = "Terokkar Forest",
+			["Frequency"] = "Daily",
+		},
+		[11387] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun wants you to destroy 5 Tempest-Forge Destroyers. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Tempest-Forge Destroyers",
+			["Frequency"] = "Daily",
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["Zone"] = "",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11514] = {
+			["TodayUntil"] = 1652540400,
+			["Honor"] = 0,
+			["Money"] = 101000,
+			["Text"] = "Obtain 10 Smuggled Mana Cells and return them to Exarch Nasuun on the Terrace of Light in Shattrath City.",
+			["Xp"] = 0,
+			["Title"] = "Maintaining the Sunwell Portal",
+			["Frequency"] = "Daily",
+			["NPC"] = "Exarch Nasuun",
+			["SubZone"] = "Terrace of Light",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11388] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain The Scroll of Skyriss. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Scroll of Skyriss",
+			["NPC"] = "Wind Trader Zhareem",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11389] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun wants you to dismantle 5 Arcatraz Sentinels. Return to him in Shattrath's Lower City once that has been accomplished in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Arcatraz Sentinels",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11515] = {
+			["TodayUntil"] = 1652454000,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Magistrix Seyla at the Throne of Kil'jaeden wants you to kill 4 Emaciated Felbloods by using the Fel Siphon on them.  You will need Demonic Blood from nearby Wrath Heralds to power the Fel Siphon.",
+			["Xp"] = 0,
+			["Title"] = "Blood for Blood",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Magistrix Seyla",
+			["Zone"] = "Hellfire Peninsula",
+			["SubZone"] = "Throne of Kil'jaeden",
+			["Frequency"] = "Daily",
+		},
+		[11547] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Astromancer Darnarian in the Sun's Reach Sanctum wants you to use the Astromancer's Crystal at the Bloodcrystal, the Dawning Square portal, and the naga shrine at Greengill Coast.",
+			["Xp"] = 0,
+			["Title"] = "Know Your Ley Lines",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Astromancer Darnarian",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Sanctum",
+			["Frequency"] = "Daily",
+		},
+		[11516] = {
+			["TodayUntil"] = 1652454000,
+			["Honor"] = 0,
+			["Money"] = 101000,
+			["Text"] = "Magistrix Seyla at the Throne of Kil'jaeden wants you to use the Sizzling Embers to summon a Living Flare and slay Incandescent Fel Sparks near it until it becomes an Unstable Living Flare.  Return to the Legion Gateway with the Unstable Living Flare to destroy it.",
+			["Xp"] = 0,
+			["Title"] = "Blast the Gateway",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Magistrix Seyla",
+			["Zone"] = "Hellfire Peninsula",
+			["SubZone"] = "Throne of Kil'jaeden",
+			["Frequency"] = "Daily",
+		},
+		[11542] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "Vindicator Kaalan at the Sun's Reach Armory wants you to speak to Ayren Cloudbreaker and fly over the Dawnblade reinforcement fleet.  Use the Flaming Oil to set the ship sails on fire as you fly and once you land, slay 6 Dawnblade Reservists.",
+			["Xp"] = 0,
+			["Title"] = "Intercept the Reinforcements",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Vindicator Kaalan",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Armory",
+			["Frequency"] = "Daily",
+		},
+		[11076] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 182800,
+			["Text"] = "The Mistress of the Mines at the Netherwing Mines in Shadowmoon Valley wants you to recover 15 Nethermine Cargo crates.",
+			["Xp"] = 0,
+			["Title"] = "Picking Up The Pieces...",
+			["Frequency"] = "Daily",
+			["NPC"] = "Mistress of the Mines",
+			["SubZone"] = "Netherwing Mines",
+			["Zone"] = "Shadowmoon Valley",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11035] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Yarzill the Merc at Dragonmaw Base Camp in Shadowmoon Valley wants you to recover 10 Netherwing Relics.",
+			["Xp"] = 0,
+			["Title"] = "The Not-So-Friendly Skies...",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Yarzill the Merc",
+			["Zone"] = "Shadowmoon Valley",
+			["SubZone"] = "Dragonmaw Base Camp",
+			["Frequency"] = "Daily",
+		},
+		[11077] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "The Dragonmaw Foreman at the Netherwing Mines in Shadowmoon Valley wants you to kill 15 Nethermine Flayers and 5 Nethermine Ravagers.",
+			["Xp"] = 0,
+			["Title"] = "Dragons are the Least of Our Problems",
+			["Frequency"] = "Daily",
+			["NPC"] = "Murkblood Miner",
+			["SubZone"] = "Netherwing Mines",
+			["Zone"] = "Shadowmoon Valley",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11538] = {
+			["TodayUntil"] = 1652540400,
+			["Honor"] = 0,
+			["Money"] = 101000,
+			["Text"] = "Harbinger Inuuro wants you to slay 6 Burning Legion Demons and the Emissary of Hate in Dawning Square or the Sun's Reach Armory.  Use the Shattered Sun Banner to impale the Emissary of Hate's corpse.",
+			["Xp"] = 0,
+			["Title"] = "The Battle for the Sun's Reach Armory",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Harbinger Inuuro",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Sanctum",
+			["Frequency"] = "Daily",
+		},
+		[11015] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Taskmaster Varkule Dragonbreath at Dragonmaw Base Camp in Shadowmoon Valley wants you to bring him 30 Netherwing Crystals.",
+			["Xp"] = 0,
+			["Title"] = "Netherwing Crystals",
+			["Frequency"] = "Daily",
+			["NPC"] = "Taskmaster Varkule Dragonbreath",
+			["SubZone"] = "Dragonmaw Base Camp",
+			["Zone"] = "Shadowmoon Valley",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11362] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain Keli'dan's Feathered Stave. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Keli'dan's Feathered Stave",
+			["Frequency"] = "Daily",
+			["NPC"] = "Wind Trader Zhareem",
+			["SubZone"] = "Lower City",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11020] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Yarzill the Merc at Dragonmaw Base Camp in Shadowmoon Valley wants you to use Yarzill's Mutton in conjunction with Fel Glands to poison 12 Dragonmaw Peon Camps.\r\n",
+			["Xp"] = 0,
+			["Title"] = "A Slow Death",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Yarzill the Merc",
+			["Zone"] = "Shadowmoon Valley",
+			["SubZone"] = "Dragonmaw Base Camp",
+			["Frequency"] = "Daily",
+		},
+		[11363] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain Bladefist's Seal. Deliver it to him in Shattrath's Lower City to collect the reward.lty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Bladefist's Seal",
+			["Frequency"] = "Daily",
+			["NPC"] = "Wind Trader Zhareem",
+			["SubZone"] = "Lower City",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11370] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to acquire The Warlord's Treatise. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Warlord's Treatise",
+			["Frequency"] = "Daily",
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11364] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun has tasked you with the deaths of 4 Shattered Hand Centurions. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Shattered Hand Centurions",
+			["Frequency"] = "Daily",
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["SubZone"] = "Lower City",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11376] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun wants you to kill 3 Malicious Instructors. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Malicious Instructors",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11499] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain The Signet Ring of Prince Kael'thas. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed at the Magisters' Terrace on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Signet Ring of Prince Kael'thas",
+			["Frequency"] = "Daily",
+			["NPC"] = "Wind Trader Zhareem",
+			["SubZone"] = "Lower City",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11523] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Captain Theris Dawnhearth at the Shattered Sun Staging Area wants you to obtain 4 Mana Remnants from Wretched Fiends and Wretched Devourers and use them to energize one of the Crystal Wards surrounding the structures in Sun's Reach.",
+			["Xp"] = 0,
+			["Title"] = "Arm the Wards!",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Captain Theris Dawnhearth",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Shattered Sun Staging Area",
+			["Frequency"] = "Daily",
+		},
+		[11023] = {
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Sky Sergeant Vanderlip has tasked you with the bombing of 15 Fel Cannonball Stacks.  Return to her at the Skyguard Outpost atop the Blade's Edge Mountains once you have done so.",
+			["Xp"] = 0,
+			["Title"] = "Bomb Them Again!",
+			["NPC"] = "Sky Sergeant Vanderlip",
+			["Frequency"] = "Daily",
+			["SubZone"] = "Skyguard Outpost",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11524] = {
+			["TodayUntil"] = 1652281200,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Vindicator Xayanna at the Shattered Sun Staging Area wants you to place the Attuned Crystal Cores inside 5 defeated Erratic Sentries to turn them into friendly units.",
+			["Xp"] = 0,
+			["Title"] = "Erratic Behavior",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Vindicator Xayann",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Shattered Sun Staging Area",
+			["Frequency"] = "Daily",
+		},
+		[11055] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Chief Overseer Mudlump at the Dragonmaw Base Camp in Shadowmoon Valley wants you to discipline 20 lazy Dragonmaw Peons. You will also need to return your Booterang.",
+			["Xp"] = 0,
+			["Title"] = "The Booterang: A Cure For The Common Worthless Peon",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Chief Overseer Mudlump",
+			["Zone"] = "Shadowmoon Valley",
+			["SubZone"] = "Dragonmaw Base Camp",
+			["Frequency"] = "Daily",
+		},
+		[11525] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Vindicator Xayann at the Shattered Sun Staging Area wants you to place the Attuned Crystal Cores inside 5 defeated Erratic Sentries to turn them into friendly units.",
+			["Xp"] = 0,
+			["Title"] = "Further Conversions",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Vindicator Xayann",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Shattered Sun Staging Area",
+			["Frequency"] = "Daily",
+		},
+		[11368] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain The Heart of Quagmirran. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Heart of Quagmirran",
+			["Frequency"] = "Daily",
+			["NPC"] = "Wind Trader Zhareem",
+			["SubZone"] = "Lower City",
+			["Zone"] = "Shattrath City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11877] = {
+			["TodayUntil"] = 1652454000,
+			["Honor"] = 0,
+			["Money"] = 101000,
+			["Text"] = "Lord Torvos in Shattrath wants you to capture the Sunfury Attack Plans.",
+			["Xp"] = 0,
+			["Title"] = "Sunfury Attack Plans",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Lord Torvos",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Terrace of Light",
+			["Frequency"] = "Daily",
+		},
+		[11369] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem wants you to obtain a Black Stalker Egg. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: A Black Stalker Egg",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11086] = {
+			["TodayUntil"] = 1651417200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Overlord Mor'ghor at Dragonmaw Base Camp in Shadowmoon Valley wants you to kill 20 Deathshadow Agents.",
+			["Xp"] = 0,
+			["Title"] = "Disrupting the Twilight Portal",
+			["Frequency"] = "Daily",
+			["NPC"] = "Overlord Mor'ghor",
+			["SubZone"] = "Dragonmaw Base Camp",
+			["Zone"] = "Shadowmoon Valley",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11496] = {
+			["TodayUntil"] = 1652281200,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Captain Theris Dawnhearth at the Shattered Sun Staging Area wants you to obtain 4 Mana Remnants from Wretched Fiends and Wretched Devourers and use them to energize one of the Crystal Wards surrounding the Sun's Reach Sanctum to the east.",
+			["Xp"] = 0,
+			["Title"] = "The Sanctum Wards",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Captain Theris Dawnhearth",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Shattered Sun Staging Area",
+			["Frequency"] = "Daily",
+		},
+		[11339] = {
+			["Honor"] = 943,
+			["Money"] = 119900,
+			["Text"] = "Win an Arathi Basin battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath.",
+			["Xp"] = 0,
+			["Title"] = "Call to Arms: Arathi Basin",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Horde Warbringer",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Terrace of Light",
+			["Frequency"] = "Daily",
+		},
+		[11371] = {
+			["Honor"] = 0,
+			["Money"] = 163900,
+			["Text"] = "Nether-Stalker Mah'duun has asked you to slay 14 Coilfang Myrmidons. Return to him in Shattrath's Lower City once they all lie dead in order to collect the bounty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Coilfang Myrmidons",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Nether-Stalker Mah'duun",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11340] = {
+			["Honor"] = 943,
+			["Money"] = 119900,
+			["Text"] = "Win an Alterac Valley battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath.",
+			["Xp"] = 0,
+			["Title"] = "Call to Arms: Alterac Valley",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Horde Warbringer",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Terrace of Light",
+			["Frequency"] = "Daily",
+		},
+		[11372] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to acquire The Headfeathers of Ikiss. Deliver them to him in Shattrath's Lower City to collect the reward.oic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Headfeathers of Ikiss",
+			["NPC"] = "Wind Trader Zhareem",
+			["Frequency"] = "Daily",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11341] = {
+			["Honor"] = 943,
+			["Money"] = 119900,
+			["Text"] = "Win an Eye of the Storm battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath.",
+			["Xp"] = 0,
+			["Title"] = "Call to Arms: Eye of the Storm",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Horde Warbringer",
+			["SubZone"] = "Terrace of Light",
+			["Zone"] = "Shattrath City",
+			["Frequency"] = "Daily",
+		},
+		[11373] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem wants you to obtain Shaffar's Wondrous Amulet. Deliver it to him in Shattrath's Lower City to collect the reward.fficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Shaffar's Wondrous Pendant",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11342] = {
+			["Honor"] = 943,
+			["Money"] = 119900,
+			["Text"] = "Win a Warsong Gulch battleground match and return to a Horde Warbringer at any Horde capital city or Shattrath.\r\n",
+			["Xp"] = 0,
+			["Title"] = "Call to Arms: Warsong Gulch",
+			["Frequency"] = "Daily",
+			["NPC"] = "Horde Warbringer",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Terrace of Light",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11374] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to recover The Exarch's Soul Gem. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Exarch's Soul Gem",
+			["NPC"] = "Wind Trader Zhareem",
+			["Frequency"] = "Daily",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11532] = {
+			["TodayUntil"] = 1652540400,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Battlemage Arynna wants you to speak to Ayren Cloudbreaker when you're ready to fly over the Dead Scar.  Once there, use the Arcane Charges to kill 2 Pit Overlords, 3 Eredar Sorcerers and 12 Wrath Enforcers.",
+			["Xp"] = 0,
+			["Title"] = "Distraction at the Dead Scar",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Battlemage Arynna",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Sanctum",
+			["Frequency"] = "Daily",
+		},
+		[11375] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain Murmur's Whisper. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Murmur's Whisper",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11533] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Battlemage Arynna wants you to speak to Ayren Cloudbreaker when you're ready to fly over the Dead Scar.  Once there, use the Arcane Charges to kill 2 Pit Overlords, 3 Eredar Sorcerers and 12 Wrath Enforcers.",
+			["Xp"] = 0,
+			["Title"] = "The Air Strikes Must Continue",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Battlemage Arynna",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Sanctum",
+			["Frequency"] = "Daily",
+		},
+		[11880] = {
+			["TodayUntil"] = 1652454000,
+			["Honor"] = 0,
+			["Money"] = 91000,
+			["Text"] = "Harbinger Haronem in Shattrath City wants you to use the Multiphase Spectrographic Goggles to take 6 Multiphase Readings.",
+			["Xp"] = 0,
+			["Title"] = "The Multiphase Survey",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Harbinger Haronem",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Terrace of Light",
+			["Frequency"] = "Daily",
+		},
+		[10110] = {
+			["Honor"] = 943,
+			["Money"] = 91000,
+			["Text"] = "Capture the Overlook, the Stadium and Broken Hill, then return to Battlecryer Blackeye in Thrallmar.",
+			["Xp"] = 0,
+			["Title"] = "Hellfire Fortifications",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Battlecryer Blackeye",
+			["Zone"] = "Hellfire Peninsula",
+			["SubZone"] = "Thrallmar",
+			["Frequency"] = "Daily",
+		},
+		[11377] = {
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "The Rokk in Lower City has asked you to cook up some Kaliri Stew using his cooking pot.  Return to him when it's done.",
+			["Xp"] = 0,
+			["Title"] = "Revenge is Tasty",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "The Rokk",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11669] = {
+			["Honor"] = 0,
+			["Money"] = 0,
+			["Text"] = "Bring a Monstrous Felblood Snapper to Old Man Barlo.  You can find him fishing northeast of Shattrath City by Silmyr Lake.",
+			["Xp"] = 0,
+			["Title"] = "Felblood Fillet",
+			["Frequency"] = "Daily",
+			["NPC"] = "Old Man Barlo",
+			["Zone"] = "",
+			["SubZone"] = "Silmyr Lake",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11378] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to obtain the Epoch Hunter's Head. Deliver it to him in Shattrath's Lower City to collect the reward.difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: The Epoch Hunter's Head",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Wind Trader Zhareem",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11386] = {
+			["Honor"] = 0,
+			["Money"] = 246000,
+			["Text"] = "Wind Trader Zhareem has asked you to acquire Pathaleon's Projector. Deliver it to him in Shattrath's Lower City to collect the reward.\nThis quest may only be completed on Heroic difficulty.",
+			["Xp"] = 0,
+			["Title"] = "Wanted: Pathaleon's Projector",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Wind Trader Zhareem",
+			["SubZone"] = "Lower City",
+			["Zone"] = "",
+			["Frequency"] = "Daily",
+		},
+		[11379] = {
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "The Rokk in Lower City has asked you to cook up some Demon Broiled Surprise using his cooking pot, two Mok'Nathal Shortribs and a Crunchy Serpent.  Return to him when it's done.",
+			["Xp"] = 0,
+			["Title"] = "Super Hot Stew",
+			["Frequency"] = "Daily",
+			["NPC"] = "The Rokk",
+			["Zone"] = "",
+			["SubZone"] = "Lower City",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+		},
+		[11537] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 101000,
+			["Text"] = "Harbinger Inuuro wants you to slay 6 Burning Legion Demons and the Emissary of Hate in Dawning Square.  Use the Shattered Sun Banner to impale the Emissary of Hate's corpse.",
+			["Xp"] = 0,
+			["Title"] = "The Battle Must Go On",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Harbinger Inuuro",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Sanctum",
+			["Frequency"] = "Daily",
+		},
+		[11380] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 75900,
+			["Text"] = "The Rokk in Lower City has asked you collect 15 Mana Berries from the Eco-Domes in Netherstorm.",
+			["Xp"] = 0,
+			["Title"] = "Manalicious",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "The Rokk",
+			["Zone"] = "Shattrath City",
+			["SubZone"] = "Lower City",
+			["Frequency"] = "Daily",
+		},
+		[11539] = {
+			["TodayUntil"] = 1652713200,
+			["Honor"] = 0,
+			["Money"] = 119900,
+			["Text"] = "Magister Ilastar at Sun's Reach Armory wants you to slay 6 Dawnblade Summoners, 6 Dawnblade Blood Knights and 3 Dawnblade Marksmen.",
+			["Xp"] = 0,
+			["Title"] = "Taking the Harbor",
+			["Factions"] = {
+				["Horde"] = 1,
+			},
+			["NPC"] = "Magister Ilastar",
+			["Zone"] = "Isle of Quel'Danas",
+			["SubZone"] = "Sun's Reach Armory",
+			["Frequency"] = "Daily",
+		},
+	},
+	["TotalGold"] = 26627700,
+}
+Dailies_Settings = {
+	["autoCompleteQuests"] = false,
+	["runScanOnLogin"] = true,
+	["showQuestRewardTotal"] = true,
+	["showReceivedDailies"] = true,
+	["showMinimapButton"] = true,
+	["minimapButtonPosition"] = {
+	},
+	["scanForAnyDailies"] = false,
+	["autoAcceptQuests"] = false,
+	["showQuestInfoPanel"] = true,
+}

@@ -1,0 +1,87 @@
+
+AucAdvancedConfig = {
+	["users.Blaumeux.Ehr"] = "Default",
+	["profile.Default"] = {
+		["configator.left"] = 368.000030517578,
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"BeanCount", -- [1]
+					"Undercut", -- [2]
+				},
+			},
+		},
+		["util"] = {
+			["appraiser"] = {
+				["columnsortcurSort"] = 6,
+				["item.4234.numberonly"] = true,
+				["columnsortcurDir"] = -1,
+				["item.4234.duration"] = 1440,
+				["item.4234.number"] = -2,
+			},
+			["compactui"] = {
+				["collapse"] = true,
+			},
+			["simpleauc"] = {
+				["auto.duration"] = 24,
+			},
+			["automagic"] = {
+				["autosellgrey"] = true,
+				["autosellgreynoprompt"] = true,
+				["autoSellList"] = {
+					[8152] = "Flask of Big Mojo",
+					[4601] = "Soft Banana Bread",
+					[8151] = "Flask of Mojo",
+					[4599] = "Cured Ham Steak",
+				},
+				["autovendor"] = true,
+				["autoselllist"] = true,
+				["vendorunusablebop"] = false,
+				["autosellbopnoprompt"] = false,
+				["SavedMailButtons"] = {
+				},
+				["ammailguiy"] = 99.9,
+				["ammailguix"] = 160,
+			},
+			["ahwindowcontrol"] = {
+				["ahframeanchors"] = "LEFT:LEFT:44.0:-99.5",
+			},
+		},
+		["stat"] = {
+			["sales"] = {
+				["upgraded32"] = true,
+				["ignoredsigs"] = {
+				},
+			},
+		},
+		["configator.top"] = 705,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["UtilSearchUiData"] = {
+		["Global"] = {
+			["configator.left"] = 318.000061035156,
+			["configator.top"] = 730,
+		},
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Version"] = 1,
+		["SavedSearches"] = {
+		},
+	},
+	["Stats"] = {
+	},
+}
+AucAdvancedServers = {
+	["Timestamp"] = 1567798401,
+	["KnownRealms"] = {
+		["Blaumeux"] = "Blaumeux",
+	},
+	["KnownServerKeys"] = {
+		["Blaumeux"] = 1569454833,
+	},
+	["Version"] = 1,
+}

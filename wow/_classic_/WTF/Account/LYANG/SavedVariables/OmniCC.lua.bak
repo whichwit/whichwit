@@ -1,0 +1,130 @@
+
+OmniCCDB = {
+	["global"] = {
+		["dbVersion"] = 6,
+		["addonVersion"] = "10.0.2",
+	},
+	["profileKeys"] = {
+		["Ehrpot - Blaumeux"] = "Default",
+		["Minsu - Faerlina"] = "Default",
+		["Zzgg - Faerlina"] = "Default",
+		["Turkeyee - Faerlina"] = "Default",
+		["Ehrmisc - Blaumeux"] = "Default",
+		["Ehrvault - Blaumeux"] = "Default",
+		["Ehrherb - Benediction"] = "Default",
+		["Zzaa - Benediction"] = "Default",
+		["Shardhell - Blaumeux"] = "Default",
+		["Bokar - Blaumeux"] = "Default",
+		["Feorious - Faerlina"] = "Default",
+		["Caeli - Benediction"] = "Default",
+		["Zznaxxtwo - Blaumeux"] = "Default",
+		["Tiryns - Faerlina"] = "Default",
+		["Aelysta - Benediction"] = "Default",
+		["Ehrherb - Blaumeux"] = "Default",
+		["Futago - Faerlina"] = "Default",
+		["Lorem - Blaumeux"] = "Default",
+		["Turkeydd - Faerlina"] = "Default",
+		["Ehrore - Blaumeux"] = "Default",
+		["Ehr - Blaumeux"] = "Default",
+		["Joclyn - Blaumeux"] = "Default",
+		["Lipsum - Benediction"] = "Default",
+		["Zzgg - Benediction"] = "Default",
+		["Feorious - Benediction"] = "Default",
+		["Santorini - Blaumeux"] = "Default",
+		["Futago - Benediction"] = "Default",
+		["Turkeyda - Faerlina"] = "Default",
+		["Furore - Blaumeux"] = "Default",
+		["Ehrvault - Faerlina"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["rules"] = {
+				{
+					["patterns"] = {
+						"PlaterMainAuraIcon", -- [1]
+						"PlaterSecondaryAuraIcon", -- [2]
+						"ExtraIconRowIcon", -- [3]
+					},
+					["id"] = "Plater Nameplates Rule",
+					["priority"] = 1,
+					["theme"] = "Plater Nameplates Theme",
+				}, -- [1]
+			},
+			["themes"] = {
+				["Default"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["soon"] = {
+							["scale"] = 1.2,
+						},
+						["minutes"] = {
+						},
+						["hours"] = {
+							["scale"] = 1,
+						},
+					},
+					["fontFace"] = "Interface\\AddOns\\LunaUnitFrames\\media\\fonts\\Iceland.ttf",
+					["tenthsDuration"] = 5,
+					["anchor"] = "TOP",
+					["mmSSDuration"] = 300,
+					["maxDuration"] = 600,
+					["fontSize"] = 14,
+					["minDuration"] = 0,
+				},
+				["Plater Nameplates Theme"] = {
+					["textStyles"] = {
+						["seconds"] = {
+						},
+						["minutes"] = {
+						},
+						["soon"] = {
+						},
+					},
+					["fontSize"] = 10,
+				},
+			},
+		},
+	},
+}
+OmniCC4Config = {
+	["version"] = "8.2.5",
+	["groupSettings"] = {
+		["base"] = {
+			["enabled"] = true,
+			["styles"] = {
+				["seconds"] = {
+					["scale"] = 1,
+				},
+				["minutes"] = {
+					["scale"] = 1,
+				},
+				["soon"] = {
+					["scale"] = 1.5,
+				},
+				["hours"] = {
+					["scale"] = 0.550000011920929,
+				},
+				["charging"] = {
+					["scale"] = 0.75,
+				},
+				["controlled"] = {
+					["scale"] = 1.5,
+				},
+			},
+			["effect"] = "pulse",
+			["fontFace"] = "Interface\\Addons\\Prat-3.0\\fonts\\WHITRABT.ttf",
+			["minDuration"] = 0,
+			["yOff"] = 0,
+			["xOff"] = 0,
+			["tenthsDuration"] = 0,
+			["fontOutline"] = "OUTLINE",
+			["minSize"] = 0.09,
+			["minEffectDuration"] = 30,
+			["mmSSDuration"] = 0,
+			["fontSize"] = 18,
+		},
+	},
+	["groups"] = {
+	},
+}

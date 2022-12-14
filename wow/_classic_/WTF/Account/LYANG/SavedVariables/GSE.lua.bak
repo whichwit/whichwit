@@ -1,0 +1,206 @@
+
+GSEOptions = {
+	["HideLoginMessage"] = false,
+	["DefaultImportAction"] = "MERGE",
+	["COMMENT"] = "|cff55cc55",
+	["autoCreateMacroStubsClass"] = true,
+	["use2"] = false,
+	["STANDARDFUNCS"] = "|cff55ddcc",
+	["showGSEUsers"] = false,
+	["UnfoundSpellIDs"] = {
+	},
+	["UseWLMExportFormat"] = true,
+	["Updated801"] = true,
+	["use14"] = false,
+	["use11"] = false,
+	["debug"] = false,
+	["EQUALS"] = "|cffccddee",
+	["NUMBER"] = "|cffffaa00",
+	["sendDebugOutputToChatWindow"] = false,
+	["showGSEoocqueue"] = true,
+	["DefaultDisabledMacroIcon"] = "Interface\\Icons\\INV_MISC_BOOK_08",
+	["Update2305"] = true,
+	["ActiveSequenceVersions"] = {
+	},
+	["CONCAT"] = "|cffcc7777",
+	["CommandColour"] = "|cFF00FF00",
+	["DisabledSequences"] = {
+	},
+	["UNKNOWN"] = "|cffff6666",
+	["DebugPrintModConditionsOnKeyPress"] = false,
+	["overflowPersonalMacros"] = false,
+	["ErroneousSpellID"] = {
+	},
+	["autoCreateMacroStubsGlobal"] = false,
+	["requireTarget"] = false,
+	["sendDebugOutputToDebugOutput"] = false,
+	["hideSoundErrors"] = false,
+	["Update2410"] = true,
+	["hideUIErrors"] = false,
+	["STRING"] = "|cff888888",
+	["clearUIErrors"] = false,
+	["resetOOC"] = true,
+	["Update2411"] = true,
+	["TitleColour"] = "|cFFFF0000",
+	["useTranslator"] = false,
+	["initialised"] = true,
+	["INDENT"] = "|cffccaa88",
+	["DebugModules"] = {
+		["Translator"] = false,
+		["GUI"] = false,
+		["Storage"] = false,
+		["Editor"] = false,
+		["Versions"] = false,
+		["API"] = false,
+		["Viewer"] = false,
+		["Transmission"] = false,
+	},
+	["Update2415"] = true,
+	["MacroResetModifiers"] = {
+		["Alt"] = false,
+		["LeftControl"] = false,
+		["LeftButton"] = false,
+		["LeftAlt"] = false,
+		["RightShift"] = false,
+		["RightButton"] = false,
+		["AnyMod"] = false,
+		["Button5"] = false,
+		["LeftShift"] = false,
+		["Shift"] = false,
+		["Control"] = false,
+		["RightControl"] = false,
+		["MiddleButton"] = false,
+		["Button4"] = false,
+		["RightAlt"] = false,
+	},
+	["filterList"] = {
+		["Class"] = true,
+		["All"] = false,
+		["Global"] = true,
+		["Spec"] = true,
+	},
+	["EmphasisColour"] = "|cFFFFFF00",
+	["UseVerboseExportFormat"] = false,
+	["WOWSHORTCUTS"] = "|cffddaaff",
+	["RealtimeParse"] = false,
+	["deleteOrphansOnLogout"] = false,
+	["PromptSample"] = true,
+	["UnfoundSpells"] = {
+		["Mind Flay"] = true,
+	},
+	["AuthorColour"] = "|cFF00D1FF",
+	["AddInPacks"] = {
+		["Samples"] = {
+			["Name"] = "Samples",
+			["Version"] = "2.4.21",
+			["SequenceNames"] = {
+				"Assorted Sample Macros", -- [1]
+			},
+		},
+	},
+	["showMiniMap"] = {
+		["hide"] = true,
+	},
+	["use6"] = false,
+	["use12"] = false,
+	["use13"] = false,
+	["NormalColour"] = "|cFFFFFFFF",
+	["CreateGlobalButtons"] = false,
+	["saveAllMacrosLocal"] = true,
+	["setDefaultIconQuestionMark"] = true,
+	["KEYWORD"] = "|cff88bbdd",
+	["use1"] = false,
+}
+GSELibrary = {
+	[0] = {
+	},
+	[4] = {
+	},
+	[5] = {
+		["RAID_HEALING"] = {
+			["Talents"] = "CLASSIC",
+			["Default"] = 1,
+			["Author"] = "Santorini@Blaumeux",
+			["SpecID"] = 5,
+			["MacroVersions"] = {
+				{
+					"/say =========================", -- [1]
+					"/say HEALING PRIORITIES", -- [2]
+					"/say =========================", -- [3]
+					"/s G1 (MT) and G2 (OT): tank in group", -- [4]
+					"/s Shaman/Dolamite: raid", -- [5]
+					"/s Rest of Priests: tank in group > MT > raid", -- [6]
+					"/s cons", -- [7]
+					["PostMacro"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["KeyRelease"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+					},
+				}, -- [1]
+			},
+			["ManualIntervention"] = true,
+		},
+		["SELF_BUFF"] = {
+			["Talents"] = "CLASSIC",
+			["Default"] = 1,
+			["Author"] = "Santorini@Blaumeux",
+			["SpecID"] = 5,
+			["MacroVersions"] = {
+				{
+					"/cast 10938", -- [1]
+					"/cast 27841", -- [2]
+					"/cast 10958", -- [3]
+					"/cast 10952", -- [4]
+					"/cast 19266", -- [5]
+					["LoopLimit"] = "1",
+					["KeyRelease"] = {
+					},
+					["StepFunction"] = "Sequential",
+					["PostMacro"] = {
+					},
+					["PreMacro"] = {
+					},
+					["KeyPress"] = {
+						"/target player", -- [1]
+					},
+				}, -- [1]
+			},
+			["ManualIntervention"] = true,
+		},
+		["SAM_PRIEST_LEVELING"] = {
+			["ManualIntervention"] = false,
+			["Talents"] = "CLASSIC",
+			["Default"] = 1,
+			["SpecID"] = 5,
+			["MacroVersions"] = {
+				{
+					"/cast [nochanneling] Holy Fire", -- [1]
+					"/cast [nochanneling] 585", -- [2]
+					"/cast [nochanneling] Mind Blast", -- [3]
+					"/cast [nochanneling] Mind Flay", -- [4]
+					["LoopLimit"] = "5",
+					["PostMacro"] = {
+					},
+					["KeyPress"] = {
+						"/targetenemy [noharm,dead]", -- [1]
+						"/startattack", -- [2]
+					},
+					["StepFunction"] = "Sequential",
+					["PreMacro"] = {
+						"/cast 589", -- [1]
+						"/cast 17", -- [2]
+					},
+					["KeyRelease"] = {
+					},
+				}, -- [1]
+			},
+			["Author"] = "TimothyLuke",
+			["GSEVersion"] = "2412",
+			["EnforceCompatability"] = true,
+		},
+	},
+}

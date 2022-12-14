@@ -1,0 +1,24 @@
+
+RoutesDB = {
+	["profileKeys"] = {
+		["Ehrpot - Blaumeux"] = "Default",
+		["Futago - Faerlina"] = "Default",
+		["Futago - Benediction"] = "Default",
+		["Ehrmisc - Blaumeux"] = "Default",
+		["Ehrvault - Blaumeux"] = "Default",
+		["Ehrvault - Faerlina"] = "Default",
+		["Ehrherb - Benediction"] = "Default",
+		["Zzaa - Benediction"] = "Default",
+		["Feorious - Benediction"] = "Default",
+		["Ehr - Blaumeux"] = "Default",
+		["Feorious - Faerlina"] = "Default",
+		["Caeli - Benediction"] = "Default",
+		["Lipsum - Benediction"] = "Default",
+		["Tiryns - Faerlina"] = "Default",
+	},
+	["global"] = {
+		["defaults"] = {
+			["draw_worldmap"] = false,
+		},
+	},
+}

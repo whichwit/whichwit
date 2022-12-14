@@ -1,0 +1,1841 @@
+
+Prat3DB = {
+	["namespaces"] = {
+		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["colors"] = {
+						["general"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["extremehealers"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.898039281368256,
+							["r"] = 1,
+						},
+						["wwwmywowgoldcom1116ev"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["aa"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["worlddefense"] = {
+							["r"] = 1,
+							["g"] = 0.749019622802734,
+							["b"] = 0.749019622802734,
+						},
+						["lookingforgroup"] = {
+							["b"] = 0.5607843399047852,
+							["g"] = 0.5607843399047852,
+							["r"] = 0.7490196228027344,
+						},
+						["bb"] = {
+							["b"] = 0.749019622802734,
+							["g"] = 0.749019622802734,
+							["r"] = 1,
+						},
+						["trade"] = {
+							["b"] = 0.7490196228027344,
+							["g"] = 0.7490196228027344,
+							["r"] = 1,
+						},
+						["localdefense"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["extremeheals"] = {
+							["b"] = 1,
+							["g"] = 0.529411792755127,
+							["r"] = 0.329411774873734,
+						},
+						["extremeheal"] = {
+							["b"] = 0.196078449487686,
+							["g"] = 0.0666666701436043,
+							["r"] = 1,
+						},
+						["wwwmywowgoldcom1116apmr"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+					},
+				},
+				["Default"] = {
+					["colors"] = {
+						["crheal"] = {
+							["b"] = 0.1803921610116959,
+							["g"] = 0.2156862914562225,
+							["r"] = 1,
+						},
+						["crleadteam"] = {
+							["r"] = 1,
+							["g"] = 0.121568635106087,
+							["b"] = 0.0196078438311815,
+						},
+						["extremehealers"] = {
+							["r"] = 1,
+							["g"] = 0.898039281368256,
+							["b"] = 0.250980406999588,
+						},
+						["wwwmywowgoldcom1116ev"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["fad"] = {
+							["b"] = 0.1215686351060867,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["extremeheal"] = {
+							["r"] = 1,
+							["g"] = 0.08235294371843338,
+							["b"] = 0,
+						},
+						["heals"] = {
+							["r"] = 1,
+							["g"] = 0,
+							["b"] = 0.0509803965687752,
+						},
+						["trade"] = {
+							["r"] = 0.572549045085907,
+							["g"] = 0.4313725829124451,
+							["b"] = 0.4313725829124451,
+						},
+						["localdefense"] = {
+							["b"] = 0.7529412508010864,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["extremeheals"] = {
+							["r"] = 0.329411774873734,
+							["g"] = 0.529411792755127,
+							["b"] = 1,
+						},
+						["lookingforgroup"] = {
+							["r"] = 0.7098039388656616,
+							["g"] = 0.529411792755127,
+							["b"] = 0.529411792755127,
+						},
+						["wwwmywowgoldcom1116apmr"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+					},
+				},
+				["Santorini - Blaumeux"] = {
+					["colors"] = {
+						["heals"] = {
+							["b"] = 0.0509803965687752,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["crleadteam"] = {
+							["b"] = 0.0196078438311815,
+							["g"] = 0.121568635106087,
+							["r"] = 1,
+						},
+						["extremehealers"] = {
+							["b"] = 0.250980406999588,
+							["g"] = 0.898039281368256,
+							["r"] = 1,
+						},
+						["wwwmywowgoldcom1116ev"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["crheal"] = {
+							["r"] = 1,
+							["g"] = 0.2156862914562225,
+							["b"] = 0.1803921610116959,
+						},
+						["lookingforgroup"] = {
+							["b"] = 0.529411792755127,
+							["g"] = 0.529411792755127,
+							["r"] = 0.7098039388656616,
+						},
+						["trade"] = {
+							["b"] = 0.4745098352432251,
+							["g"] = 0.4745098352432251,
+							["r"] = 0.6313725709915161,
+						},
+						["localdefense"] = {
+							["r"] = 1,
+							["g"] = 0.7529412508010864,
+							["b"] = 0.7529412508010864,
+						},
+						["extremeheals"] = {
+							["b"] = 1,
+							["g"] = 0.529411792755127,
+							["r"] = 0.329411774873734,
+						},
+						["extremeheal"] = {
+							["b"] = 0,
+							["g"] = 0.0823529437184334,
+							["r"] = 1,
+						},
+						["wwwmywowgoldcom1116apmr"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["Prat_Fading"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["textfade"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+				["Default"] = {
+					["duration"] = 20,
+					["textfade"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+				["Santorini - Blaumeux"] = {
+					["textfade"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+			},
+		},
+		["Prat_Scroll"] = {
+			["profiles"] = {
+				["Default"] = {
+					["normscrollspeed"] = 5,
+				},
+			},
+		},
+		["Prat_Mentions"] = {
+		},
+		["Prat_CopyChat"] = {
+		},
+		["Prat_Timestamps"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["formatcode"] = "%H:%M",
+				},
+				["Default"] = {
+					["formatcode"] = "%H:%M",
+				},
+				["Santorini - Blaumeux"] = {
+					["formatcode"] = "%H:%M",
+				},
+			},
+		},
+		["Prat_ServerNames"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["on"] = false,
+				},
+				["Default"] = {
+					["on"] = false,
+				},
+				["Santorini - Blaumeux"] = {
+					["on"] = false,
+				},
+			},
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_AltNames"] = {
+		},
+		["Prat_PlayerNames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["coloreverywhere"] = false,
+					["showtargeticon"] = true,
+				},
+			},
+		},
+		["Prat_Memory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["cvars"] = {
+						["whisperMode"] = "inline",
+						["chatStyle"] = "im",
+						["wholeChatWindowClickable"] = false,
+						["blockChannelInvites"] = true,
+					},
+					["channels"] = {
+						1, -- [1]
+						"General", -- [2]
+						false, -- [3]
+						2, -- [4]
+						"Trade", -- [5]
+						false, -- [6]
+						3, -- [7]
+						"LocalDefense", -- [8]
+						false, -- [9]
+						4, -- [10]
+						"WorldDefense", -- [11]
+						false, -- [12]
+						5, -- [13]
+						"LookingForGroup", -- [14]
+						false, -- [15]
+					},
+					["frames"] = {
+						{
+							["fontSize"] = 13,
+							["messages"] = {
+								"SYSTEM", -- [1]
+								"SYSTEM_NOMENU", -- [2]
+								"SAY", -- [3]
+								"EMOTE", -- [4]
+								"YELL", -- [5]
+								"WHISPER", -- [6]
+								"PARTY", -- [7]
+								"PARTY_LEADER", -- [8]
+								"RAID", -- [9]
+								"RAID_LEADER", -- [10]
+								"RAID_WARNING", -- [11]
+								"GUILD", -- [12]
+								"OFFICER", -- [13]
+								"MONSTER_SAY", -- [14]
+								"MONSTER_YELL", -- [15]
+								"MONSTER_EMOTE", -- [16]
+								"MONSTER_WHISPER", -- [17]
+								"MONSTER_BOSS_EMOTE", -- [18]
+								"MONSTER_BOSS_WHISPER", -- [19]
+								"ERRORS", -- [20]
+								"AFK", -- [21]
+								"DND", -- [22]
+								"IGNORED", -- [23]
+								"BG_HORDE", -- [24]
+								"BG_ALLIANCE", -- [25]
+								"BG_NEUTRAL", -- [26]
+								"COMBAT_FACTION_CHANGE", -- [27]
+								"SKILL", -- [28]
+								"LOOT", -- [29]
+								"CHANNEL", -- [30]
+								"ACHIEVEMENT", -- [31]
+								"GUILD_ACHIEVEMENT", -- [32]
+								"TARGETICONS", -- [33]
+								"BN_WHISPER", -- [34]
+								"BN_WHISPER_INFORM", -- [35]
+								"BN_CONVERSATION", -- [36]
+								"BN_INLINE_TOAST_ALERT", -- [37]
+								"CURRENCY", -- [38]
+								"BN_WHISPER_PLAYER_OFFLINE", -- [39]
+								"PET_BATTLE_INFO", -- [40]
+								"INSTANCE_CHAT", -- [41]
+								"INSTANCE_CHAT_LEADER", -- [42]
+								"GUILD_ITEM_LOOTED", -- [43]
+								"OPENING", -- [44]
+								"PET_INFO", -- [45]
+								"COMBAT_HONOR_GAIN", -- [46]
+								"COMBAT_MISC_INFO", -- [47]
+							},
+							["channels"] = {
+								"General", -- [1]
+								1, -- [2]
+								"Trade", -- [3]
+								2, -- [4]
+							},
+							["shown"] = true,
+							["g"] = 0,
+							["yOffset"] = 0.0418838732841451,
+							["uninteractable"] = false,
+							["locked"] = true,
+							["r"] = 0,
+							["docked"] = 1,
+							["alpha"] = 0.5176470875740051,
+							["width"] = 497.714508056641,
+							["name"] = "Main",
+							["height"] = 226.222122192383,
+							["b"] = 0,
+							["xOffset"] = 0.00156250112457201,
+							["point"] = "BOTTOMLEFT",
+						}, -- [1]
+						{
+							["fontSize"] = 10,
+							["messages"] = {
+								"OPENING", -- [1]
+								"TRADESKILLS", -- [2]
+								"PET_INFO", -- [3]
+								"COMBAT_XP_GAIN", -- [4]
+								"COMBAT_HONOR_GAIN", -- [5]
+								"COMBAT_MISC_INFO", -- [6]
+							},
+							["channels"] = {
+							},
+							["shown"] = false,
+							["g"] = 0,
+							["yOffset"] = 0.0604161303573526,
+							["uninteractable"] = false,
+							["locked"] = true,
+							["r"] = 0,
+							["docked"] = 2,
+							["alpha"] = 0,
+							["width"] = 435.599853515625,
+							["name"] = "Log",
+							["height"] = 102.000015258789,
+							["b"] = 0,
+							["xOffset"] = 0.000520832174354221,
+							["point"] = "BOTTOMLEFT",
+						}, -- [2]
+						{
+							["fontSize"] = 14,
+							["messages"] = {
+								"SAY", -- [1]
+								"EMOTE", -- [2]
+								"YELL", -- [3]
+								"WHISPER", -- [4]
+								"COMBAT_FACTION_CHANGE", -- [5]
+								"SKILL", -- [6]
+								"MONEY", -- [7]
+								"BN_WHISPER", -- [8]
+								"INSTANCE_CHAT", -- [9]
+								"INSTANCE_CHAT_LEADER", -- [10]
+								"OPENING", -- [11]
+								"TRADESKILLS", -- [12]
+								"PET_INFO", -- [13]
+								"COMBAT_XP_GAIN", -- [14]
+								"COMBAT_HONOR_GAIN", -- [15]
+								"COMBAT_MISC_INFO", -- [16]
+							},
+							["channels"] = {
+								"LookingForGroup", -- [1]
+								0, -- [2]
+								"Trade", -- [3]
+								2, -- [4]
+							},
+							["shown"] = false,
+							["g"] = 0,
+							["yOffset"] = -0.0458340297804496,
+							["uninteractable"] = false,
+							["locked"] = true,
+							["r"] = 0,
+							["docked"] = 3,
+							["alpha"] = 0,
+							["width"] = 429.999847412109,
+							["name"] = "LFG",
+							["height"] = 120.000076293945,
+							["b"] = 0,
+							["xOffset"] = 0.180989568949575,
+							["point"] = "TOPLEFT",
+						}, -- [3]
+						{
+							["fontSize"] = 11,
+							["messages"] = {
+							},
+							["channels"] = {
+								"WorldDefense", -- [1]
+								0, -- [2]
+								"LocalDefense", -- [3]
+								22, -- [4]
+							},
+							["shown"] = false,
+							["g"] = 0,
+							["yOffset"] = 0.04188387328414514,
+							["uninteractable"] = false,
+							["locked"] = true,
+							["r"] = 0,
+							["docked"] = 4,
+							["alpha"] = 0.2470588386058807,
+							["width"] = 497.7145690917969,
+							["name"] = "Defense",
+							["height"] = 226.2221374511719,
+							["b"] = 0,
+							["xOffset"] = 0.001562501124572006,
+							["point"] = "BOTTOMLEFT",
+						}, -- [4]
+						{
+							["r"] = 0,
+							["fontSize"] = 12,
+							["messages"] = {
+							},
+							["channels"] = {
+							},
+							["xOffset"] = 0.00638018435695296,
+							["width"] = 550.799987792969,
+							["g"] = 0,
+							["yOffset"] = 0.0181247401635017,
+							["uninteractable"] = false,
+							["alpha"] = 0.6705882549285889,
+							["name"] = "Guild",
+							["height"] = 135.399963378906,
+							["locked"] = false,
+							["shown"] = false,
+							["b"] = 0,
+							["point"] = "BOTTOMLEFT",
+						}, -- [5]
+						{
+							["fontSize"] = 12,
+							["messages"] = {
+							},
+							["r"] = 0,
+							["shown"] = false,
+							["g"] = 0,
+							["width"] = 430,
+							["uninteractable"] = false,
+							["name"] = "",
+							["channels"] = {
+							},
+							["locked"] = true,
+							["height"] = 120,
+							["alpha"] = 0,
+							["b"] = 0,
+						}, -- [6]
+						{
+							["fontSize"] = 12,
+							["messages"] = {
+							},
+							["r"] = 0,
+							["shown"] = false,
+							["g"] = 0,
+							["width"] = 430,
+							["uninteractable"] = false,
+							["name"] = "",
+							["channels"] = {
+							},
+							["locked"] = true,
+							["height"] = 120,
+							["alpha"] = 0,
+							["b"] = 0,
+						}, -- [7]
+						{
+							["fontSize"] = 12,
+							["messages"] = {
+							},
+							["r"] = 0,
+							["shown"] = false,
+							["g"] = 0,
+							["width"] = 430,
+							["uninteractable"] = false,
+							["name"] = "",
+							["channels"] = {
+							},
+							["locked"] = true,
+							["height"] = 120,
+							["alpha"] = 0,
+							["b"] = 0,
+						}, -- [8]
+						{
+							["fontSize"] = 12,
+							["messages"] = {
+							},
+							["r"] = 0,
+							["shown"] = false,
+							["g"] = 0,
+							["width"] = 430,
+							["uninteractable"] = false,
+							["name"] = "",
+							["channels"] = {
+							},
+							["locked"] = true,
+							["height"] = 120,
+							["alpha"] = 0,
+							["b"] = 0,
+						}, -- [9]
+						{
+							["fontSize"] = 12,
+							["messages"] = {
+							},
+							["r"] = 0,
+							["shown"] = false,
+							["g"] = 0,
+							["width"] = 430,
+							["uninteractable"] = false,
+							["name"] = "",
+							["channels"] = {
+							},
+							["locked"] = true,
+							["height"] = 120,
+							["alpha"] = 0,
+							["b"] = 0,
+						}, -- [10]
+					},
+					["types"] = {
+						["CHANNEL12"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 78,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["CHANNEL6"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7490196228027344,
+							["id"] = 72,
+							["sticky"] = 1,
+							["g"] = 0.7490196228027344,
+							["r"] = 1,
+						},
+						["CHANNEL"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 18,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["PARTY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 3,
+							["sticky"] = 1,
+							["g"] = 0.6666666865348816,
+							["r"] = 0.6666666865348816,
+						},
+						["CHANNEL_LIST"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.501960813999176,
+							["id"] = 21,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.7529412508010864,
+						},
+						["BN_BROADCAST"] = {
+							["flashTab"] = false,
+							["b"] = 1,
+							["r"] = 1,
+							["id"] = 0,
+							["sticky"] = 0,
+							["flashTabOnGeneral"] = false,
+							["g"] = 1,
+						},
+						["SYSTEM"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 1,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["RAID_BOSS_EMOTE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 42,
+							["sticky"] = 0,
+							["g"] = 0.8666667342185974,
+							["r"] = 1,
+						},
+						["BN_ALERT"] = {
+							["flashTab"] = false,
+							["b"] = 1,
+							["r"] = 1,
+							["id"] = 0,
+							["sticky"] = 0,
+							["flashTabOnGeneral"] = false,
+							["g"] = 1,
+						},
+						["CHANNEL7"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7490196228027344,
+							["id"] = 73,
+							["sticky"] = 1,
+							["g"] = 0.7490196228027344,
+							["r"] = 1,
+						},
+						["SKILL"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 27,
+							["sticky"] = 0,
+							["g"] = 0.3333333432674408,
+							["r"] = 0.3333333432674408,
+						},
+						["CHANNEL1"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 67,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["CHANNEL3"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 69,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["LOOT"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 28,
+							["sticky"] = 0,
+							["g"] = 0.6666666865348816,
+							["r"] = 0,
+						},
+						["CHANNEL14"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 80,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["IGNORED"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 26,
+							["sticky"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["BN_WHISPER_PLAYER_OFFLINE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 58,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["OFFICER"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 6,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 0.250980406999588,
+						},
+						["YELL"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 7,
+							["sticky"] = 1,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["BN_INLINE_TOAST_BROADCAST_INFORM"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 56,
+							["sticky"] = 0,
+							["g"] = 0.7725490927696228,
+							["r"] = 0.5098039507865906,
+						},
+						["COMBAT_MISC_INFO"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 33,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["SAY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = true,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 2,
+							["sticky"] = 1,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["DND"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 25,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["MONSTER_PARTY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 14,
+							["sticky"] = 0,
+							["g"] = 0.6666666865348816,
+							["r"] = 0.6666666865348816,
+						},
+						["BN_INLINE_TOAST_ALERT"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 54,
+							["sticky"] = 0,
+							["g"] = 0.7725490927696228,
+							["r"] = 0.5098039507865906,
+						},
+						["CHANNEL4"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 70,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["SMARTGROUP"] = {
+							["b"] = 0.9,
+							["sticky"] = 1,
+							["g"] = 0.9,
+							["r"] = 0.5,
+						},
+						["CHANNEL_NOTICE_USER"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 23,
+							["sticky"] = 0,
+							["g"] = 0.7529412508010864,
+							["r"] = 0.7529412508010864,
+						},
+						["BG_SYSTEM_HORDE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 39,
+							["sticky"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["MONSTER_WHISPER"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = true,
+							["b"] = 0.9215686917304993,
+							["id"] = 16,
+							["sticky"] = 0,
+							["g"] = 0.7098039388656616,
+							["r"] = 1,
+						},
+						["CHANNEL_JOIN"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.501960813999176,
+							["id"] = 19,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.7529412508010864,
+						},
+						["WHISPER_INFORM"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 10,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["QUEST_BOSS_EMOTE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 60,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["COMBAT_HONOR_GAIN"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.03921568766236305,
+							["id"] = 35,
+							["sticky"] = 0,
+							["g"] = 0.7921569347381592,
+							["r"] = 0.8784314393997192,
+						},
+						["CHANNEL5"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.529411792755127,
+							["id"] = 71,
+							["sticky"] = 1,
+							["g"] = 0.529411792755127,
+							["r"] = 0.7098039388656616,
+						},
+						["MONSTER_SAY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.6235294342041016,
+							["id"] = 13,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["BG_SYSTEM_NEUTRAL"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.03921568766236305,
+							["id"] = 37,
+							["sticky"] = 0,
+							["g"] = 0.4705882668495178,
+							["r"] = 1,
+						},
+						["FILTERED"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 44,
+							["sticky"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["TEXT_EMOTE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 12,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["WHISPER"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = true,
+							["b"] = 1,
+							["id"] = 0,
+							["sticky"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["CHANNEL9"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 75,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["GUILD"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 5,
+							["sticky"] = 1,
+							["g"] = 1,
+							["r"] = 0.250980406999588,
+						},
+						["OPENING"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 30,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["COMBAT_FACTION_CHANGE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 36,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["MONSTER_EMOTE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 17,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["CHANNEL_LEAVE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.501960813999176,
+							["id"] = 20,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.7529412508010864,
+						},
+						["RESTRICTED"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 45,
+							["sticky"] = 0,
+							["g"] = 0,
+							["r"] = 1,
+						},
+						["CHANNEL18"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 84,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["RAID_WARNING"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 41,
+							["sticky"] = 1,
+							["g"] = 0.2823529541492462,
+							["r"] = 1,
+						},
+						["PET_INFO"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 32,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 0.501960813999176,
+						},
+						["CHANNEL10"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 76,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["BN_WHISPER"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = true,
+							["b"] = 0.9647059440612793,
+							["id"] = 52,
+							["sticky"] = 1,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["CHANNEL20"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 86,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["BN_WHISPER_INFORM"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.9647059440612793,
+							["id"] = 53,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 0,
+						},
+						["BN_BROADCAST_INFORM"] = {
+							["flashTab"] = false,
+							["b"] = 1,
+							["r"] = 1,
+							["id"] = 0,
+							["sticky"] = 0,
+							["flashTabOnGeneral"] = false,
+							["g"] = 1,
+						},
+						["EMOTE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 11,
+							["sticky"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["REPLY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 0,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["RAID"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 4,
+							["sticky"] = 1,
+							["g"] = 0.4980392456054688,
+							["r"] = 1,
+						},
+						["CHANNEL2"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.4745098352432251,
+							["id"] = 68,
+							["sticky"] = 1,
+							["g"] = 0.4745098352432251,
+							["r"] = 0.6313725709915161,
+						},
+						["TRADESKILLS"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 31,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["BG_SYSTEM_ALLIANCE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.9372549653053284,
+							["id"] = 38,
+							["sticky"] = 0,
+							["g"] = 0.6823529601097107,
+							["r"] = 0,
+						},
+						["CHANNEL19"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 85,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["PARTY_LEADER"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 50,
+							["sticky"] = 0,
+							["g"] = 0.6705882549285889,
+							["r"] = 0.6745098233222961,
+						},
+						["RAID_LEADER"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.007843137718737125,
+							["id"] = 40,
+							["sticky"] = 0,
+							["g"] = 0.4941176772117615,
+							["r"] = 1,
+						},
+						["CHANNEL_NOTICE"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 22,
+							["sticky"] = 0,
+							["g"] = 0.7529412508010864,
+							["r"] = 0.7529412508010864,
+						},
+						["RAID_BOSS_WHISPER"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 43,
+							["sticky"] = 0,
+							["g"] = 0.8666667342185974,
+							["r"] = 1,
+						},
+						["AFK"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 24,
+							["sticky"] = 0,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["CHANNEL17"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 83,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["TARGETICONS"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 51,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["MONEY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 29,
+							["sticky"] = 0,
+							["g"] = 1,
+							["r"] = 1,
+						},
+						["CHANNEL11"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 77,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["CHANNEL8"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 74,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["INSTANCE_CHAT_LEADER"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 64,
+							["sticky"] = 0,
+							["g"] = 0.4352941513061523,
+							["r"] = 1,
+						},
+						["SMART_WHISPER"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = true,
+							["b"] = 1,
+							["id"] = 0,
+							["sticky"] = 1,
+							["g"] = 0.501960813999176,
+							["r"] = 1,
+						},
+						["CHANNEL13"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 79,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["CHANNEL16"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 82,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["BN_INLINE_TOAST_BROADCAST"] = {
+							["flashTab"] = true,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 55,
+							["sticky"] = 0,
+							["g"] = 0.7725490927696228,
+							["r"] = 0.5098039507865906,
+						},
+						["CHANNEL15"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 81,
+							["sticky"] = 1,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+						["COMBAT_XP_GAIN"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 1,
+							["id"] = 34,
+							["sticky"] = 0,
+							["g"] = 0.4352941513061523,
+							["r"] = 0.4352941513061523,
+						},
+						["INSTANCE_CHAT"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 63,
+							["sticky"] = 1,
+							["g"] = 0.4980392456054688,
+							["r"] = 1,
+						},
+						["MONSTER_YELL"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.250980406999588,
+							["id"] = 15,
+							["sticky"] = 0,
+							["g"] = 0.250980406999588,
+							["r"] = 1,
+						},
+						["CURRENCY"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0,
+							["id"] = 59,
+							["sticky"] = 0,
+							["g"] = 0.6666666865348816,
+							["r"] = 0,
+						},
+						["COMMUNITIES_CHANNEL"] = {
+							["flashTab"] = false,
+							["colorNameByClass"] = false,
+							["flashTabOnGeneral"] = false,
+							["b"] = 0.7529412508010864,
+							["id"] = 66,
+							["sticky"] = 0,
+							["g"] = 0.7529412508010864,
+							["r"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["Prat_Frames"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["minchatwidthdefault"] = 296,
+					["framealpha"] = 0,
+					["maxchatheightdefault"] = 400,
+					["maxchatheight"] = 500,
+					["rememberframepositions"] = true,
+					["initialized"] = true,
+					["maxchatwidthdefault"] = 608.0000610351562,
+					["minchatheight"] = 125,
+					["maxchatwidth"] = 1000,
+					["framemetrics"] = {
+						{
+							["point"] = "BOTTOMLEFT",
+							["height"] = 223.006759643555,
+							["width"] = 479.936645507813,
+							["xOffset"] = 0.00416674561488108,
+							["yOffset"] = 0.0255542614238822,
+						}, -- [1]
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.000520832174354221,
+							["width"] = 435.599853515625,
+							["height"] = 102.000015258789,
+							["yOffset"] = 0.0604161303573526,
+						}, -- [2]
+						{
+							["point"] = "TOPLEFT",
+							["height"] = 120.000076293945,
+							["width"] = 429.999847412109,
+							["xOffset"] = 0.180989568949575,
+							["yOffset"] = -0.0458340297804496,
+						}, -- [3]
+						[5] = {
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.00638018435695296,
+							["width"] = 550.799987792969,
+							["height"] = 135.399963378906,
+							["yOffset"] = 0.0181247401635017,
+						},
+					},
+				},
+				["Default"] = {
+					["minchatwidthdefault"] = 296,
+					["framealpha"] = 0,
+					["maxchatheightdefault"] = 400,
+					["maxchatheight"] = 500,
+					["rememberframepositions"] = true,
+					["maxchatwidth"] = 1000,
+					["maxchatwidthdefault"] = 608.0000610351562,
+					["minchatheight"] = 125,
+					["framemetrics"] = {
+						{
+							["point"] = "BOTTOMLEFT",
+							["height"] = 212.5080261230469,
+							["width"] = 498.2224731445313,
+							["xOffset"] = 0.002604163081074765,
+							["yOffset"] = 0.02706903975825436,
+						}, -- [1]
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.001822918019412702,
+							["width"] = 497.7145690917969,
+							["height"] = 202.2221374511719,
+							["yOffset"] = 0.02892079941974638,
+						}, -- [2]
+						{
+							["point"] = "BOTTOMLEFT",
+							["height"] = 226.2221374511719,
+							["width"] = 497.7145690917969,
+							["xOffset"] = 0.001822918019412702,
+							["yOffset"] = 0.02892079941974638,
+						}, -- [3]
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.001302077506746493,
+							["yOffset"] = 0.0307728459286005,
+							["height"] = 226.2221374511719,
+							["width"] = 497.7145690917969,
+						}, -- [4]
+						{
+							["point"] = "TOPLEFT",
+							["xOffset"] = 0,
+							["width"] = 815.6189575195312,
+							["height"] = 135.1587371826172,
+							["yOffset"] = -0.07326386207783578,
+						}, -- [5]
+					},
+					["initialized"] = true,
+				},
+				["Santorini - Blaumeux"] = {
+					["minchatwidthdefault"] = 296,
+					["framealpha"] = 0,
+					["maxchatheightdefault"] = 400,
+					["maxchatheight"] = 500,
+					["rememberframepositions"] = true,
+					["minchatheight"] = 125,
+					["maxchatwidthdefault"] = 608.0000610351562,
+					["maxchatwidth"] = 1000,
+					["framemetrics"] = {
+						{
+							["point"] = "BOTTOMLEFT",
+							["height"] = 226.222122192383,
+							["width"] = 497.714508056641,
+							["xOffset"] = 0.00156250112457201,
+							["yOffset"] = 0.0418838732841451,
+						}, -- [1]
+						{
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.000520832174354221,
+							["width"] = 435.599853515625,
+							["height"] = 102.000015258789,
+							["yOffset"] = 0.0604161303573526,
+						}, -- [2]
+						{
+							["point"] = "TOPLEFT",
+							["height"] = 120.000076293945,
+							["width"] = 429.999847412109,
+							["xOffset"] = 0.180989568949575,
+							["yOffset"] = -0.0458340297804496,
+						}, -- [3]
+						[5] = {
+							["point"] = "BOTTOMLEFT",
+							["xOffset"] = 0.00638018435695296,
+							["width"] = 550.799987792969,
+							["height"] = 135.399963378906,
+							["yOffset"] = 0.0181247401635017,
+						},
+					},
+					["initialized"] = true,
+				},
+			},
+		},
+		["Prat_Editbox"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["backgroundColor"] = {
+						["a"] = 0.484090328216553,
+					},
+				},
+				["Default"] = {
+					["edgeSize"] = 1,
+					["editW"] = 497.7145535349846,
+					["attach"] = "FREE",
+					["editX"] = -0.5079495310783386,
+					["font"] = "San Francisco",
+					["tileSize"] = 1,
+					["borderColor"] = {
+						["a"] = 0,
+					},
+					["editY"] = 23.3968677520752,
+					["inset"] = 1,
+					["backgroundColor"] = {
+						["a"] = 0,
+					},
+				},
+				["Santorini - Blaumeux"] = {
+					["edgeSize"] = 8,
+					["tileSize"] = 1,
+					["backgroundColor"] = {
+						["a"] = 0.484090328216553,
+					},
+					["inset"] = 1,
+					["font"] = "Fira Mono Medium",
+				},
+			},
+		},
+		["Prat_History"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["chatlinesframes"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+				["Default"] = {
+					["chatlinesframes"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+				["Santorini - Blaumeux"] = {
+					["chatlinesframes"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+			},
+		},
+		["Prat_DebugModules"] = {
+		},
+		["Prat_Font"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["rememberfont"] = true,
+					["fontface"] = "Liberation Sans (U)",
+					["size"] = {
+						["ChatFrame2"] = 10,
+						["ChatFrame4"] = 11,
+						["ChatFrame1"] = 13,
+					},
+				},
+				["Default"] = {
+					["fontface"] = "San Francisco",
+					["rememberfont"] = true,
+					["size"] = {
+						["ChatFrame2"] = 14,
+						["ChatFrame4"] = 11,
+						["ChatFrame5"] = 10,
+						["ChatFrame1"] = 14,
+					},
+				},
+				["Santorini - Blaumeux"] = {
+					["rememberfont"] = true,
+					["size"] = {
+						["ChatFrame2"] = 10,
+						["ChatFrame4"] = 11,
+						["ChatFrame1"] = 13,
+						["ChatFrame3"] = 14,
+					},
+					["fontface"] = "Liberation Sans (U)",
+				},
+			},
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_TellTarget"] = {
+		},
+		["Prat_EventNames"] = {
+		},
+		["Prat_ChannelNames"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["shortnames"] = {
+						["party"] = "[Party]",
+						["guild"] = "[Guild]",
+						["channel6"] = "[EH]",
+						["channel5"] = "[LFG]",
+						["partyleader"] = "[Party]]",
+						["channel1"] = "[General]",
+						["channel2"] = "[Trade]",
+					},
+				},
+				["Default"] = {
+					["shortnames"] = {
+						["guild"] = "[Guild]",
+						["channel7"] = "[Code Red]",
+						["channel2"] = "[General]",
+						["channel3"] = "[Trade]",
+						["channel5"] = "[LFG]",
+						["partyleader"] = "[Party]]",
+						["channel4"] = "[LFG]",
+						["channel6"] = "[Heals]",
+						["party"] = "[Party]",
+						["channel1"] = "[LFG]",
+					},
+					["replace"] = {
+						["channel5"] = false,
+						["channel6"] = false,
+					},
+					["nickname"] = {
+						["LookingForGroup"] = "LFG",
+					},
+				},
+				["Santorini - Blaumeux"] = {
+					["shortnames"] = {
+						["party"] = "[Party]",
+						["channel7"] = "[Code Red]",
+						["channel2"] = "[Trade]",
+						["channel6"] = "[Heals]",
+						["partyleader"] = "[Party]]",
+						["channel5"] = "[LFG]",
+						["channel1"] = "[General]",
+						["guild"] = "[Guild]",
+					},
+				},
+			},
+		},
+		["Prat_Achievements"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["on"] = false,
+				},
+				["Default"] = {
+					["on"] = false,
+				},
+				["Santorini - Blaumeux"] = {
+					["on"] = false,
+				},
+			},
+		},
+		["Prat_Bubbles"] = {
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
+		},
+		["Prat_Highlight"] = {
+			["profiles"] = {
+				["Default"] = {
+					["on"] = false,
+				},
+			},
+		},
+		["Prat_ChannelSticky"] = {
+			["profiles"] = {
+				["Default"] = {
+					["emote"] = false,
+					["instance_chat"] = false,
+					["bn_whisper"] = false,
+					["bn_conversation"] = false,
+					["officer"] = false,
+				},
+			},
+		},
+		["Prat_Sounds"] = {
+		},
+		["Prat_Invites"] = {
+		},
+		["Prat_CustomFilters"] = {
+			["profiles"] = {
+				["Default"] = {
+					["on"] = true,
+				},
+				["Santorini - Blaumeux"] = {
+					["on"] = true,
+				},
+			},
+		},
+		["Prat_Paragraph"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_Search"] = {
+		},
+		["Prat_Buttons"] = {
+			["profiles"] = {
+				["Furore - Blaumeux"] = {
+					["showvoice"] = false,
+					["showchannel"] = false,
+					["showButtons"] = false,
+					["showMenu"] = false,
+					["showminimize"] = false,
+				},
+				["Default"] = {
+					["showvoice"] = false,
+					["showchannel"] = false,
+					["showBnet"] = false,
+					["showButtons"] = false,
+					["showminimize"] = false,
+					["showMenu"] = false,
+				},
+				["Santorini - Blaumeux"] = {
+					["showvoice"] = false,
+					["showchannel"] = false,
+					["showButtons"] = false,
+					["showMenu"] = false,
+					["showminimize"] = false,
+				},
+			},
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_HoverTips"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Ehrpot - Blaumeux"] = "Default",
+		["Minsu - Faerlina"] = "Default",
+		["Zzgg - Faerlina"] = "Default",
+		["Turkeyee - Faerlina"] = "Default",
+		["Ehrmisc - Blaumeux"] = "Default",
+		["Ehrvault - Blaumeux"] = "Default",
+		["Ehrherb - Benediction"] = "Default",
+		["Zzaa - Benediction"] = "Default",
+		["Bokar - Blaumeux"] = "Default",
+		["Shardhell - Blaumeux"] = "Default",
+		["Feorious - Faerlina"] = "Default",
+		["Caeli - Benediction"] = "Default",
+		["Zznaxxtwo - Blaumeux"] = "Default",
+		["Tiryns - Faerlina"] = "Default",
+		["Santorini - Blaumeux"] = "Santorini - Blaumeux",
+		["Aelysta - Benediction"] = "Default",
+		["Futago - Faerlina"] = "Default",
+		["Lorem - Blaumeux"] = "Default",
+		["Turkeydd - Faerlina"] = "Default",
+		["Ehrore - Blaumeux"] = "Default",
+		["Ehr - Blaumeux"] = "Default",
+		["Joclyn - Blaumeux"] = "Default",
+		["Lipsum - Benediction"] = "Default",
+		["Zzgg - Benediction"] = "Default",
+		["Feorious - Benediction"] = "Default",
+		["Ehrherb - Blaumeux"] = "Default",
+		["Futago - Benediction"] = "Default",
+		["Turkeyda - Faerlina"] = "Default",
+		["Furore - Blaumeux"] = "Furore - Blaumeux",
+		["Ehrvault - Faerlina"] = "Default",
+	},
+	["profiles"] = {
+		["Furore - Blaumeux"] = {
+			["modules"] = {
+				["CustomFilters"] = 2,
+				["PopupMessage"] = 1,
+				["Achievements"] = 2,
+				["AltNames"] = 2,
+				["Mentions"] = 2,
+				["EventNames"] = 3,
+				["ServerNames"] = 2,
+				["Alias"] = 2,
+				["Paragraph"] = 2,
+				["Sounds"] = 2,
+				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
+				["KeyBindings"] = 2,
+			},
+		},
+		["Default"] = {
+			["modules"] = {
+				["Highlight"] = 2,
+				["CustomFilters"] = 3,
+				["EventNames"] = 3,
+				["Alias"] = 2,
+				["Mentions"] = 2,
+				["PopupMessage"] = 1,
+				["AltNames"] = 2,
+				["Sounds"] = 2,
+				["ServerNames"] = 2,
+				["Paragraph"] = 2,
+				["KeyBindings"] = 2,
+				["DebugModules"] = 2,
+				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
+				["Achievements"] = 2,
+			},
+		},
+		["Santorini - Blaumeux"] = {
+			["modules"] = {
+				["CustomFilters"] = 3,
+				["PopupMessage"] = 1,
+				["Achievements"] = 2,
+				["AltNames"] = 2,
+				["Mentions"] = 2,
+				["EventNames"] = 3,
+				["ServerNames"] = 2,
+				["Alias"] = 2,
+				["Paragraph"] = 2,
+				["OriginalButtons"] = 2,
+				["Sounds"] = 2,
+				["ChatLog"] = 2,
+				["KeyBindings"] = 2,
+			},
+		},
+	},
+}

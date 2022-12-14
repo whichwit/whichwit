@@ -1,0 +1,6442 @@
+
+CDTL2DB = {
+	["profileKeys"] = {
+		["Minsu - Faerlina"] = "Default",
+		["Futago - Faerlina"] = "Default",
+		["Ehrvault - Faerlina"] = "Default",
+		["Turkeyee - Faerlina"] = "Default",
+		["Turkeyda - Faerlina"] = "Default",
+		["Turkeydd - Faerlina"] = "Default",
+		["Tiryns - Faerlina"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["global"] = {
+				["detectSharedCD"] = true,
+				["unlockFrames"] = false,
+				["previousVersion"] = 1.7,
+				["autohide"] = true,
+				["firstRun"] = false,
+			},
+			["lanes"] = {
+				["lane2"] = {
+					["fgTexture"] = "Smoke",
+					["bgTexture"] = "Flat",
+					["posX"] = -4.570995807647705,
+					["relativeTo"] = "TOP",
+					["posY"] = -134.4526062011719,
+					["border"] = {
+						["color"] = {
+							["a"] = 0,
+						},
+						["size"] = 1,
+					},
+					["modeText"] = {
+						["text2"] = {
+							["text"] = "25%",
+						},
+						["text5"] = {
+							["text"] = "100%",
+						},
+						["text3"] = {
+							["text"] = "50%",
+						},
+						["text1"] = {
+							["text"] = "Ready",
+						},
+						["text4"] = {
+							["text"] = "75%",
+						},
+					},
+					["height"] = 2,
+				},
+				["lane1"] = {
+					["fgTexture"] = "Clean",
+					["modeText"] = {
+						["text2"] = {
+							["text"] = "45s",
+						},
+						["text5"] = {
+							["text"] = "3m",
+						},
+						["text3"] = {
+							["text"] = "1m30s",
+						},
+						["text1"] = {
+							["text"] = "Ready",
+						},
+						["text4"] = {
+							["text"] = "2m15s",
+						},
+					},
+					["fgClassColor"] = false,
+					["fgTextureColor"] = {
+						["a"] = 0,
+						["r"] = 0.7764705882352941,
+						["g"] = 0.1176470588235294,
+						["b"] = 0.2823529411764706,
+					},
+					["bgTexture"] = "Flat",
+					["posX"] = -5.079469680786133,
+					["mode"] = {
+						["type"] = "LINEAR_ABS",
+						["linearAbs"] = {
+							["max"] = 180,
+							["hideTimeSurplus"] = false,
+						},
+						["splitAbs"] = {
+							["hideTimeSurplus"] = false,
+						},
+					},
+					["relativeTo"] = "TOP",
+					["posY"] = -71.30119323730469,
+					["border"] = {
+						["color"] = {
+							["a"] = 0,
+						},
+						["padding"] = 0,
+						["size"] = 1,
+					},
+					["bgTextureColor"] = {
+						["a"] = 0.1859554648399353,
+						["r"] = 0.1490196078431373,
+						["g"] = 0.1490196078431373,
+						["b"] = 0.1490196078431373,
+					},
+					["alpha"] = 0.8020539879798889,
+					["stacking"] = {
+						["enabled"] = true,
+					},
+				},
+				["lane3"] = {
+					["posY"] = -100,
+					["modeText"] = {
+						["text2"] = {
+							["text"] = "25%",
+						},
+						["text5"] = {
+							["text"] = "100%",
+						},
+						["text3"] = {
+							["text"] = "50%",
+						},
+						["text1"] = {
+							["text"] = "Ready",
+						},
+						["text4"] = {
+							["text"] = "75%",
+						},
+					},
+				},
+			},
+			["tables"] = {
+				["items"] = {
+					{
+						["enabled"] = true,
+						["itemName"] = "Mark of the War Prisoner",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 60480,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cff0070dd|Hitem:37873::::::::80:::::::::|h[Mark of the War Prisoner]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["name"] = "Mark of the War Prisoner",
+						["itemID"] = 37873,
+						["icon"] = 135444,
+						["itemIcon"] = 133446,
+					}, -- [1]
+					{
+						["enabled"] = true,
+						["itemName"] = "Kirin Tor Commendation Badge",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 61306,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1316,
+						["ignored"] = true,
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff1eff00|Hitem:43950::::::::80:::::::::|h[Kirin Tor Commendation Badge]|h|r",
+						["name"] = "Kirin Tor Commendation Badge",
+						["itemID"] = 43950,
+						["itemIcon"] = 135933,
+					}, -- [2]
+					{
+						["enabled"] = true,
+						["itemName"] = "Ruby Beacon of the Dragon Queen",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 50426,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:38302::::::::80:::::::::|h[Ruby Beacon of the Dragon Queen]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 38302,
+						["name"] = "Call Wyrmrest Vanquisher",
+						["icon"] = 136243,
+						["itemIcon"] = 134124,
+					}, -- [3]
+					{
+						["enabled"] = true,
+						["itemName"] = "Potent Explosive Charges",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 47305,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 2000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:36732::::::::80:::::::::|h[Potent Explosive Charges]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 36732,
+						["name"] = "Potent Explosive Charge",
+						["icon"] = 136243,
+						["itemIcon"] = 133715,
+					}, -- [4]
+					{
+						["enabled"] = true,
+						["itemName"] = "Secret Strength of the Frenzyheart",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53355,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39737::::::::80:::::::::|h[Secret Strength of the Frenzyheart]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 39737,
+						["name"] = "Strength of the Frenzyheart",
+						["icon"] = 132792,
+						["itemIcon"] = 132792,
+					}, -- [5]
+					{
+						["enabled"] = true,
+						["itemName"] = "Rejek's Blade",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 52992,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 5000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:39577::::::::80:::::::::|h[Rejek's Blade]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 39577,
+						["name"] = "Blood Rejek's Sword",
+						["icon"] = 135284,
+						["itemIcon"] = 135284,
+					}, -- [6]
+					{
+						["enabled"] = true,
+						["itemName"] = "Boots of Forlorn Wishes",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 55004,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["link"] = "|cffa335ee|Hitem:40326::::::::80:::::::::|h[Boots of Forlorn Wishes]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 40326,
+						["name"] = "Nitro Boosts",
+						["icon"] = 135788,
+						["itemIcon"] = 132573,
+					}, -- [7]
+					{
+						["enabled"] = true,
+						["itemName"] = "Warsong Flare Gun",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 45958,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 100000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:34971::::::::80:::::::::|h[Warsong Flare Gun]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 34971,
+						["name"] = "Signal Alliance",
+						["icon"] = 136243,
+						["itemIcon"] = 135619,
+					}, -- [8]
+					{
+						["enabled"] = true,
+						["itemName"] = "Letter from Saurfang",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 47256,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:35941::::::::80:::::::::|h[Letter from Saurfang]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 35941,
+						["name"] = "Burning Letter",
+						["icon"] = 136243,
+						["itemIcon"] = 133473,
+					}, -- [9]
+					{
+						["enabled"] = true,
+						["itemName"] = "Xink's Shredder Control Device",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 47919,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:36734::::::::80:::::::::|h[Xink's Shredder Control Device]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 36734,
+						["name"] = "Call Xink's Shredder",
+						["icon"] = 136243,
+						["itemIcon"] = 133015,
+					}, -- [10]
+					{
+						["enabled"] = true,
+						["itemName"] = "Fezzik's Pocketwatch",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 59658,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cff0070dd|Hitem:44014::::::::80:::::::::|h[Fezzik's Pocketwatch]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 44014,
+						["name"] = "Argent Heroism",
+						["icon"] = 135934,
+						["itemIcon"] = 133572,
+					}, -- [11]
+					{
+						["enabled"] = true,
+						["itemName"] = "Badge of Tenacity",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 40729,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["link"] = "|cff0070dd|Hitem:32658::::::::80:::::::::|h[Badge of Tenacity]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Heightened Reflexes",
+						["itemID"] = 32658,
+						["icon"] = 132301,
+						["itemIcon"] = 133607,
+					}, -- [12]
+					{
+						["enabled"] = true,
+						["itemName"] = "Darkmoon Card: Illusion",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 57350,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffa335ee|Hitem:42988::::::::80:::::::::|h[Darkmoon Card: Illusion]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Illusionary Barrier",
+						["itemID"] = 42988,
+						["icon"] = 237167,
+						["itemIcon"] = 237167,
+					}, -- [13]
+					{
+						["enabled"] = true,
+						["itemName"] = "Runic Healing Potion",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43185,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33447::::::::80:::::::::|h[Runic Healing Potion]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 33447,
+						["name"] = "Healing Potion",
+						["icon"] = 136243,
+						["itemIcon"] = 236872,
+					}, -- [14]
+					{
+						["enabled"] = true,
+						["itemName"] = "Runic Mana Potion",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43186,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33448::::::::80:::::::::|h[Runic Mana Potion]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 33448,
+						["name"] = "Restore Mana",
+						["icon"] = 136243,
+						["itemIcon"] = 236869,
+					}, -- [15]
+					{
+						["enabled"] = true,
+						["itemName"] = "Empty Picnic Basket",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 57760,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:43142::::::::80:::::::::|h[Empty Picnic Basket]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Mustard Dog Basket",
+						["itemID"] = 43142,
+						["icon"] = 133971,
+						["itemIcon"] = 237271,
+					}, -- [16]
+					{
+						["enabled"] = true,
+						["itemName"] = "Potion of Wild Magic",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53909,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:40212::::::::80:::::::::|h[Potion of Wild Magic]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 40212,
+						["name"] = "Wild Magic",
+						["icon"] = 236868,
+						["itemIcon"] = 236868,
+					}, -- [17]
+					{
+						["enabled"] = true,
+						["itemName"] = "Potion of Speed",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53908,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:40211::::::::80:::::::::|h[Potion of Speed]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 40211,
+						["name"] = "Speed",
+						["icon"] = 236871,
+						["itemIcon"] = 236871,
+					}, -- [18]
+					{
+						["enabled"] = true,
+						["itemName"] = "Defender's Code",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 60286,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffa335ee|Hitem:40257::::::::80:::::::::|h[Defender's Code]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Defender's Code",
+						["itemID"] = 40257,
+						["icon"] = 132285,
+						["itemIcon"] = 135443,
+					}, -- [19]
+					{
+						["enabled"] = true,
+						["itemName"] = "Meatloaf Pan",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 57686,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:43101::::::::80:::::::::|h[Meatloaf Pan]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 43101,
+						["name"] = "Infused Mushroom Meatloaf",
+						["icon"] = 133971,
+						["itemIcon"] = 133748,
+					}, -- [20]
+					{
+						["enabled"] = true,
+						["itemName"] = "Turkey Caller",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 62012,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:44844::::::::80:::::::::|h[Turkey Caller]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 44844,
+						["name"] = "Turkey Caller",
+						["icon"] = 134229,
+						["itemIcon"] = 134229,
+					}, -- [21]
+					{
+						["enabled"] = true,
+						["itemName"] = "Endless Mana Potion",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 28499,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["link"] = "|cff0070dd|Hitem:43570::::::::80:::::::::|h[Endless Mana Potion]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 43570,
+						["name"] = "Restore Mana",
+						["icon"] = 136243,
+						["itemIcon"] = 236878,
+					}, -- [22]
+					{
+						["enabled"] = true,
+						["itemName"] = "Runic Mana Injector",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 67490,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:42545::::::::80:::::::::|h[Runic Mana Injector]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 42545,
+						["name"] = "Runic Mana Injector",
+						["icon"] = 136243,
+						["itemIcon"] = 237032,
+					}, -- [23]
+					{
+						["enabled"] = true,
+						["itemName"] = "Anuniaq's Net",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 21014,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:40946::::::::80:::::::::|h[Anuniaq's Net]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 40946,
+						["name"] = "Anuniaq's Net",
+						["icon"] = 134325,
+						["itemIcon"] = 134325,
+					}, -- [24]
+					{
+						["enabled"] = true,
+						["itemName"] = "Tasty Reef Fish",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 44454,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:34127::::::::80:::::::::|h[Tasty Reef Fish]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 34127,
+						["name"] = "Tasty Reef Fish",
+						["icon"] = 133895,
+						["itemIcon"] = 133895,
+					}, -- [25]
+					{
+						["enabled"] = true,
+						["itemName"] = "Tillinghast's Plagued Meat",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43172,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 5000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33441::::::::80:::::::::|h[Tillinghast's Plagued Meat]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33441,
+						["name"] = "Tillinghast's Plagued Meat",
+						["icon"] = 136243,
+						["itemIcon"] = 134039,
+					}, -- [26]
+					{
+						["enabled"] = true,
+						["itemName"] = "Abomination Assembly Kit",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43392,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33613::::::::80:::::::::|h[Abomination Assembly Kit]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33613,
+						["name"] = "Assemble Abomination",
+						["icon"] = 136118,
+						["itemIcon"] = 136118,
+					}, -- [27]
+					{
+						["enabled"] = true,
+						["itemName"] = "Bundle of Vrykul Artifacts",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 45323,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:34624::::::::80:::::::::|h[Bundle of Vrykul Artifacts]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 34624,
+						["name"] = "Returning Vrykul Artifact",
+						["icon"] = 136243,
+						["itemIcon"] = 133667,
+					}, -- [28]
+					{
+						["enabled"] = true,
+						["itemName"] = "Gorth's Torch",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43233,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33472::::::::80:::::::::|h[Gorth's Torch]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33472,
+						["name"] = "Burn Structure",
+						["icon"] = 135805,
+						["itemIcon"] = 135432,
+					}, -- [29]
+					{
+						["enabled"] = true,
+						["itemName"] = "Vrykul Insult",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43315,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33581::::::::80:::::::::|h[Vrykul Insult]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33581,
+						["name"] = "Vrykul Insult",
+						["icon"] = 135996,
+						["itemIcon"] = 134938,
+					}, -- [30]
+					{
+						["enabled"] = true,
+						["itemName"] = "Lurielle's Pendant",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49624,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33606::::::::80:::::::::|h[Lurielle's Pendant]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33606,
+						["name"] = "Lurielle's Pendant",
+						["icon"] = 133299,
+						["itemIcon"] = 133299,
+					}, -- [31]
+					{
+						["enabled"] = true,
+						["itemName"] = "Candy Bar",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 24707,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:20390::::::::80:::::::::|h[Candy Bar]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 20390,
+						["name"] = "Food",
+						["icon"] = 133984,
+						["itemIcon"] = 133983,
+					}, -- [32]
+					{
+						["enabled"] = true,
+						["itemName"] = "Wormhole Generator: Northrend",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 67833,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 14400000,
+						["ignored"] = true,
+						["link"] = "|cff0070dd|Hitem:48933::::::::80:::::::::|h[Wormhole Generator: Northrend]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 48933,
+						["name"] = "Wormhole",
+						["icon"] = 135741,
+						["itemIcon"] = 135778,
+					}, -- [33]
+					{
+						["enabled"] = true,
+						["itemName"] = "Incisor Fragment",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 60299,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["link"] = "|cff0070dd|Hitem:37723::::::::80:::::::::|h[Incisor Fragment]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Incisor Fragment",
+						["itemID"] = 37723,
+						["icon"] = 132358,
+						["itemIcon"] = 133725,
+					}, -- [34]
+					{
+						["enabled"] = true,
+						["itemName"] = "Harpoon",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 51355,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:37372::::::::80:::::::::|h[Harpoon]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Harpoon Launcher",
+						["itemID"] = 37372,
+						["icon"] = 136243,
+						["itemIcon"] = 135129,
+					}, -- [35]
+					{
+						["enabled"] = true,
+						["itemName"] = "Ebon Blade Commendation Badge",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 61312,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1314,
+						["ignored"] = true,
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 44713,
+						["name"] = "Ebon Blade Commendation Badge",
+						["link"] = "|cff1eff00|Hitem:44713::::::::80:::::::::|h[Ebon Blade Commendation Badge]|h|r",
+						["itemIcon"] = 133445,
+					}, -- [36]
+					{
+						["enabled"] = true,
+						["itemName"] = "Enchanted Ice Core",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43354,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33607::::::::80:::::::::|h[Enchanted Ice Core]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33607,
+						["name"] = "Enchanted Ice Core",
+						["icon"] = 135855,
+						["itemIcon"] = 133268,
+					}, -- [37]
+					{
+						["enabled"] = true,
+						["itemName"] = "Carved Horn",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43189,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33450::::::::80:::::::::|h[Carved Horn]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33450,
+						["name"] = "Test Horn",
+						["icon"] = 134228,
+						["itemIcon"] = 134228,
+					}, -- [38]
+					{
+						["enabled"] = true,
+						["itemName"] = "Winterhoof Emblem",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43102,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 5000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33340::::::::80:::::::::|h[Winterhoof Emblem]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33340,
+						["name"] = "Winterhoof Emblem",
+						["icon"] = 134912,
+						["itemIcon"] = 134912,
+					}, -- [39]
+					{
+						["enabled"] = true,
+						["itemName"] = "The Brave's Machete",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43036,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33342::::::::80:::::::::|h[The Brave's Machete]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33342,
+						["name"] = "Dismembering Corpse",
+						["icon"] = 135662,
+						["itemIcon"] = 135662,
+					}, -- [40]
+					{
+						["enabled"] = true,
+						["itemName"] = "Brave's Flare",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49625,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33344::::::::80:::::::::|h[Brave's Flare]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33344,
+						["name"] = "Brave's Flare",
+						["icon"] = 132863,
+						["itemIcon"] = 132863,
+					}, -- [41]
+					{
+						["enabled"] = true,
+						["itemName"] = "Brave's Torch",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43057,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33343::::::::80:::::::::|h[Brave's Torch]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33343,
+						["name"] = "Torch",
+						["icon"] = 135432,
+						["itemIcon"] = 135434,
+					}, -- [42]
+					{
+						["enabled"] = true,
+						["itemName"] = "Vrykul Scroll of Ascension",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43089,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 5000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:33346::::::::80:::::::::|h[Vrykul Scroll of Ascension]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33346,
+						["name"] = "Vrykul Scroll of Ascension",
+						["icon"] = 136244,
+						["itemIcon"] = 136244,
+					}, -- [43]
+					{
+						["enabled"] = true,
+						["itemName"] = "Brave's Spyglass",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 43051,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:33341::::::::80:::::::::|h[Brave's Spyglass]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 33341,
+						["name"] = "Spyglass",
+						["icon"] = 134441,
+						["itemIcon"] = 134441,
+					}, -- [44]
+					{
+						["enabled"] = true,
+						["itemName"] = "Venture Co. Explosives",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53145,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 5000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:39651::::::::80:::::::::|h[Venture Co. Explosives]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 39651,
+						["name"] = "Throw Venture Co. Explosives",
+						["icon"] = 133713,
+						["itemIcon"] = 133713,
+					}, -- [45]
+					{
+						["enabled"] = true,
+						["itemName"] = "Smoke Bomb",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49075,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:37621::::::::80:::::::::|h[Smoke Bomb]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 37621,
+						["name"] = "Smoke Bomb",
+						["icon"] = 133717,
+						["itemIcon"] = 133717,
+					}, -- [46]
+					{
+						["enabled"] = true,
+						["itemName"] = "Battlemaster's Bravery",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 55915,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["link"] = "|cffa335ee|Hitem:42132::::::::80:::::::::|h[Battlemaster's Bravery]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Tremendous Fortitude",
+						["itemID"] = 42132,
+						["icon"] = 135934,
+						["itemIcon"] = 132344,
+					}, -- [47]
+					{
+						["enabled"] = true,
+						["itemName"] = "Cloak of Kea Feathers",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 55001,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["link"] = "|cffa335ee|Hitem:40724::::::::80:::::::::|h[Cloak of Kea Feathers]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Parachute",
+						["itemID"] = 40724,
+						["icon"] = 135992,
+						["itemIcon"] = 133769,
+					}, -- [48]
+					{
+						["enabled"] = true,
+						["itemName"] = "Empty Mug of Direbrew",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 51955,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["link"] = "|cffa335ee|Hitem:38287::::::::80:::::::::|h[Empty Mug of Direbrew]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Dire Drunkard",
+						["itemID"] = 38287,
+						["icon"] = 132790,
+						["itemIcon"] = 132790,
+					}, -- [49]
+					{
+						["enabled"] = true,
+						["itemName"] = "Ruby Essence",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49462,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:37860::::::::80:::::::::|h[Ruby Essence]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["itemID"] = 37860,
+						["name"] = "Call Ruby Drake",
+						["icon"] = 134153,
+						["itemIcon"] = 134153,
+					}, -- [50]
+					{
+						["enabled"] = true,
+						["itemName"] = "Stew Cookpot",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 57768,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:43147::::::::80:::::::::|h[Stew Cookpot]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Vegetable Stew",
+						["itemID"] = 43147,
+						["icon"] = 133971,
+						["itemIcon"] = 133748,
+					}, -- [51]
+					{
+						["enabled"] = true,
+						["itemName"] = "Spike Bomb",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53075,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:39697::::::::80:::::::::|h[Spike Bomb]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Spike Bomb",
+						["itemID"] = 39697,
+						["icon"] = 132180,
+						["itemIcon"] = 132180,
+					}, -- [52]
+					{
+						["enabled"] = true,
+						["itemName"] = "Rejek's Vial",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 52963,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39574::::::::80:::::::::|h[Rejek's Vial]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Gather Suntouched Water",
+						["itemID"] = 39574,
+						["icon"] = 134864,
+						["itemIcon"] = 134864,
+					}, -- [53]
+					{
+						["enabled"] = true,
+						["itemName"] = "Suntouched Water",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 52967,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39576::::::::80:::::::::|h[Suntouched Water]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 39576,
+						["name"] = "Create Suntouched Heartblood",
+						["icon"] = 134816,
+						["itemIcon"] = 134836,
+					}, -- [54]
+					{
+						["enabled"] = true,
+						["itemName"] = "Ahn'kahar Watcher's Corpse",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 58515,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:43494::::::::80:::::::::|h[Ahn'kahar Watcher's Corpse]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Burn Corpse",
+						["itemID"] = 43494,
+						["icon"] = 236946,
+						["itemIcon"] = 236946,
+					}, -- [55]
+					{
+						["enabled"] = true,
+						["itemName"] = "Oracle Blood",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 52276,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39265::::::::80:::::::::|h[Oracle Blood]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Summon Kartak",
+						["itemID"] = 39265,
+						["icon"] = 136168,
+						["itemIcon"] = 136168,
+					}, -- [56]
+					{
+						["enabled"] = true,
+						["itemName"] = "Emerald Essence",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49345,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:37815::::::::80:::::::::|h[Emerald Essence]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Call Emerald Drake",
+						["itemID"] = 37815,
+						["icon"] = 134157,
+						["itemIcon"] = 134157,
+					}, -- [57]
+					{
+						["enabled"] = true,
+						["itemName"] = "Festival Dumplings",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 26263,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1000,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:21537::::::::80:::::::::|h[Festival Dumplings]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Dim Sum",
+						["itemID"] = 21537,
+						["icon"] = 134056,
+						["itemIcon"] = 134056,
+					}, -- [58]
+					{
+						["enabled"] = true,
+						["itemName"] = "Wyrmrest Commendation Badge",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 61308,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1239,
+						["ignored"] = true,
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff1eff00|Hitem:44710::::::::80:::::::::|h[Wyrmrest Commendation Badge]|h|r",
+						["name"] = "Wyrmrest Commendation Badge",
+						["itemID"] = 44710,
+						["itemIcon"] = 134158,
+					}, -- [59]
+					{
+						["enabled"] = true,
+						["itemName"] = "Direbrew Hops",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 51954,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["link"] = "|cffa335ee|Hitem:38288::::::::80:::::::::|h[Direbrew Hops]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Hopped Up",
+						["itemID"] = 38288,
+						["icon"] = 134188,
+						["itemIcon"] = 134188,
+					}, -- [60]
+					{
+						["enabled"] = true,
+						["itemName"] = "Sash of Solitude",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 67890,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffa335ee|Hitem:40271::::::::80:::::::::|h[Sash of Solitude]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 40271,
+						["name"] = "Cobalt Frag Bomb",
+						["icon"] = 135826,
+						["itemIcon"] = 132496,
+					}, -- [61]
+					{
+						["enabled"] = true,
+						["itemName"] = "Empty Cheese Serving Platter",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 57729,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:43139::::::::80:::::::::|h[Empty Cheese Serving Platter]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Wine and Cheese Platter",
+						["itemID"] = 43139,
+						["icon"] = 133971,
+						["itemIcon"] = 134955,
+					}, -- [62]
+					{
+						["enabled"] = true,
+						["itemName"] = "Arcanum of Burning Mysteries",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 59970,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffe6cc80|Hitem:44159::::::::80:::::::::|h[Arcanum of Burning Mysteries]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Arcanum of Burning Mysteries",
+						["itemID"] = 44159,
+						["icon"] = 135820,
+						["itemIcon"] = 135820,
+					}, -- [63]
+					{
+						["enabled"] = true,
+						["itemName"] = "Heroes' Handwraps of Faith",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 54758,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffa335ee|Hitem:39530::::::::80:::::::::|h[Heroes' Handwraps of Faith]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Hyperspeed Acceleration",
+						["itemID"] = 39530,
+						["icon"] = 237576,
+						["itemIcon"] = 132951,
+					}, -- [64]
+					{
+						["enabled"] = true,
+						["itemName"] = "Moodle's Stress Ball",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 51192,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1500,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:38624::::::::80:::::::::|h[Moodle's Stress Ball]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Summon Moodle",
+						["itemID"] = 38624,
+						["icon"] = 134480,
+						["itemIcon"] = 134480,
+					}, -- [65]
+					{
+						["enabled"] = true,
+						["itemName"] = "Didgeridoo of Contemplation",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53038,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39598::::::::80:::::::::|h[Didgeridoo of Contemplation]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Didgeridoo of Contemplation",
+						["itemID"] = 39598,
+						["icon"] = 133942,
+						["itemIcon"] = 133942,
+					}, -- [66]
+					{
+						["enabled"] = true,
+						["itemName"] = "Crystal of Unstable Energy",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53287,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:39693::::::::80:::::::::|h[Crystal of Unstable Energy]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Crystal of Unstable Energy",
+						["itemID"] = 39693,
+						["icon"] = 136039,
+						["itemIcon"] = 134108,
+					}, -- [67]
+					{
+						["enabled"] = true,
+						["itemName"] = "Crystal of the Violent Storm",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53286,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["link"] = "|cffffffff|Hitem:39694::::::::80:::::::::|h[Crystal of the Violent Storm]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Crystal of the Violent Storm",
+						["itemID"] = 39694,
+						["icon"] = 136018,
+						["itemIcon"] = 134095,
+					}, -- [68]
+					{
+						["enabled"] = true,
+						["itemName"] = "Tainted Crystal",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 52333,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39266::::::::80:::::::::|h[Tainted Crystal]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Summon Soo-holu",
+						["itemID"] = 39266,
+						["icon"] = 132785,
+						["itemIcon"] = 132785,
+					}, -- [69]
+					{
+						["enabled"] = true,
+						["itemName"] = "Phantom Ghostfish",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 64366,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:45902::::::::80:::::::::|h[Phantom Ghostfish]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Phantom Ghostfish",
+						["itemID"] = 45902,
+						["icon"] = 132220,
+						["itemIcon"] = 237307,
+					}, -- [70]
+					{
+						["enabled"] = true,
+						["itemName"] = "Dormant Polished Crystal",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53416,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39747::::::::80:::::::::|h[Dormant Polished Crystal]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 39747,
+						["name"] = "Energize Polished Crystal",
+						["icon"] = 134125,
+						["itemIcon"] = 134122,
+					}, -- [71]
+					{
+						["enabled"] = true,
+						["itemName"] = "Energized Polished Crystal",
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53371,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["link"] = "|cffffffff|Hitem:39748::::::::80:::::::::|h[Energized Polished Crystal]|h|r",
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["itemID"] = 39748,
+						["name"] = "Power of the Great Ones",
+						["icon"] = 134125,
+						["itemIcon"] = 134125,
+					}, -- [72]
+				},
+				["debuffs"] = {
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:43681:0|h[Inactive]|h|r",
+						["id"] = 43681,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Inactive",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 136072,
+						["endTime"] = 850016.922,
+					}, -- [1]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:6788:0|h[Weakened Soul]|h|r",
+						["id"] = 6788,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 15000,
+						["endTime"] = 861327.4,
+						["stacks"] = 0,
+						["name"] = "Weakened Soul",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135871,
+						["ignored"] = false,
+					}, -- [2]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:58600:0|h[Restricted Flight Area]|h|r",
+						["id"] = 58600,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 10000,
+						["endTime"] = 867824.115,
+						["stacks"] = 0,
+						["name"] = "Restricted Flight Area",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+							"Player-4408-037662D9", -- [2]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 237509,
+						["ignored"] = false,
+					}, -- [3]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:57724:0|h[Sated]|h|r",
+						["id"] = 57724,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 600000,
+						["endTime"] = 905714.572,
+						["stacks"] = 0,
+						["name"] = "Sated",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 136090,
+						["ignored"] = true,
+					}, -- [4]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:55817:0|h[Eck Residue]|h|r",
+						["id"] = 55817,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 3600000,
+						["endTime"] = 909227.932,
+						["stacks"] = 0,
+						["name"] = "Eck Residue",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 132100,
+						["ignored"] = true,
+					}, -- [5]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:52087:0|h[Web Wrap]|h|r",
+						["id"] = 52087,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 10000,
+						["endTime"] = 906357.779,
+						["stacks"] = 0,
+						["name"] = "Web Wrap",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 136022,
+						["ignored"] = false,
+					}, -- [6]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:50833:0|h[Ground Slam]|h|r",
+						["id"] = 50833,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 5000,
+						["endTime"] = 908568.301,
+						["stacks"] = 0,
+						["name"] = "Ground Slam",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 136100,
+						["ignored"] = false,
+					}, -- [7]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:50836:0|h[Petrifying Grip]|h|r",
+						["id"] = 50836,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 3000,
+						["endTime"] = 908567.3,
+						["stacks"] = 1,
+						["name"] = "Petrifying Grip",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 132326,
+						["ignored"] = true,
+					}, -- [8]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:50812:0|h[Stoned]|h|r",
+						["id"] = 50812,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 30000,
+						["endTime"] = 908598.317,
+						["stacks"] = 0,
+						["name"] = "Stoned",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135237,
+						["ignored"] = false,
+					}, -- [9]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60433:0|h[Earth and Moon]|h|r",
+						["id"] = 60433,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 12000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Earth and Moon",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 236150,
+						["endTime"] = 80856.425,
+					}, -- [10]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:28059:0|h[Positive Charge]|h|r",
+						["id"] = 28059,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Positive Charge",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135769,
+						["endTime"] = 152243.454,
+					}, -- [11]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:28084:0|h[Negative Charge]|h|r",
+						["id"] = 28084,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Negative Charge",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135768,
+						["endTime"] = 152306.571,
+					}, -- [12]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:49163:0|h[Perpetual Instability]|h|r",
+						["id"] = 49163,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Perpetual Instability",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135887,
+						["ignored"] = true,
+					}, -- [13]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:10909:0|h[Mind Vision]|h|r",
+						["id"] = 10909,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Mind Vision",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135934,
+						["endTime"] = 421146.357,
+					}, -- [14]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:54643:0|h[Teleport]|h|r",
+						["id"] = 54643,
+						["pinned"] = false,
+						["readyFrame"] = 3,
+						["bCD"] = 20000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Teleport",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 3,
+						["lane"] = 3,
+						["icon"] = 135757,
+						["endTime"] = 610857.1730000001,
+					}, -- [15]
+				},
+				["offensives"] = {
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48470,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48470:0|h[Gift of the Wild]|h|r",
+						["icon"] = 136038,
+						["name"] = "Gift of the Wild",
+					}, -- [1]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 24907,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:24907:0|h[Moonkin Aura]|h|r",
+						["icon"] = 136057,
+						["name"] = "Moonkin Aura",
+					}, -- [2]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 60433,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:60433:0|h[Earth and Moon]|h|r",
+						["icon"] = 236150,
+						["name"] = "Earth and Moon",
+					}, -- [3]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48467,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48467:0|h[Hurricane]|h|r",
+						["icon"] = 136018,
+						["name"] = "Hurricane",
+					}, -- [4]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 770,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:770:0|h[Faerie Fire]|h|r",
+						["icon"] = 136033,
+						["name"] = "Faerie Fire",
+					}, -- [5]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48468,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48468:0|h[Insect Swarm]|h|r",
+						["icon"] = 136045,
+						["name"] = "Insect Swarm",
+					}, -- [6]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48463,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48463:0|h[Moonfire]|h|r",
+						["icon"] = 136096,
+						["name"] = "Moonfire",
+					}, -- [7]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 61391,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:61391:0|h[Typhoon]|h|r",
+						["icon"] = 135860,
+						["name"] = "Typhoon",
+					}, -- [8]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48441,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48441:0|h[Rejuvenation]|h|r",
+						["icon"] = 136081,
+						["name"] = "Rejuvenation",
+					}, -- [9]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48443,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48443:0|h[Regrowth]|h|r",
+						["icon"] = 136085,
+						["name"] = "Regrowth",
+					}, -- [10]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 53307,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:53307:0|h[Thorns]|h|r",
+						["icon"] = 136104,
+						["name"] = "Thorns",
+					}, -- [11]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 49029,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:49029:0|h[Fixated]|h|r",
+						["icon"] = 136224,
+						["name"] = "Fixated",
+					}, -- [12]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 2893,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:2893:0|h[Abolish Poison]|h|r",
+						["icon"] = 136068,
+						["name"] = "Abolish Poison",
+					}, -- [13]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48451,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48451:0|h[Lifebloom]|h|r",
+						["icon"] = 134206,
+						["name"] = "Lifebloom",
+					}, -- [14]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48566,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48566:0|h[Mangle (Cat)]|h|r",
+						["icon"] = 132135,
+						["name"] = "Mangle (Cat)",
+					}, -- [15]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 58181,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:58181:0|h[Infected Wounds]|h|r",
+						["icon"] = 236158,
+						["name"] = "Infected Wounds",
+					}, -- [16]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 49802,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:49802:0|h[Maim]|h|r",
+						["icon"] = 132134,
+						["name"] = "Maim",
+					}, -- [17]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48574,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48574:0|h[Rake]|h|r",
+						["icon"] = 132122,
+						["name"] = "Rake",
+					}, -- [18]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 49800,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:49800:0|h[Rip]|h|r",
+						["icon"] = 132152,
+						["name"] = "Rip",
+					}, -- [19]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 16857,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:16857:0|h[Faerie Fire (Feral)]|h|r",
+						["icon"] = 136033,
+						["name"] = "Faerie Fire (Feral)",
+					}, -- [20]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 50259,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:50259:0|h[Dazed]|h|r",
+						["icon"] = 135860,
+						["name"] = "Dazed",
+					}, -- [21]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 50343,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Wyrmrest Commander",
+						["icon"] = 134153,
+						["link"] = "|cff71d5ff|Hspell:50343:0|h[Wyrmrest Commander]|h|r",
+					}, -- [22]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48125,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Shadow Word: Pain",
+						["icon"] = 136207,
+						["link"] = "|cff71d5ff|Hspell:48125:0|h[Shadow Word: Pain]|h|r",
+					}, -- [23]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 33198,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Misery",
+						["icon"] = 136176,
+						["link"] = "|cff71d5ff|Hspell:33198:0|h[Misery]|h|r",
+					}, -- [24]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48160,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Vampiric Touch",
+						["icon"] = 135978,
+						["link"] = "|cff71d5ff|Hspell:48160:0|h[Vampiric Touch]|h|r",
+					}, -- [25]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48300,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Devouring Plague",
+						["icon"] = 252997,
+						["link"] = "|cff71d5ff|Hspell:48300:0|h[Devouring Plague]|h|r",
+					}, -- [26]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48301,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Mind Trauma",
+						["icon"] = 136224,
+						["link"] = "|cff71d5ff|Hspell:48301:0|h[Mind Trauma]|h|r",
+					}, -- [27]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48156,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Mind Flay",
+						["icon"] = 136208,
+						["link"] = "|cff71d5ff|Hspell:48156:0|h[Mind Flay]|h|r",
+					}, -- [28]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 53023,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Mind Sear",
+						["icon"] = 237565,
+						["link"] = "|cff71d5ff|Hspell:53023:0|h[Mind Sear]|h|r",
+					}, -- [29]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48162,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Prayer of Fortitude",
+						["icon"] = 135941,
+						["link"] = "|cff71d5ff|Hspell:48162:0|h[Prayer of Fortitude]|h|r",
+					}, -- [30]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48170,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Prayer of Shadow Protection",
+						["icon"] = 135945,
+						["link"] = "|cff71d5ff|Hspell:48170:0|h[Prayer of Shadow Protection]|h|r",
+					}, -- [31]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48074,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Prayer of Spirit",
+						["icon"] = 135946,
+						["link"] = "|cff71d5ff|Hspell:48074:0|h[Prayer of Spirit]|h|r",
+					}, -- [32]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 15359,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Inspiration",
+						["icon"] = 134952,
+						["link"] = "|cff71d5ff|Hspell:15359:0|h[Inspiration]|h|r",
+					}, -- [33]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 41635,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Prayer of Mending",
+						["icon"] = 135944,
+						["link"] = "|cff71d5ff|Hspell:41635:0|h[Prayer of Mending]|h|r",
+					}, -- [34]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48068,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Renew",
+						["icon"] = 135953,
+						["link"] = "|cff71d5ff|Hspell:48068:0|h[Renew]|h|r",
+					}, -- [35]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48066,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Power Word: Shield",
+						["icon"] = 135940,
+						["link"] = "|cff71d5ff|Hspell:48066:0|h[Power Word: Shield]|h|r",
+					}, -- [36]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 6788,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Weakened Soul",
+						["icon"] = 135871,
+						["link"] = "|cff71d5ff|Hspell:6788:0|h[Weakened Soul]|h|r",
+					}, -- [37]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 65081,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Body and Soul",
+						["icon"] = 237546,
+						["link"] = "|cff71d5ff|Hspell:65081:0|h[Body and Soul]|h|r",
+					}, -- [38]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 24932,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Leader of the Pack",
+						["icon"] = 136112,
+						["link"] = "|cff71d5ff|Hspell:24932:0|h[Leader of the Pack]|h|r",
+					}, -- [39]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48564,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Mangle (Bear)",
+						["icon"] = 132135,
+						["link"] = "|cff71d5ff|Hspell:48564:0|h[Mangle (Bear)]|h|r",
+					}, -- [40]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48568,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Lacerate",
+						["icon"] = 132131,
+						["link"] = "|cff71d5ff|Hspell:48568:0|h[Lacerate]|h|r",
+					}, -- [41]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48560,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Demoralizing Roar",
+						["icon"] = 132121,
+						["link"] = "|cff71d5ff|Hspell:48560:0|h[Demoralizing Roar]|h|r",
+					}, -- [42]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 45334,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Feral Charge Effect",
+						["icon"] = 132183,
+						["link"] = "|cff71d5ff|Hspell:45334:0|h[Feral Charge Effect]|h|r",
+					}, -- [43]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 6795,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Growl",
+						["icon"] = 132270,
+						["link"] = "|cff71d5ff|Hspell:6795:0|h[Growl]|h|r",
+					}, -- [44]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 8983,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Bash",
+						["icon"] = 132114,
+						["link"] = "|cff71d5ff|Hspell:8983:0|h[Bash]|h|r",
+					}, -- [45]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 54648,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Focus Magic",
+						["icon"] = 135754,
+						["link"] = "|cff71d5ff|Hspell:54648:0|h[Focus Magic]|h|r",
+					}, -- [46]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48469,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Mark of the Wild",
+						["icon"] = 136078,
+						["link"] = "|cff71d5ff|Hspell:48469:0|h[Mark of the Wild]|h|r",
+					}, -- [47]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 33786,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Cyclone",
+						["icon"] = 136022,
+						["link"] = "|cff71d5ff|Hspell:33786:0|h[Cyclone]|h|r",
+					}, -- [48]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 5209,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Challenging Roar",
+						["icon"] = 132117,
+						["link"] = "|cff71d5ff|Hspell:5209:0|h[Challenging Roar]|h|r",
+					}, -- [49]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 29166,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Innervate",
+						["icon"] = 136048,
+						["link"] = "|cff71d5ff|Hspell:29166:0|h[Innervate]|h|r",
+					}, -- [50]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48103,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Spirit",
+						["icon"] = 136126,
+						["link"] = "|cff71d5ff|Hspell:48103:0|h[Spirit]|h|r",
+					}, -- [51]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 53308,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:53308:0|h[Entangling Roots]|h|r",
+						["icon"] = 136100,
+						["name"] = "Entangling Roots",
+					}, -- [52]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 52924,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Arc Lightning",
+						["icon"] = 136099,
+						["link"] = "|cff71d5ff|Hspell:52924:0|h[Arc Lightning]|h|r",
+					}, -- [53]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 49613,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["name"] = "Taunt",
+						["icon"] = 136080,
+						["link"] = "|cff71d5ff|Hspell:49613:0|h[Taunt]|h|r",
+					}, -- [54]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 605,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Mind Control",
+						["icon"] = 136206,
+						["link"] = "|cff71d5ff|Hspell:605:0|h[Mind Control]|h|r",
+					}, -- [55]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 552,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Abolish Disease",
+						["icon"] = 136066,
+						["link"] = "|cff71d5ff|Hspell:552:0|h[Abolish Disease]|h|r",
+					}, -- [56]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 56161,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Glyph of Prayer of Healing",
+						["icon"] = 135943,
+						["link"] = "|cff71d5ff|Hspell:56161:0|h[Glyph of Prayer of Healing]|h|r",
+					}, -- [57]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 64904,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Hymn of Hope",
+						["icon"] = 237548,
+						["link"] = "|cff71d5ff|Hspell:64904:0|h[Hymn of Hope]|h|r",
+					}, -- [58]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 6346,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Fear Ward",
+						["icon"] = 135902,
+						["link"] = "|cff71d5ff|Hspell:6346:0|h[Fear Ward]|h|r",
+					}, -- [59]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 43315,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Vrykul Insult",
+						["icon"] = 135996,
+						["link"] = "|cff71d5ff|Hspell:43315:0|h[Vrykul Insult]|h|r",
+					}, -- [60]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48161,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Power Word: Fortitude",
+						["icon"] = 135987,
+						["link"] = "|cff71d5ff|Hspell:48161:0|h[Power Word: Fortitude]|h|r",
+					}, -- [61]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 10890,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Psychic Scream",
+						["icon"] = 136184,
+						["link"] = "|cff71d5ff|Hspell:10890:0|h[Psychic Scream]|h|r",
+					}, -- [62]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48135,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Holy Fire",
+						["icon"] = 135972,
+						["link"] = "|cff71d5ff|Hspell:48135:0|h[Holy Fire]|h|r",
+					}, -- [63]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 64044,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Psychic Horror",
+						["icon"] = 237568,
+						["link"] = "|cff71d5ff|Hspell:64044:0|h[Psychic Horror]|h|r",
+					}, -- [64]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 10909,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:10909:0|h[Mind Vision]|h|r",
+						["icon"] = 135934,
+						["name"] = "Mind Vision",
+					}, -- [65]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 453,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:453:0|h[Mind Soothe]|h|r",
+						["icon"] = 135933,
+						["name"] = "Mind Soothe",
+					}, -- [66]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48073,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Divine Spirit",
+						["icon"] = 135898,
+						["link"] = "|cff71d5ff|Hspell:48073:0|h[Divine Spirit]|h|r",
+					}, -- [67]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48169,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Shadow Protection",
+						["icon"] = 136121,
+						["link"] = "|cff71d5ff|Hspell:48169:0|h[Shadow Protection]|h|r",
+					}, -- [68]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 34123,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:34123:0|h[Tree of Life]|h|r",
+						["icon"] = 132145,
+						["name"] = "Tree of Life",
+					}, -- [69]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 53251,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:53251:0|h[Wild Growth]|h|r",
+						["icon"] = 236153,
+						["name"] = "Wild Growth",
+					}, -- [70]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 48504,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48504:0|h[Living Seed]|h|r",
+						["icon"] = 236155,
+						["name"] = "Living Seed",
+					}, -- [71]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 1706,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Levitate",
+						["icon"] = 135928,
+						["link"] = "|cff71d5ff|Hspell:1706:0|h[Levitate]|h|r",
+					}, -- [72]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 64844,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Divine Hymn",
+						["icon"] = 237541,
+						["link"] = "|cff71d5ff|Hspell:64844:0|h[Divine Hymn]|h|r",
+					}, -- [73]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 10955,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:10955:0|h[Shackle Undead]|h|r",
+						["icon"] = 136091,
+						["name"] = "Shackle Undead",
+					}, -- [74]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 47753,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Divine Aegis",
+						["icon"] = 237539,
+						["link"] = "|cff71d5ff|Hspell:47753:0|h[Divine Aegis]|h|r",
+					}, -- [75]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 47930,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Grace",
+						["icon"] = 237543,
+						["link"] = "|cff71d5ff|Hspell:47930:0|h[Grace]|h|r",
+					}, -- [76]
+					{
+						["enabled"] = true,
+						["type"] = "offensives",
+						["highlight"] = false,
+						["lane"] = 0,
+						["id"] = 63944,
+						["pinned"] = false,
+						["readyFrame"] = 0,
+						["bCD"] = 0,
+						["barFrame"] = 0,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["name"] = "Renewed Hope",
+						["icon"] = 135923,
+						["link"] = "|cff71d5ff|Hspell:63944:0|h[Renewed Hope]|h|r",
+					}, -- [77]
+				},
+				["icds"] = {
+					{
+						["enabled"] = true,
+						["itemName"] = "Sundial of the Exiled",
+						["highlight"] = false,
+						["lane"] = 1,
+						["trigger"] = "aura",
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 45000,
+						["link"] = "|cffa335ee|Hitem:40682::::::::80:::::::::|h[Sundial of the Exiled]|h|r",
+						["id"] = 60064,
+						["itemID"] = 40682,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-037662D9", -- [2]
+							"Player-4408-037662D9", -- [3]
+							"Player-4408-037662D9", -- [4]
+							"Player-4408-037662D9", -- [5]
+							"Player-4408-037662D9", -- [6]
+							"Player-4408-037662D9", -- [7]
+							"Player-4408-037662D9", -- [8]
+							"Player-4408-037662D9", -- [9]
+							"Player-4408-037662D9", -- [10]
+							"Player-4408-037662D9", -- [11]
+							"Player-4408-037662D9", -- [12]
+							"Player-4408-037662D9", -- [13]
+							"Player-4408-037662D9", -- [14]
+						},
+						["name"] = "Now is the time!",
+						["barFrame"] = 1,
+						["icon"] = 132206,
+						["itemIcon"] = 132206,
+					}, -- [1]
+				},
+				["buffs"] = {
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:24858:0|h[Moonkin Form]|h|r",
+						["id"] = 24858,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Moonkin Form",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136036,
+						["endTime"] = 0,
+					}, -- [1]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48421:0|h[Master Shapeshifter]|h|r",
+						["id"] = 48421,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Master Shapeshifter",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236161,
+						["endTime"] = 0,
+					}, -- [2]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:24907:0|h[Moonkin Aura]|h|r",
+						["id"] = 24907,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Moonkin Aura",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136057,
+						["endTime"] = 0,
+					}, -- [3]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53201:0|h[Starfall]|h|r",
+						["id"] = 53201,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Starfall",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236168,
+						["endTime"] = 849824.882,
+					}, -- [4]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:16886:0|h[Nature's Grace]|h|r",
+						["id"] = 16886,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Nature's Grace",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136062,
+						["endTime"] = 849818.9180000001,
+					}, -- [5]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:44535:0|h[Spirit Heal]|h|r",
+						["id"] = 44535,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Spirit Heal",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135955,
+						["endTime"] = 849902.841,
+					}, -- [6]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:40120:0|h[Swift Flight Form]|h|r",
+						["id"] = 40120,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Swift Flight Form",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132128,
+						["endTime"] = 0,
+					}, -- [7]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48470:0|h[Gift of the Wild]|h|r",
+						["id"] = 48470,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3600000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Gift of the Wild",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136038,
+						["endTime"] = 855327.701,
+					}, -- [8]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:16870:0|h[Clearcasting]|h|r",
+						["id"] = 16870,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["stacks"] = 1,
+						["name"] = "Clearcasting",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136170,
+						["endTime"] = 851742.808,
+					}, -- [9]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:768:0|h[Cat Form]|h|r",
+						["id"] = 768,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Cat Form",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132115,
+						["endTime"] = 0,
+					}, -- [10]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:33357:0|h[Dash]|h|r",
+						["id"] = 33357,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Dash",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132120,
+						["endTime"] = 851786.922,
+					}, -- [11]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60480:0|h[Mark of the War Prisoner]|h|r",
+						["id"] = 60480,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Mark of the War Prisoner",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135444,
+						["endTime"] = 851800.584,
+					}, -- [12]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48518:0|h[Eclipse (Lunar)]|h|r",
+						["id"] = 48518,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Eclipse (Lunar)",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236151,
+						["endTime"] = 851797.512,
+					}, -- [13]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:22812:0|h[Barkskin]|h|r",
+						["id"] = 22812,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 12000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Barkskin",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136097,
+						["endTime"] = 851795.747,
+					}, -- [14]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:29166:0|h[Innervate]|h|r",
+						["id"] = 29166,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Innervate",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136048,
+						["endTime"] = 851892.082,
+					}, -- [15]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48517:0|h[Eclipse (Solar)]|h|r",
+						["id"] = 48517,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Eclipse (Solar)",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236152,
+						["endTime"] = 852342.747,
+					}, -- [16]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:66041:0|h[Drink]|h|r",
+						["id"] = 66041,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Drink",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132805,
+						["endTime"] = 853476.655,
+					}, -- [17]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:65412:0|h[Well Fed]|h|r",
+						["id"] = 65412,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3600000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Well Fed",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136000,
+						["endTime"] = 857056.6630000001,
+					}, -- [18]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48441:0|h[Rejuvenation]|h|r",
+						["id"] = 48441,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 18000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Rejuvenation",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136081,
+						["endTime"] = 854079.072,
+					}, -- [19]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48443:0|h[Regrowth]|h|r",
+						["id"] = 48443,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 27000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Regrowth",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136085,
+						["endTime"] = 854092.591,
+					}, -- [20]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48446:0|h[Tranquility]|h|r",
+						["id"] = 48446,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 7024,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Tranquility",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136107,
+						["endTime"] = 854404.603,
+					}, -- [21]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48469:0|h[Mark of the Wild]|h|r",
+						["id"] = 48469,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Mark of the Wild",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136078,
+						["endTime"] = 856626.719,
+					}, -- [22]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53307:0|h[Thorns]|h|r",
+						["id"] = 53307,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 600000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Thorns",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136104,
+						["endTime"] = 855428.049,
+					}, -- [23]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:5215:0|h[Prowl]|h|r",
+						["id"] = 5215,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 1,
+						["name"] = "Prowl",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132089,
+						["endTime"] = 0,
+					}, -- [24]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:9634:0|h[Dire Bear Form]|h|r",
+						["id"] = 9634,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Dire Bear Form",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132276,
+						["endTime"] = 0,
+					}, -- [25]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:24932:0|h[Leader of the Pack]|h|r",
+						["id"] = 24932,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Leader of the Pack",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136112,
+						["endTime"] = 0,
+					}, -- [26]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:69369:0|h[Predator's Swiftness]|h|r",
+						["id"] = 69369,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 8000,
+						["ignored"] = false,
+						["stacks"] = 1,
+						["name"] = "Predator's Swiftness",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132185,
+						["endTime"] = 857516.975,
+					}, -- [27]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:52610:0|h[Savage Roar]|h|r",
+						["id"] = 52610,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 24000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Savage Roar",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236167,
+						["endTime"] = 857565.909,
+					}, -- [28]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:50213:0|h[Tiger's Fury]|h|r",
+						["id"] = 50213,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Tiger's Fury",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132242,
+						["endTime"] = 857551.883,
+					}, -- [29]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48451:0|h[Lifebloom]|h|r",
+						["id"] = 48451,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 7000,
+						["ignored"] = false,
+						["stacks"] = 1,
+						["name"] = "Lifebloom",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134206,
+						["endTime"] = 858683.605,
+					}, -- [30]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:50343:0|h[Wyrmrest Commander]|h|r",
+						["id"] = 50343,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 900000,
+						["endTime"] = 862125.654,
+						["stacks"] = 0,
+						["name"] = "Wyrmrest Commander",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134153,
+						["ignored"] = true,
+					}, -- [31]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:15271:0|h[Spirit Tap]|h|r",
+						["id"] = 15271,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 861295.14,
+						["stacks"] = 0,
+						["name"] = "Spirit Tap",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136188,
+						["ignored"] = false,
+					}, -- [32]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:44795:0|h[Parachute]|h|r",
+						["id"] = 44795,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Parachute",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135992,
+						["ignored"] = true,
+					}, -- [33]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:15258:0|h[Shadow Weaving]|h|r",
+						["id"] = 15258,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 861324.595,
+						["stacks"] = 1,
+						["name"] = "Shadow Weaving",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136123,
+						["ignored"] = false,
+					}, -- [34]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60486:0|h[Illustration of the Dragon Soul]|h|r",
+						["id"] = 60486,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 861319.595,
+						["stacks"] = 1,
+						["name"] = "Illustration of the Dragon Soul",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134544,
+						["ignored"] = false,
+					}, -- [35]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:15473:0|h[Shadowform]|h|r",
+						["id"] = 15473,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Shadowform",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136200,
+						["ignored"] = true,
+					}, -- [36]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48066:0|h[Power Word: Shield]|h|r",
+						["id"] = 48066,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 30000,
+						["endTime"] = 861342.4,
+						["stacks"] = 0,
+						["name"] = "Power Word: Shield",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135940,
+						["ignored"] = false,
+					}, -- [37]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:41635:0|h[Prayer of Mending]|h|r",
+						["id"] = 41635,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 30000,
+						["endTime"] = 861349.482,
+						["stacks"] = 6,
+						["name"] = "Prayer of Mending",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135944,
+						["ignored"] = false,
+					}, -- [38]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48068:0|h[Renew]|h|r",
+						["id"] = 48068,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 861335.922,
+						["stacks"] = 0,
+						["name"] = "Renew",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135953,
+						["ignored"] = false,
+					}, -- [39]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:7744:0|h[Will of the Forsaken]|h|r",
+						["id"] = 7744,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 100,
+						["endTime"] = 861494.453,
+						["stacks"] = 0,
+						["name"] = "Will of the Forsaken",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136187,
+						["ignored"] = true,
+					}, -- [40]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48168:0|h[Inner Fire]|h|r",
+						["id"] = 48168,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["endTime"] = 863294.715,
+						["stacks"] = 32,
+						["name"] = "Inner Fire",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135926,
+						["ignored"] = true,
+					}, -- [41]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:15286:0|h[Vampiric Embrace]|h|r",
+						["id"] = 15286,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["endTime"] = 863296.042,
+						["stacks"] = 0,
+						["name"] = "Vampiric Embrace",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136230,
+						["ignored"] = true,
+					}, -- [42]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:61792:0|h[Shadowy Insight]|h|r",
+						["id"] = 61792,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 861507.462,
+						["stacks"] = 0,
+						["name"] = "Shadowy Insight",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135736,
+						["ignored"] = false,
+					}, -- [43]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:59000:0|h[Improved Spirit Tap]|h|r",
+						["id"] = 59000,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 8000,
+						["endTime"] = 861508.072,
+						["stacks"] = 0,
+						["name"] = "Improved Spirit Tap",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136188,
+						["ignored"] = false,
+					}, -- [44]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60778:0|h[Serenity]|h|r",
+						["id"] = 60778,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Serenity",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237543,
+						["ignored"] = true,
+					}, -- [45]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53355:0|h[Strength of the Frenzyheart]|h|r",
+						["id"] = 53355,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 600000,
+						["endTime"] = 863274.846,
+						["stacks"] = 0,
+						["name"] = "Strength of the Frenzyheart",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132792,
+						["ignored"] = true,
+					}, -- [46]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:47585:0|h[Dispersion]|h|r",
+						["id"] = 47585,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6000,
+						["endTime"] = 862774.299,
+						["stacks"] = 0,
+						["name"] = "Dispersion",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237563,
+						["ignored"] = false,
+					}, -- [47]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:54861:0|h[Nitro Boosts]|h|r",
+						["id"] = 54861,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 5000,
+						["endTime"] = 863636.713,
+						["stacks"] = 0,
+						["name"] = "Nitro Boosts",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135788,
+						["ignored"] = false,
+					}, -- [48]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:59641:0|h[Warchief's Blessing]|h|r",
+						["id"] = 59641,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Warchief's Blessing",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132485,
+						["ignored"] = true,
+					}, -- [49]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:59892:0|h[Cyclone Fall]|h|r",
+						["id"] = 59892,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Cyclone Fall",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136032,
+						["ignored"] = true,
+					}, -- [50]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48074:0|h[Prayer of Spirit]|h|r",
+						["id"] = 48074,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3600000,
+						["endTime"] = 867721.875,
+						["stacks"] = 0,
+						["name"] = "Prayer of Spirit",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135946,
+						["ignored"] = true,
+					}, -- [51]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48161:0|h[Power Word: Fortitude]|h|r",
+						["id"] = 48161,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["endTime"] = 866000.454,
+						["stacks"] = 0,
+						["name"] = "Power Word: Fortitude",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135987,
+						["ignored"] = true,
+					}, -- [52]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:67016:0|h[Flask of the North]|h|r",
+						["id"] = 67016,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3600000,
+						["endTime"] = 867803.484,
+						["stacks"] = 0,
+						["name"] = "Flask of the North",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236879,
+						["ignored"] = true,
+					}, -- [53]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48162:0|h[Prayer of Fortitude]|h|r",
+						["id"] = 48162,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3600000,
+						["endTime"] = 871886.643,
+						["stacks"] = 0,
+						["name"] = "Prayer of Fortitude",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135941,
+						["ignored"] = true,
+					}, -- [54]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48170:0|h[Prayer of Shadow Protection]|h|r",
+						["id"] = 48170,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["endTime"] = 870106.056,
+						["stacks"] = 0,
+						["name"] = "Prayer of Shadow Protection",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135945,
+						["ignored"] = true,
+					}, -- [55]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:33151:0|h[Surge of Light]|h|r",
+						["id"] = 33151,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 868364.251,
+						["stacks"] = 1,
+						["name"] = "Surge of Light",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135981,
+						["ignored"] = false,
+					}, -- [56]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:59658:0|h[Argent Heroism]|h|r",
+						["id"] = 59658,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 903756.264,
+						["stacks"] = 0,
+						["name"] = "Argent Heroism",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135934,
+						["ignored"] = false,
+					}, -- [57]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:62606:0|h[Savage Defense]|h|r",
+						["id"] = 62606,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 903755.006,
+						["stacks"] = 1,
+						["name"] = "Savage Defense",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132278,
+						["ignored"] = false,
+					}, -- [58]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:52021:0|h[Snap and Snarl]|h|r",
+						["id"] = 52021,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 903767.785,
+						["stacks"] = 0,
+						["name"] = "Snap and Snarl",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135879,
+						["ignored"] = false,
+					}, -- [59]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:50334:0|h[Berserk]|h|r",
+						["id"] = 50334,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 903793.012,
+						["stacks"] = 0,
+						["name"] = "Berserk",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236149,
+						["ignored"] = false,
+					}, -- [60]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:5229:0|h[Enrage]|h|r",
+						["id"] = 5229,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 903865.811,
+						["stacks"] = 0,
+						["name"] = "Enrage",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132126,
+						["ignored"] = false,
+					}, -- [61]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:61336:0|h[Survival Instincts]|h|r",
+						["id"] = 61336,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["endTime"] = 904062.335,
+						["stacks"] = 0,
+						["name"] = "Survival Instincts",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236169,
+						["ignored"] = false,
+					}, -- [62]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:55503:0|h[Lifeblood]|h|r",
+						["id"] = 55503,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 5000,
+						["endTime"] = 904047.335,
+						["stacks"] = 0,
+						["name"] = "Lifeblood",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237556,
+						["ignored"] = false,
+					}, -- [63]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:1066:0|h[Aquatic Form]|h|r",
+						["id"] = 1066,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Aquatic Form",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132112,
+						["ignored"] = true,
+					}, -- [64]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:2893:0|h[Abolish Poison]|h|r",
+						["id"] = 2893,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 12000,
+						["endTime"] = 907644.063,
+						["stacks"] = 0,
+						["name"] = "Abolish Poison",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136068,
+						["ignored"] = false,
+					}, -- [65]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60218:0|h[Essence of Gossamer]|h|r",
+						["id"] = 60218,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 941828.6950000001,
+						["stacks"] = 0,
+						["name"] = "Essence of Gossamer",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135893,
+						["ignored"] = false,
+					}, -- [66]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:58045:0|h[Essence of Wintergrasp]|h|r",
+						["id"] = 58045,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Essence of Wintergrasp",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237021,
+						["ignored"] = true,
+					}, -- [67]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:33280:0|h[Corporal]|h|r",
+						["id"] = 33280,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 1,
+						["name"] = "Corporal",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236320,
+						["endTime"] = 0,
+					}, -- [68]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:55629:0|h[First Lieutenant]|h|r",
+						["id"] = 55629,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "First Lieutenant",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236321,
+						["endTime"] = 0,
+					}, -- [69]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53755:0|h[Flask of the Frost Wyrm]|h|r",
+						["id"] = 53755,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 3600000,
+						["endTime"] = 99667.88100000001,
+						["stacks"] = 0,
+						["name"] = "Flask of the Frost Wyrm",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236878,
+						["ignored"] = true,
+					}, -- [70]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53909:0|h[Wild Magic]|h|r",
+						["id"] = 53909,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 96242.02500000001,
+						["stacks"] = 0,
+						["name"] = "Wild Magic",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236868,
+						["ignored"] = false,
+					}, -- [71]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53908:0|h[Speed]|h|r",
+						["id"] = 53908,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 97233.22,
+						["stacks"] = 0,
+						["name"] = "Speed",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236871,
+						["ignored"] = false,
+					}, -- [72]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48103:0|h[Spirit]|h|r",
+						["id"] = 48103,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["endTime"] = 99622.118,
+						["stacks"] = 0,
+						["name"] = "Spirit",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136126,
+						["ignored"] = true,
+					}, -- [73]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60064:0|h[Now is the time!]|h|r",
+						["id"] = 60064,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Now is the time!",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132206,
+						["endTime"] = 146063.566,
+					}, -- [74]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60286:0|h[Defender's Code]|h|r",
+						["id"] = 60286,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Defender's Code",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132285,
+						["endTime"] = 156985.181,
+					}, -- [75]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:49609:0|h[Bone Armor]|h|r",
+						["id"] = 49609,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 162877.574,
+						["stacks"] = 0,
+						["name"] = "Bone Armor",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136225,
+						["ignored"] = false,
+					}, -- [76]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:605:0|h[Mind Control]|h|r",
+						["id"] = 605,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 60000,
+						["endTime"] = 182876.245,
+						["stacks"] = 0,
+						["name"] = "Mind Control",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136206,
+						["ignored"] = false,
+					}, -- [77]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:1706:0|h[Levitate]|h|r",
+						["id"] = 1706,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 120000,
+						["endTime"] = 183380.964,
+						["stacks"] = 0,
+						["name"] = "Levitate",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135928,
+						["ignored"] = false,
+					}, -- [78]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:63734:0|h[Serendipity]|h|r",
+						["id"] = 63734,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["endTime"] = 184266.317,
+						["stacks"] = 1,
+						["name"] = "Serendipity",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237549,
+						["ignored"] = false,
+					}, -- [79]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:15359:0|h[Inspiration]|h|r",
+						["id"] = 15359,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 184280.605,
+						["stacks"] = 0,
+						["name"] = "Inspiration",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134952,
+						["ignored"] = false,
+					}, -- [80]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:552:0|h[Abolish Disease]|h|r",
+						["id"] = 552,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 12000,
+						["endTime"] = 184310.521,
+						["stacks"] = 0,
+						["name"] = "Abolish Disease",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136066,
+						["ignored"] = false,
+					}, -- [81]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:64134:0|h[Body and Soul]|h|r",
+						["id"] = 64134,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Body and Soul",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135982,
+						["ignored"] = true,
+					}, -- [82]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:56161:0|h[Glyph of Prayer of Healing]|h|r",
+						["id"] = 56161,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6000,
+						["endTime"] = 184312.503,
+						["stacks"] = 0,
+						["name"] = "Glyph of Prayer of Healing",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135943,
+						["ignored"] = false,
+					}, -- [83]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:64901:0|h[Hymn of Hope]|h|r",
+						["id"] = 64901,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6419.000000000001,
+						["endTime"] = 184568.437,
+						["stacks"] = 0,
+						["name"] = "Hymn of Hope",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135982,
+						["ignored"] = false,
+					}, -- [84]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:586:0|h[Fade]|h|r",
+						["id"] = 586,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 184706.572,
+						["stacks"] = 0,
+						["name"] = "Fade",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135994,
+						["ignored"] = false,
+					}, -- [85]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:14751:0|h[Inner Focus]|h|r",
+						["id"] = 14751,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 1,
+						["name"] = "Inner Focus",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135863,
+						["ignored"] = true,
+					}, -- [86]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48073:0|h[Divine Spirit]|h|r",
+						["id"] = 48073,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["endTime"] = 193205.67,
+						["stacks"] = 0,
+						["name"] = "Divine Spirit",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135898,
+						["ignored"] = true,
+					}, -- [87]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:64843:0|h[Divine Hymn]|h|r",
+						["id"] = 64843,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 7008,
+						["endTime"] = 234219.375,
+						["stacks"] = 0,
+						["name"] = "Divine Hymn",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237540,
+						["ignored"] = false,
+					}, -- [88]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:35482:0|h[Human Illusion]|h|r",
+						["id"] = 35482,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Human Illusion",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132483,
+						["endTime"] = 0,
+					}, -- [89]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:58448:0|h[Strength]|h|r",
+						["id"] = 58448,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1800000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Strength",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136101,
+						["endTime"] = 236716.819,
+					}, -- [90]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:28093:0|h[Lightning Speed]|h|r",
+						["id"] = 28093,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Lightning Speed",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136111,
+						["endTime"] = 234958.403,
+					}, -- [91]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:6346:0|h[Fear Ward]|h|r",
+						["id"] = 6346,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 180000,
+						["endTime"] = 245913.42,
+						["stacks"] = 1,
+						["name"] = "Fear Ward",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135902,
+						["ignored"] = true,
+					}, -- [92]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:43351:0|h[Cleansing Soul]|h|r",
+						["id"] = 43351,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 248428.536,
+						["stacks"] = 0,
+						["name"] = "Cleansing Soul",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135737,
+						["ignored"] = false,
+					}, -- [93]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:43051:0|h[Spyglass]|h|r",
+						["id"] = 43051,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 30000,
+						["endTime"] = 249725.64,
+						["stacks"] = 0,
+						["name"] = "Spyglass",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134441,
+						["ignored"] = false,
+					}, -- [94]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60299:0|h[Incisor Fragment]|h|r",
+						["id"] = 60299,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["endTime"] = 373814.958,
+						["stacks"] = 1,
+						["name"] = "Incisor Fragment",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132358,
+						["ignored"] = false,
+					}, -- [95]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:51955:0|h[Dire Drunkard]|h|r",
+						["id"] = 51955,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["endTime"] = 373947.558,
+						["stacks"] = 0,
+						["name"] = "Dire Drunkard",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132790,
+						["ignored"] = false,
+					}, -- [96]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:40729:0|h[Heightened Reflexes]|h|r",
+						["id"] = 40729,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["endTime"] = 373998.618,
+						["stacks"] = 0,
+						["name"] = "Heightened Reflexes",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132301,
+						["ignored"] = false,
+					}, -- [97]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:22842:0|h[Frenzied Regeneration]|h|r",
+						["id"] = 22842,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 10000,
+						["endTime"] = 375588.657,
+						["stacks"] = 0,
+						["name"] = "Frenzied Regeneration",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132091,
+						["ignored"] = false,
+					}, -- [98]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:783:0|h[Travel Form]|h|r",
+						["id"] = 783,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 0,
+						["name"] = "Travel Form",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132144,
+						["ignored"] = true,
+					}, -- [99]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:33891:0|h[Tree of Life]|h|r",
+						["id"] = 33891,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Tree of Life",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132145,
+						["endTime"] = 0,
+					}, -- [100]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:51954:0|h[Hopped Up]|h|r",
+						["id"] = 51954,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Hopped Up",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134188,
+						["endTime"] = 594122.634,
+					}, -- [101]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53251:0|h[Wild Growth]|h|r",
+						["id"] = 53251,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 7000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Wild Growth",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236153,
+						["endTime"] = 594126.677,
+					}, -- [102]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:27827:0|h[Spirit of Redemption]|h|r",
+						["id"] = 27827,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 597914.262,
+						["stacks"] = 0,
+						["name"] = "Spirit of Redemption",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135913,
+						["ignored"] = false,
+					}, -- [103]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:60514:0|h[Healing Trance]|h|r",
+						["id"] = 60514,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["stacks"] = 1,
+						["name"] = "Healing Trance",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136060,
+						["endTime"] = 615876.527,
+					}, -- [104]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:47883:0|h[Soulstone Resurrection]|h|r",
+						["id"] = 47883,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 900000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Soulstone Resurrection",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136210,
+						["endTime"] = 623108.594,
+					}, -- [105]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48504:0|h[Living Seed]|h|r",
+						["id"] = 48504,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 663786.9990000001,
+						["stacks"] = 1,
+						["name"] = "Living Seed",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 236155,
+						["ignored"] = false,
+					}, -- [106]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:57350:0|h[Illusionary Barrier]|h|r",
+						["id"] = 57350,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Illusionary Barrier",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237167,
+						["endTime"] = 667837.622,
+					}, -- [107]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:17116:0|h[Nature's Swiftness]|h|r",
+						["id"] = 17116,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 0,
+						["endTime"] = 0,
+						["stacks"] = 1,
+						["name"] = "Nature's Swiftness",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136076,
+						["ignored"] = true,
+					}, -- [108]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:48169:0|h[Shadow Protection]|h|r",
+						["id"] = 48169,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 1200000,
+						["ignored"] = true,
+						["stacks"] = 0,
+						["name"] = "Shadow Protection",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 136121,
+						["endTime"] = 843580.649,
+					}, -- [109]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:54758:0|h[Hyperspeed Acceleration]|h|r",
+						["id"] = 54758,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 12000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Hyperspeed Acceleration",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237576,
+						["endTime"] = 842662.65,
+					}, -- [110]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:32612:0|h[Invisibility]|h|r",
+						["id"] = 32612,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 20000,
+						["ignored"] = false,
+						["stacks"] = 0,
+						["name"] = "Invisibility",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 132220,
+						["endTime"] = 924942.063,
+					}, -- [111]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:47930:0|h[Grace]|h|r",
+						["id"] = 47930,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 15000,
+						["endTime"] = 961562.791,
+						["stacks"] = 1,
+						["name"] = "Grace",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237543,
+						["ignored"] = false,
+					}, -- [112]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:59891:0|h[Borrowed Time]|h|r",
+						["id"] = 59891,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 6000,
+						["endTime"] = 962069.203,
+						["stacks"] = 1,
+						["name"] = "Borrowed Time",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237538,
+						["ignored"] = false,
+					}, -- [113]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:63944:0|h[Renewed Hope]|h|r",
+						["id"] = 63944,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 60000,
+						["endTime"] = 962123.203,
+						["stacks"] = 0,
+						["name"] = "Renewed Hope",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135923,
+						["ignored"] = false,
+					}, -- [114]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:47753:0|h[Divine Aegis]|h|r",
+						["id"] = 47753,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 12000,
+						["endTime"] = 962607.846,
+						["stacks"] = 0,
+						["name"] = "Divine Aegis",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 237539,
+						["ignored"] = false,
+					}, -- [115]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:45242:0|h[Focused Will]|h|r",
+						["id"] = 45242,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 8000,
+						["endTime"] = 760.716,
+						["stacks"] = 1,
+						["name"] = "Focused Will",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 135737,
+						["ignored"] = false,
+					}, -- [116]
+					{
+						["enabled"] = true,
+						["type"] = "buffs",
+						["highlight"] = false,
+						["link"] = "|cff71d5ff|Hspell:53371:0|h[Power of the Great Ones]|h|r",
+						["id"] = 53371,
+						["pinned"] = false,
+						["readyFrame"] = 2,
+						["bCD"] = 600000,
+						["endTime"] = 1679.244,
+						["stacks"] = 0,
+						["name"] = "Power of the Great Ones",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["barFrame"] = 2,
+						["lane"] = 2,
+						["icon"] = 134125,
+						["ignored"] = true,
+					}, -- [117]
+				},
+				["spells"] = {
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53201,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 90000,
+						["ignored"] = false,
+						["name"] = "Starfall",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:53201:0|h[Starfall]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 236168,
+						["rank"] = "4",
+					}, -- [1]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 50516,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 20000,
+						["ignored"] = false,
+						["name"] = "Typhoon",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:50516:0|h[Typhoon]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 236170,
+						["rank"] = "1",
+					}, -- [2]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 20549,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["race"] = "Tauren",
+						["name"] = "War Stomp",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:20549:0|h[War Stomp]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132368,
+						["rank"] = "",
+					}, -- [3]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 33357,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Dash",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:33357:0|h[Dash]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132120,
+						["rank"] = "3",
+					}, -- [4]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 22812,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["name"] = "Barkskin",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:22812:0|h[Barkskin]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136097,
+						["rank"] = "",
+					}, -- [5]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 29166,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Innervate",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:29166:0|h[Innervate]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136048,
+						["rank"] = "",
+					}, -- [6]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 33831,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Force of Nature",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:33831:0|h[Force of Nature]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132129,
+						["rank"] = "",
+					}, -- [7]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48446,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 480000,
+						["ignored"] = false,
+						["name"] = "Tranquility",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48446:0|h[Tranquility]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136107,
+						["rank"] = "6",
+					}, -- [8]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 5215,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["link"] = "|cff71d5ff|Hspell:5215:0|h[Prowl]|h|r",
+						["name"] = "Prowl",
+						["oaf"] = true,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["barFrame"] = 1,
+						["icon"] = 132089,
+						["rank"] = "",
+					}, -- [9]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49802,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["name"] = "Maim",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:49802:0|h[Maim]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132134,
+						["rank"] = "2",
+					}, -- [10]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 50213,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["name"] = "Tiger's Fury",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:50213:0|h[Tiger's Fury]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132242,
+						["rank"] = "6",
+					}, -- [11]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 16857,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["name"] = "Faerie Fire (Feral)",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:16857:0|h[Faerie Fire (Feral)]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136033,
+						["rank"] = "",
+					}, -- [12]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 49376,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["name"] = "Feral Charge - Cat",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:49376:0|h[Feral Charge - Cat]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 304501,
+						["rank"] = "",
+					}, -- [13]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 8122,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["name"] = "Psychic Scream",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:8122:0|h[Psychic Scream]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136184,
+						["rank"] = "1",
+					}, -- [14]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 15473,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 1500,
+						["ignored"] = true,
+						["link"] = "|cff71d5ff|Hspell:15473:0|h[Shadowform]|h|r",
+						["name"] = "Shadowform",
+						["oaf"] = true,
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["icon"] = 136200,
+						["rank"] = "",
+					}, -- [15]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48066,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 4000,
+						["ignored"] = false,
+						["name"] = "Power Word: Shield",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48066:0|h[Power Word: Shield]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135940,
+						["rank"] = "14",
+					}, -- [16]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48113,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["name"] = "Prayer of Mending",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48113:0|h[Prayer of Mending]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135944,
+						["rank"] = "3",
+					}, -- [17]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 7744,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["race"] = "Undead",
+						["name"] = "Will of the Forsaken",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:7744:0|h[Will of the Forsaken]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136187,
+						["rank"] = "",
+					}, -- [18]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48127,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 8000,
+						["ignored"] = false,
+						["name"] = "Mind Blast",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48127:0|h[Mind Blast]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136224,
+						["rank"] = "13",
+					}, -- [19]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48158,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 12000,
+						["ignored"] = false,
+						["name"] = "Shadow Word: Death",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48158:0|h[Shadow Word: Death]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136149,
+						["rank"] = "4",
+					}, -- [20]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 47585,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["name"] = "Dispersion",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:47585:0|h[Dispersion]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 237563,
+						["rank"] = "",
+					}, -- [21]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48089,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["name"] = "Circle of Healing",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48089:0|h[Circle of Healing]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135887,
+						["rank"] = "7",
+					}, -- [22]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48564,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["name"] = "Mangle (Bear)",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48564:0|h[Mangle (Bear)]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132135,
+						["rank"] = "5",
+					}, -- [23]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 50334,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Berserk",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:50334:0|h[Berserk]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 236149,
+						["rank"] = "",
+					}, -- [24]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 5229,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["name"] = "Enrage",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:5229:0|h[Enrage]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132126,
+						["rank"] = "",
+					}, -- [25]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 16979,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["name"] = "Feral Charge - Bear",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:16979:0|h[Feral Charge - Bear]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132183,
+						["rank"] = "",
+					}, -- [26]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 6795,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 8000,
+						["ignored"] = false,
+						["name"] = "Growl",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:6795:0|h[Growl]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132270,
+						["rank"] = "",
+					}, -- [27]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 61336,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Survival Instincts",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:61336:0|h[Survival Instincts]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 236169,
+						["rank"] = "",
+					}, -- [28]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 55503,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Lifeblood",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:55503:0|h[Lifeblood]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 237556,
+						["rank"] = "6",
+					}, -- [29]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 8983,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 60000,
+						["ignored"] = false,
+						["name"] = "Bash",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:8983:0|h[Bash]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132114,
+						["rank"] = "3",
+					}, -- [30]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 5209,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Challenging Roar",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:5209:0|h[Challenging Roar]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132117,
+						["rank"] = "",
+					}, -- [31]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48477,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 600000,
+						["ignored"] = false,
+						["name"] = "Rebirth",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48477:0|h[Rebirth]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136080,
+						["rank"] = "7",
+					}, -- [32]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 818,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 300000,
+						["ignored"] = false,
+						["name"] = "Basic Campfire",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+							"Player-4408-0377B17B", -- [2]
+						},
+						["link"] = "|cff71d5ff|Hspell:818:0|h[Basic Campfire]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135805,
+						["rank"] = "",
+					}, -- [33]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 34433,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 300000,
+						["ignored"] = false,
+						["name"] = "Shadowfiend",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:34433:0|h[Shadowfiend]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 136199,
+						["rank"] = "",
+					}, -- [34]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 64901,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 360000,
+						["ignored"] = false,
+						["name"] = "Hymn of Hope",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:64901:0|h[Hymn of Hope]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135982,
+						["rank"] = "",
+					}, -- [35]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 586,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 30000,
+						["ignored"] = false,
+						["name"] = "Fade",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:586:0|h[Fade]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135994,
+						["rank"] = "",
+					}, -- [36]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 6346,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Fear Ward",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:6346:0|h[Fear Ward]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135902,
+						["rank"] = "",
+					}, -- [37]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 14751,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["link"] = "|cff71d5ff|Hspell:14751:0|h[Inner Focus]|h|r",
+						["name"] = "Inner Focus",
+						["oaf"] = true,
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["icon"] = 135863,
+						["rank"] = "",
+					}, -- [38]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48173,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["name"] = "Desperate Prayer",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48173:0|h[Desperate Prayer]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135954,
+						["rank"] = "9",
+					}, -- [39]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 48135,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 10000,
+						["ignored"] = false,
+						["name"] = "Holy Fire",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:48135:0|h[Holy Fire]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 135972,
+						["rank"] = "11",
+					}, -- [40]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 64044,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 120000,
+						["ignored"] = false,
+						["name"] = "Psychic Horror",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:64044:0|h[Psychic Horror]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 237568,
+						["rank"] = "",
+					}, -- [41]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 64843,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 480000,
+						["ignored"] = false,
+						["name"] = "Divine Hymn",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:64843:0|h[Divine Hymn]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 237540,
+						["rank"] = "1",
+					}, -- [42]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 22842,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["name"] = "Frenzied Regeneration",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:22842:0|h[Frenzied Regeneration]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 132091,
+						["rank"] = "",
+					}, -- [43]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53251,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 6000,
+						["ignored"] = false,
+						["name"] = "Wild Growth",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:53251:0|h[Wild Growth]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 236153,
+						["rank"] = "4",
+					}, -- [44]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 18562,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 15000,
+						["ignored"] = false,
+						["name"] = "Swiftmend",
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:18562:0|h[Swiftmend]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 134914,
+						["rank"] = "",
+					}, -- [45]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 17116,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 180000,
+						["ignored"] = false,
+						["link"] = "|cff71d5ff|Hspell:17116:0|h[Nature's Swiftness]|h|r",
+						["name"] = "Nature's Swiftness",
+						["oaf"] = true,
+						["barFrame"] = 1,
+						["usedBy"] = {
+							"Player-4408-037662D9", -- [1]
+						},
+						["icon"] = 136076,
+						["rank"] = "",
+					}, -- [46]
+					{
+						["enabled"] = true,
+						["highlight"] = false,
+						["lane"] = 1,
+						["id"] = 53007,
+						["pinned"] = false,
+						["readyFrame"] = 1,
+						["bCD"] = 12000,
+						["ignored"] = false,
+						["name"] = "Penance",
+						["usedBy"] = {
+							"Player-4408-0377B17B", -- [1]
+						},
+						["link"] = "|cff71d5ff|Hspell:53007:0|h[Penance]|h|r",
+						["barFrame"] = 1,
+						["icon"] = 237545,
+						["rank"] = "4",
+					}, -- [47]
+				},
+			},
+			["ready"] = {
+				["ready1"] = {
+					["grow"] = "UP",
+					["icons"] = {
+						["text1"] = {
+							["text"] = "[cd.name]",
+						},
+					},
+				},
+				["ready2"] = {
+					["grow"] = "UP",
+					["icons"] = {
+						["text2"] = {
+							["text"] = "DONE",
+						},
+						["text1"] = {
+							["text"] = "[cd.name]",
+						},
+					},
+				},
+			},
+		},
+	},
+}

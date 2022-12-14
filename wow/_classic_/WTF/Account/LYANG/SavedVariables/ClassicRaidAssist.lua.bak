@@ -1,0 +1,3443 @@
+
+ClassicRaidAssistDB = {
+	["char"] = {
+		["Santorini - Blaumeux"] = {
+			["CurrentRaidItemCheck"] = "Onyxia Scale Cloak",
+			["worldBuffsToCheckFor"] = {
+				["Rallying Cry of the Dragonslayer"] = true,
+			},
+			["readyCheckOutput"] = true,
+			["currentTab"] = "worldBuffs",
+			["raidItemsContainer"] = {
+				["parent"] = {
+					["type"] = "Frame",
+					["statustext"] = {
+					},
+					["content"] = {
+						["height"] = 433,
+						["width"] = 425.999908447266,
+					},
+					["children"] = {
+					},
+					["frame"] = {
+						["height"] = 500,
+						["width"] = 460,
+					},
+					["sizer_se"] = {
+					},
+					["sizer_e"] = {
+					},
+					["sizer_s"] = {
+					},
+					["events"] = {
+					},
+					["userdata"] = {
+					},
+					["titlebg"] = {
+					},
+					["titletext"] = {
+					},
+					["localstatus"] = {
+						["height"] = 500.000030517578,
+						["top"] = 860.031616210938,
+						["left"] = 1126.69909667969,
+						["width"] = 459.999847412109,
+					},
+					["base"] = {
+					},
+					["AceGUIWidgetVersion"] = 26,
+				},
+				["border"] = {
+				},
+				["alignoffset"] = 18,
+				["userdata"] = {
+				},
+				["borderoffset"] = 50,
+				["tablist"] = {
+					{
+						["value"] = "raidBuffs",
+						["text"] = "Raid Buffs",
+					}, -- [1]
+					{
+						["value"] = "worldBuffs",
+						["text"] = "World Buffs",
+					}, -- [2]
+					{
+						["value"] = "raidItems",
+						["text"] = "Raid Items",
+					}, -- [3]
+					{
+						["value"] = "consumables",
+						["text"] = "Consumables",
+					}, -- [4]
+					{
+						["value"] = "settings",
+						["text"] = "Settings",
+					}, -- [5]
+				},
+				["AceGUIWidgetVersion"] = 36,
+				["num"] = 1,
+				["titletext"] = {
+				},
+				["children"] = {
+					{
+						["type"] = "SimpleGroup",
+						["AceGUIWidgetVersion"] = 20,
+						["width"] = "fill",
+						["userdata"] = {
+						},
+						["events"] = {
+						},
+						["children"] = {
+							{
+								["type"] = "Label",
+								["AceGUIWidgetVersion"] = 27,
+								["label"] = {
+								},
+								["characterName"] = "Pumps",
+								["image"] = {
+								},
+								["userdata"] = {
+								},
+								["frame"] = {
+									["height"] = 10.158730506897,
+									["width"] = 200,
+								},
+								["base"] = {
+								},
+								["events"] = {
+								},
+							}, -- [1]
+							{
+								["button_cover"] = {
+								},
+								["label"] = {
+								},
+								["pullout"] = {
+									["type"] = "Dropdown-Pullout",
+									["AceGUIWidgetVersion"] = 4,
+									["itemFrame"] = {
+									},
+									["scrollStatus"] = {
+										["offset"] = 0,
+										["scrollvalue"] = 0,
+									},
+									["slider"] = {
+									},
+									["maxHeight"] = 600,
+									["count"] = 4,
+									["userdata"] = {
+									},
+									["events"] = {
+									},
+									["items"] = {
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "Aqual Quintessence",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [1]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["highlight"] = {
+											},
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["disabled"] = false,
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "Drakefire Amulet",
+											},
+											["check"] = {
+											},
+											["useHighlight"] = true,
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [2]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "Hourglass Sand",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [3]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "Onyxia Scale Cloak",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [4]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "Seal of Ascension",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [5]
+									},
+									["frame"] = {
+									},
+									["base"] = {
+									},
+									["scrollFrame"] = {
+									},
+								},
+								["alignoffset"] = 12,
+								["userdata"] = {
+								},
+								["list"] = {
+									["Hourglass Sand"] = "Hourglass Sand",
+									["Drakefire Amulet"] = "Drakefire Amulet",
+									["Aqual Quintessence"] = "Aqual/Eternal Quintessence",
+									["Onyxia Scale Cloak"] = "Onyxia Scale Cloak",
+									["Seal of Ascension"] = "Seal of Ascension",
+								},
+								["button"] = {
+									["NormalTexture"] = {
+									},
+									["PushedTexture"] = {
+									},
+									["DisabledTexture"] = {
+									},
+									["HighlightTexture"] = {
+									},
+								},
+								["base"] = {
+								},
+								["multiselect"] = false,
+								["type"] = "Dropdown",
+								["AceGUIWidgetVersion"] = 35,
+								["text"] = {
+								},
+								["dropdown"] = {
+									["Right"] = {
+									},
+									["Icon"] = {
+									},
+									["Button"] = {
+										["NormalTexture"] = {
+										},
+										["PushedTexture"] = {
+										},
+										["DisabledTexture"] = {
+										},
+										["HighlightTexture"] = {
+										},
+									},
+									["Text"] = {
+									},
+									["Left"] = {
+									},
+									["Middle"] = {
+									},
+								},
+								["count"] = 3,
+								["value"] = "Onyxia Scale Cloak",
+								["frame"] = {
+									["height"] = 26,
+									["width"] = 200,
+								},
+								["events"] = {
+								},
+								["disabled"] = false,
+							}, -- [2]
+						},
+						["frame"] = {
+							["height"] = 28,
+							["width"] = 403.999938964844,
+						},
+						["base"] = {
+						},
+						["content"] = {
+							["height"] = 28,
+							["width"] = 403.999938964844,
+						},
+					}, -- [1]
+					{
+						["type"] = "SimpleGroup",
+						["AceGUIWidgetVersion"] = 20,
+						["width"] = "fill",
+						["userdata"] = {
+						},
+						["events"] = {
+						},
+						["children"] = {
+							{
+								["type"] = "Button",
+								["AceGUIWidgetVersion"] = 24,
+								["text"] = {
+								},
+								["autoWidth"] = false,
+								["disabled"] = false,
+								["events"] = {
+								},
+								["frame"] = {
+									["Text"] = {
+									},
+									["Left"] = {
+									},
+									["height"] = 24,
+									["Right"] = {
+									},
+									["Middle"] = {
+									},
+									["width"] = 200,
+								},
+								["base"] = {
+								},
+								["userdata"] = {
+								},
+							}, -- [1]
+							{
+								["type"] = "Button",
+								["AceGUIWidgetVersion"] = 24,
+								["text"] = {
+								},
+								["autoWidth"] = false,
+								["disabled"] = false,
+								["events"] = {
+								},
+								["frame"] = {
+									["Text"] = {
+									},
+									["Left"] = {
+									},
+									["height"] = 24,
+									["Right"] = {
+									},
+									["Middle"] = {
+									},
+									["width"] = 100,
+								},
+								["base"] = {
+								},
+								["userdata"] = {
+								},
+							}, -- [2]
+							{
+								["button_cover"] = {
+								},
+								["label"] = {
+								},
+								["pullout"] = {
+									["type"] = "Dropdown-Pullout",
+									["AceGUIWidgetVersion"] = 4,
+									["itemFrame"] = {
+									},
+									["scrollStatus"] = {
+										["offset"] = 0,
+										["scrollvalue"] = 0,
+									},
+									["slider"] = {
+									},
+									["maxHeight"] = 600,
+									["count"] = 5,
+									["userdata"] = {
+									},
+									["events"] = {
+									},
+									["items"] = {
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = 6,
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [1]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "GUILD",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [2]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "INSTANCE_CHAT",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [3]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "OFFICER",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [4]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "PARTY",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [5]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "RAID",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [6]
+										{
+											["sub"] = {
+											},
+											["type"] = "Dropdown-Item-Toggle",
+											["disabled"] = false,
+											["parent"] = {
+											},
+											["text"] = {
+											},
+											["highlight"] = {
+											},
+											["events"] = {
+											},
+											["userdata"] = {
+												["value"] = "SAY",
+											},
+											["useHighlight"] = true,
+											["check"] = {
+											},
+											["frame"] = {
+											},
+											["base"] = {
+											},
+											["AceGUIWidgetVersion"] = 1004,
+										}, -- [7]
+									},
+									["frame"] = {
+									},
+									["base"] = {
+									},
+									["scrollFrame"] = {
+									},
+								},
+								["alignoffset"] = 12,
+								["userdata"] = {
+								},
+								["list"] = {
+									[6] = "ExtremeHeal",
+									["RAID"] = "Raid",
+									["GUILD"] = "Guild",
+									["INSTANCE_CHAT"] = "BG",
+									["SAY"] = "Say",
+									["OFFICER"] = "Officer",
+									["PARTY"] = "Party",
+								},
+								["button"] = {
+									["NormalTexture"] = {
+									},
+									["PushedTexture"] = {
+									},
+									["DisabledTexture"] = {
+									},
+									["HighlightTexture"] = {
+									},
+								},
+								["base"] = {
+								},
+								["multiselect"] = false,
+								["type"] = "Dropdown",
+								["AceGUIWidgetVersion"] = 35,
+								["text"] = {
+								},
+								["dropdown"] = {
+									["Right"] = {
+									},
+									["Icon"] = {
+									},
+									["Button"] = {
+										["NormalTexture"] = {
+										},
+										["PushedTexture"] = {
+										},
+										["DisabledTexture"] = {
+										},
+										["HighlightTexture"] = {
+										},
+									},
+									["Text"] = {
+									},
+									["Left"] = {
+									},
+									["Middle"] = {
+									},
+								},
+								["count"] = 4,
+								["value"] = "RAID",
+								["frame"] = {
+									["height"] = 26,
+									["width"] = 100,
+								},
+								["events"] = {
+								},
+								["disabled"] = false,
+							}, -- [3]
+						},
+						["frame"] = {
+							["height"] = 28,
+							["width"] = 403.999938964844,
+						},
+						["base"] = {
+						},
+						["content"] = {
+							["height"] = 28,
+							["width"] = 403.999938964844,
+						},
+					}, -- [2]
+					{
+						["type"] = "SimpleGroup",
+						["AceGUIWidgetVersion"] = 20,
+						["width"] = "fill",
+						["userdata"] = {
+						},
+						["events"] = {
+						},
+						["children"] = {
+							{
+								["type"] = "ScrollFrame",
+								["AceGUIWidgetVersion"] = 26,
+								["base"] = {
+								},
+								["content"] = {
+									["height"] = 558,
+									["original_width"] = 403.999938964844,
+									["width"] = 383.999969482422,
+								},
+								["frame"] = {
+									["height"] = 315,
+									["width"] = 403.999938964844,
+								},
+								["events"] = {
+								},
+								["userdata"] = {
+								},
+								["localstatus"] = {
+									["offset"] = 134,
+									["scrollvalue"] = 555,
+								},
+								["children"] = {
+									{
+										["type"] = "SimpleGroup",
+										["AceGUIWidgetVersion"] = 20,
+										["width"] = "fill",
+										["userdata"] = {
+										},
+										["events"] = {
+										},
+										["children"] = {
+											{
+												["events"] = {
+												},
+												["type"] = "SimpleGroup",
+												["AceGUIWidgetVersion"] = 20,
+												["children"] = {
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Bones",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Kangbuzhu",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Xelyk",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Abuffwarrior",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Snakefarm",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [1]
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Dreap",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Hahawhat",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Knerd",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Makabed",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Pumps",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [2]
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Sullivan",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Skurt",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Rylen",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Playpen",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Drinkndawata",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [3]
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Regiment",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Ganggreen",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Varthur",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Hivetyrant",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Pdigg",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [4]
+												},
+												["content"] = {
+													["height"] = 552,
+													["width"] = 180,
+												},
+												["frame"] = {
+													["height"] = 552,
+													["width"] = 180,
+												},
+												["base"] = {
+												},
+												["userdata"] = {
+												},
+											}, -- [1]
+											{
+												["events"] = {
+												},
+												["type"] = "SimpleGroup",
+												["AceGUIWidgetVersion"] = 20,
+												["children"] = {
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Dirtydean",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Fleaman",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Kawi",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Thormahn",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Flexmcbuff",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [1]
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Jerichoquinn",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Muempire",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Wsb",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Mugzorz",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Danius",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [2]
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Zirien",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Zadmag",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Izin",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Drognin",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Laser",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [3]
+													{
+														["type"] = "InlineGroup",
+														["AceGUIWidgetVersion"] = 22,
+														["titletext"] = {
+														},
+														["base"] = {
+														},
+														["content"] = {
+															["height"] = 115,
+															["width"] = 160,
+														},
+														["userdata"] = {
+														},
+														["frame"] = {
+															["height"] = 135,
+															["width"] = 180,
+														},
+														["width"] = "fill",
+														["relWidth"] = 1,
+														["children"] = {
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Nohzlok",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [1]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Krotash",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [2]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Santorini",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [3]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Lykos",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [4]
+															{
+																["type"] = "SimpleGroup",
+																["AceGUIWidgetVersion"] = 20,
+																["width"] = "fill",
+																["userdata"] = {
+																},
+																["events"] = {
+																},
+																["children"] = {
+																	{
+																		["type"] = "Label",
+																		["AceGUIWidgetVersion"] = 27,
+																		["label"] = {
+																		},
+																		["characterName"] = "Thyundying",
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["frame"] = {
+																			["height"] = 10.158730506897,
+																			["width"] = 90,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [1]
+																	{
+																		["type"] = "Icon",
+																		["disabled"] = true,
+																		["label"] = {
+																		},
+																		["image"] = {
+																		},
+																		["userdata"] = {
+																		},
+																		["AceGUIWidgetVersion"] = 21,
+																		["frame"] = {
+																			["height"] = 16,
+																			["width"] = 16,
+																		},
+																		["base"] = {
+																		},
+																		["events"] = {
+																		},
+																	}, -- [2]
+																},
+																["frame"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+																["base"] = {
+																},
+																["content"] = {
+																	["height"] = 19,
+																	["width"] = 160,
+																},
+															}, -- [5]
+														},
+														["events"] = {
+														},
+													}, -- [4]
+												},
+												["content"] = {
+													["height"] = 552,
+													["width"] = 180,
+												},
+												["frame"] = {
+													["height"] = 552,
+													["width"] = 180,
+												},
+												["base"] = {
+												},
+												["userdata"] = {
+												},
+											}, -- [2]
+										},
+										["frame"] = {
+											["height"] = 555,
+											["width"] = 383.999969482422,
+										},
+										["base"] = {
+										},
+										["content"] = {
+											["height"] = 555,
+											["width"] = 383.999969482422,
+										},
+									}, -- [1]
+								},
+								["scrollBarShown"] = true,
+								["scrollframe"] = {
+								},
+								["scrollbar"] = {
+									["ScrollDownButton"] = {
+										["Normal"] = {
+										},
+										["Pushed"] = {
+										},
+										["Disabled"] = {
+										},
+										["Highlight"] = {
+										},
+									},
+									["ThumbTexture"] = {
+									},
+									["ScrollUpButton"] = {
+										["Normal"] = {
+										},
+										["Pushed"] = {
+										},
+										["Disabled"] = {
+										},
+										["Highlight"] = {
+										},
+									},
+								},
+							}, -- [1]
+						},
+						["frame"] = {
+							["height"] = 315,
+							["width"] = 403.999938964844,
+						},
+						["base"] = {
+						},
+						["content"] = {
+							["height"] = 315,
+							["width"] = 403.999938964844,
+						},
+					}, -- [3]
+				},
+				["frame"] = {
+					["height"] = 444,
+					["width"] = 425.999908447266,
+				},
+				["tabs"] = {
+					{
+						["selectedTextY"] = -2,
+						["selected"] = false,
+						["value"] = "raidBuffs",
+						["text"] = {
+						},
+						["id"] = 1,
+						["deselectedTextY"] = -3,
+					}, -- [1]
+					{
+						["selectedTextY"] = -2,
+						["selected"] = false,
+						["value"] = "worldBuffs",
+						["text"] = {
+						},
+						["id"] = 2,
+						["deselectedTextY"] = -3,
+					}, -- [2]
+					{
+						["selectedTextY"] = -2,
+						["selected"] = true,
+						["value"] = "raidItems",
+						["text"] = {
+						},
+						["id"] = 3,
+						["deselectedTextY"] = -3,
+					}, -- [3]
+					{
+						["selectedTextY"] = -2,
+						["selected"] = false,
+						["value"] = "consumables",
+						["text"] = {
+						},
+						["id"] = 4,
+						["deselectedTextY"] = -3,
+					}, -- [4]
+					{
+						["selectedTextY"] = -2,
+						["selected"] = false,
+						["value"] = "settings",
+						["text"] = {
+						},
+						["id"] = 5,
+						["deselectedTextY"] = -3,
+					}, -- [5]
+				},
+				["events"] = {
+				},
+				["type"] = "TabGroup",
+				["localstatus"] = {
+					["selected"] = "raidItems",
+				},
+				["content"] = {
+					["height"] = 371,
+					["width"] = 403.999938964844,
+				},
+				["base"] = {
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Ehrpot - Blaumeux"] = "Default",
+		["Ehrmisc - Blaumeux"] = "Default",
+		["Ehrvault - Blaumeux"] = "Default",
+		["Ehrore - Blaumeux"] = "Default",
+		["Joclyn - Blaumeux"] = "Default",
+		["Ehrherb - Blaumeux"] = "Default",
+		["Santorini - Blaumeux"] = "Default",
+		["Ehr - Blaumeux"] = "Default",
+		["Furore - Blaumeux"] = "Default",
+		["Bokar - Blaumeux"] = "Default",
+	},
+}
