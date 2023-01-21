@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs:
   check_config:
-    runs-on: [self-hosted, nuc8beh]
+    runs-on: [self-hosted]
     steps:
       - name: Check out repository code
         uses: actions/checkout@v3
