@@ -79,56 +79,30 @@
       ]
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL"
-      ]
-    }
-  ],
-  "awards": [
+      "institution": "Baruch College, The City University of New York",
+      "url": "https://www.baruch.cuny.edu/",
+      "area": "Finance",
+      "studyType": "Master of Science",
+      "startDate": "2008-08-01",
+      "endDate": "2009-05-01"
+    },
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "institution": "Queence College, The City University of New York",
+      "url": "https://www.qc.cuny.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2003-08-01",
+      "endDate": "2006-05-01"
     }
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "Microsoft Certified Solution Expert (MCSE): Data Management and Analytics",
+      "date": "2018-03-01",
+      "issuer": "Microsoft",
+      "url": "https://learn.microsoft.com/en-us/certifications/mcse-data-management-analytics/"
     }
   ],
   "skills": [
@@ -142,45 +116,28 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
   "projects": [
     {
-      "name": "Project",
-      "description": "Description…",
+      "name": "Discharge Process Optimization",
+      "description": "",
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Angular-based single page web app hosted in SCM. Centralized tool to facilitate patient discharge where previously providers were forced to use various non-connecting modules.",
+        "Increase efficiency of discharging workflow related to consulting services, providers, nurses, and case managers.",
+        "Increase usability and functionality of follow up appointment request and management.",
+        "Improve quality and content of discharge instructions given to patient.",
+        "Guide provider workflow aligned with hospital policies and regulatory requirements."
       ],
       "keywords": [
         "HTML"
       ],
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "url": "https://project.com/",
-      "roles": [
-        "Team Lead"
-      ],
-      "entity": "Entity",
-      "type": "application"
+      "endDate": "2018-11-01"
+    },
+    {
+      "name": "Integration: Orchard Harvest Laboratory Information Systems",
+      "description": "Order and results interfaces between Harvest, Sunrise Clinical Manager, HCLL (blood bank), Quest (reference lab). ADT and nancial interfaces between Harvest and Soarian Financials.",
+      "highlights": [],
+      "keywords": [],
+      "endDate": "2018-09-01"
     }
   ]
 }

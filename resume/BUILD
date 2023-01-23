@@ -43,7 +43,6 @@ latex_document(
         "*.bib",
         "*.sty",
     ]) + [
-      ":tex"
         # Other requirements.
     ],
     # main = "resume.tex",

@@ -1,3 +1,17 @@
+<%
+function dateLocal(value) {
+  return new Date(Date.parse(value) + (new Date().getTimezoneOffset() * 60000))
+}
+
+function date(value) {
+  return dateLocal(value).toLocaleDateString("en-US",{month:"long",year:"numeric"})
+}
+
+function date2(value) {
+  return `${dateLocal(value).toLocaleString("en-US",{month:"2-digit"})}/${dateLocal(value).toLocaleString("en-US",{year:"numeric"})}`
+}
+
+%>
 \documentclass[paper=letter,12pt]{scrartcl}
 
 
@@ -74,6 +88,21 @@ Experience with business intelligence platforms and data analysis
 \end{multicols}
 %
 %\section{Key Achievements}
+<% work.forEach(x => { %>
+  \begin{tabu}{r|X}
+   \textsc{<%= date2(x.startDate) %>--<%= date2(x.endDate) %>} & <%= x.position %> \newline \emph{<%= x.location %>}
+  \end{tabu}
+    <% if (!!x.highlights) { %>
+    {\small
+      \begin{itemize}[topsep=0pt,nosep,noitemsep]
+      <% x.highlights.forEach(y => { %>
+        \item <%= y %>
+      <% }) %>
+      \end{itemize}
+    }
+  <% } %>
+<% }) %>
+
 %\begin{tabu}{r|X}
 %\textsc{November 2018} & \emph{Discharge Process Optimization} \\ 
 %  \begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
@@ -89,7 +118,7 @@ Experience with business intelligence platforms and data analysis
 \section{Professional Experience}
 <% work.forEach(x => { %>
 \begin{tabu}{r|X}
- \textsc{<%= x.startDate %>--<%= x.endDate %>} & <%= x.position %> \newline \emph{<%= x.location %>}
+ \textsc{<%= date2(x.startDate) %>--<%= date2(x.endDate) %>} & <%= x.position %> \newline \emph{<%= x.location %>}
 \end{tabu}
   <% if (!!x.highlights) { %>
   {\small
@@ -133,19 +162,22 @@ Intermediate:& LaTeX, C\#, XML/XSLT, JavaScript, TypeScript, Angular, web servic
 
 %Section: Education
 \section{Education}
-\begin{tabular}{rl}	
- \textsc{June} 2009 & \textbf{Baruch College, City University of New York}, New York City \\
- & Master of Science in \textsc{Finance} \\
-\textsc{May} 2007& \textbf{Queens College, City University of New York}, New York City \\
-& Bachelor of Arts in \textsc{Computer Science} \\
-& Minor in \textsc{Mathematics}  \\
-\end{tabular}
+\begin{tabu}{rl}
+<% education.forEach(x => { %>
+ \textsc{<%= date(x.endDate) %>} & \textbf{<%= x.institution %>}
+ \\ & <%= x.studyType %> in <%= x.area %>
+ \\
+<% }) %>
+\end{tabu}
 
 %Section: Certification
 \section{Certification}
-\begin{tabular}{rl}	
- \textsc{March} 2018 & Microsoft Certified Solutions Expert (MCSE): Data Management and Analytics \\
-  & Microsoft Certified Solutions Associate (MCSA): SQL 2016 Database Development \\
-\end{tabular}
+<% certificates.forEach(x => { %>
+  \begin{tabu}{rl}	
+   \textsc{<%= date(x.date) %>} & <%= x.name %> \\
+  \end{tabu}
+<% }) %>
+
+
 
 \end{document}
