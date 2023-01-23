@@ -1,0 +1,151 @@
+\documentclass[paper=letter,12pt]{scrartcl}
+
+
+\usepackage{marvosym}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{multicol}
+\usepackage{libertine}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+\usepackage[margin=2cm]{geometry}
+
+%--------------------BEGIN DOCUMENT----------------------
+\begin{document}
+\pagestyle{empty}
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{0.75em}
+
+
+
+%--------------------TITLE-------------
+\par{\centering
+		{\Huge \textsc{Le Yang}
+	}\bigskip\par}
+	
+%--------------------SECTIONS-----------------------------------
+%Section: Personal Data
+\section{Personal Information}
+\begin{tabular}{rl}
+    \textsc{Address:}   & <%= [
+      basics.location.address,
+      basics.location.city,
+      basics.location.region,
+      basics.location.postalCode
+    ].join(", ")
+    %>
+    \\ \textsc{Phone:}     & <%= basics.phone %>
+    \\ \textsc{Email:}     & <%= basics.email %>
+\end{tabular}
+
+%Section: Professional Summary
+\section{Professional Summary}
+More than 13 years working with various information platforms, and 10 years working with the Allscripts Sunrise platform, including Clinical Manager, Emergency Care, eLink, SIM, and CDS; 
+Core, interface, and customization team lead with major configuration and development experience; 
+Implementation architect for workflow analysis and design, implementation, build, training, and activation support; 
+Ability to create a safe and efficient patient care environment with process improvement and technology; 
+Experience with business intelligence platforms and data analysis
+
+%Section: Core Competency
+\section{Core Competency}
+\vspace{-0.75em}
+\begin{multicols}{2}
+{\small
+\begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
+     \item Project management
+     \item Process review and improvement
+     \item Requirements gathering
+     \item Critical thinker
+     \item Knowledge engineering
+     \item Team leadership
+     \item Compliance program development	
+     \item Customer support and issue resolution
+     \item Training development
+     \item Clinical system implementation
+     \item Communication and interpersonal skills
+     \item Perform well under pressure
+     \item Attention to detail
+     \item Proven track record of project delivery results
+\end{itemize}
+}
+\end{multicols}
+%
+%\section{Key Achievements}
+%\begin{tabu}{r|X}
+%\textsc{November 2018} & \emph{Discharge Process Optimization} \\ 
+%  \begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
+%       \item Angular-based single page web app hosted in SCM. Centralized tool to facilitate patient discharge where previously providers were forced to use various non-connecting modules.
+%       \item Increase efficiency of discharging workflow related to consulting services, providers, nurses, and case managers.
+%       \item Increase usability and functionality of follow up appointment request and management.
+%       \item Improve quality and content of discharge instructions given to patient.
+%       \item Guide provider workflow aligned with hospital policies and regulatory requirements.
+%  \end{itemize} \\
+%\end{tabu}
+%
+%Section: Professional Experience
+\section{Professional Experience}
+<% work.forEach(x => { %>
+\begin{tabu}{r|X}
+ \textsc{<%= x.startDate %>--<%= x.endDate %>} & <%= x.position %> \newline \emph{<%= x.location %>}
+\end{tabu}
+  <% if (!!x.highlights) { %>
+  {\small
+    \begin{itemize}[topsep=0pt,nosep,noitemsep]
+    <% x.highlights.forEach(y => { %>
+      \item <%= y %>
+    <% }) %>
+    \end{itemize}
+  }
+  <% } %>
+<% }) %>
+
+%Section: Technical Competency
+\section{Technical Competency}
+\begin{multicols}{2}
+\vspace{-0.5em}
+{\small
+\begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
+    \item Sunrise Clinical Manager (SCM)
+    \item SCM 17.3 Training completed
+    \item HL7 interface design and development (eLink)
+    \item Business intelligence
+    \item Testing planning and execution
+    \item Custom program development
+    \item External data exchange
+    \item Medical Logic Module (MLM) authoring
+    \item Scripting and task automation
+    \item Data processing and transformation
+    \item Structured content and presentation
+\end{itemize}
+}
+\end{multicols}
+
+
+\section{Technical Skills}
+\begin{tabu}{rX}
+Expert:& Arden, HL7, T-SQL \\
+Intermediate:& LaTeX, C\#, XML/XSLT, JavaScript, TypeScript, Angular, web service (RESTful), reStructuredText, Python, WPF, VBA, HTML, Splunk, SSIS/SSRS, PowerShell \\
+ Basic:& Shell Script, awk, sed 
+\end{tabu}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{rl}	
+ \textsc{June} 2009 & \textbf{Baruch College, City University of New York}, New York City \\
+ & Master of Science in \textsc{Finance} \\
+\textsc{May} 2007& \textbf{Queens College, City University of New York}, New York City \\
+& Bachelor of Arts in \textsc{Computer Science} \\
+& Minor in \textsc{Mathematics}  \\
+\end{tabular}
+
+%Section: Certification
+\section{Certification}
+\begin{tabular}{rl}	
+ \textsc{March} 2018 & Microsoft Certified Solutions Expert (MCSE): Data Management and Analytics \\
+  & Microsoft Certified Solutions Associate (MCSA): SQL 2016 Database Development \\
+\end{tabular}
+
+\end{document}

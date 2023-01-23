@@ -6,7 +6,7 @@ basic:
     - zip: 46032
   phone:  718.751.5228
   email: le.yang@gmail.com
-summary: More than 17 years working with various information platforms, and 15 years working with the Allscripts Sunrise platform, including Clinical Manager, Emergency Care, eLink, SIM, and CDS; Core, interface, and customization team lead with major configuration and development experience; Implementation architect for workfow analysis and design, implementation, build, training, and activation support; Ability to create a safe and ecient patient care environment with process improvement and technology; Experience with business intelligence platforms and data analysis.
+summary: More than 17 years working with various information platforms, and 15 years working with the Allscripts Sunrise platform, including Clinical Manager, Emergency Care, eLink, SIM, and CDS; Core, interface, and customization team lead with major configuration and development experience; Implementation architect for workfow analysis and design, implementation, build, training, and activation support; Ability to create a safe and efficient patient care environment with process improvement and technology; Experience with business intelligence platforms and data analysis.
 core competency:
   - Project management
   - Process review and improvement
@@ -22,7 +22,7 @@ core competency:
   - Perform well under pressure
   - Attention to detail
   - Proven track record of project delivery results
-accomplishments:
+accomplishment:
   - date: February 2022
     title: Downtime Solution
     summary:
@@ -30,7 +30,7 @@ accomplishments:
     title: Discharge Process Optimization
     summary:
     - Angular-based single page web app hosted in SCM. Centralized tool to facilitate patient discharge where previously providers were forced to use various non-connecting modules.
-    - Increase efficiency of discharging workow related to consulting services, providers, nurses, and case managers.
+    - Increase efficiency of discharging workflow related to consulting services, providers, nurses, and case managers.
     - Increase usability and functionality of follow up appointment request and management.
     - Improve quality and content of discharge instructions given to patient.
     - Guide provider workflow aligned with hospital policies and regulatory requirements.
