@@ -1,4 +1,5 @@
-load("@bazel_skylib//rules:run_binary.bzl", "run_binary")
+# load("@bazel_skylib//rules:run_binary.bzl", "run_binary")
+load("@bazel_latex//:latex.bzl", "latex_document")
 
 # run_binary(
 #   name = "aa",
@@ -13,12 +14,38 @@ load("@bazel_skylib//rules:run_binary.bzl", "run_binary")
 # )
 
 genrule(
-    name = "resume",
+    name = "tex",
     srcs = [
       "resume.json",
       "resume.ejs"
     ],
     outs = ["resume.tex"],
+    # cmd = "ejs -f $(location resume.json) -w $(location resume.ejs) -o abc",
     cmd = "ejs -f $(location resume.json) -w $(location resume.ejs) > $@",
     # tools = ["create_foo.pl"],
+)
+
+# genrule(
+#   name = "resume",
+#   srcs = glob([
+#         "*.tex",
+#         "*.bib",
+#         "*.sty",        
+#     ]) + [":tex"],
+#   outs = ["resume.pdf"],
+#   cmd = "pdflatex $(location :tex)"
+# )
+
+latex_document(
+    name = "resume",
+    srcs = glob([
+        "*.tex",
+        "*.bib",
+        "*.sty",
+    ]) + [
+      ":tex"
+        # Other requirements.
+    ],
+    # main = "resume.tex",
+    main = ":tex",
 )

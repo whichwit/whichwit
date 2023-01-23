@@ -12,5 +12,13 @@ http_archive(
 )
 
 load("@bazel_skylib//:workspace.bzl", "bazel_skylib_workspace")
-
 bazel_skylib_workspace()
+
+git_repository(
+    name = "bazel_latex",
+    commit = "ee3b251076279df9e93a3b05a515c91ba31646bd",
+    remote = "https://github.com/95616ARG/bazel-latex.git",
+)
+
+load("@bazel_latex//:repositories.bzl", "latex_repositories")
+latex_repositories()
