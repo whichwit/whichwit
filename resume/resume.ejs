@@ -12,7 +12,7 @@ function date2(value) {
 }
 
 %>
-\documentclass[paper=letter,12pt]{scrartcl}
+\documentclass[paper=letter,11pt]{scrartcl}
 
 
 \usepackage{marvosym}
@@ -63,71 +63,46 @@ Implementation architect for workflow analysis and design, implementation, build
 Ability to create a safe and efficient patient care environment with process improvement and technology; 
 Experience with business intelligence platforms and data analysis
 
-%Section: Core Competency
+<%
+const coreSkills = skills.find(x => x.name === 'Core')
+if (coreSkills && coreSkills.keywords && coreSkills.keywords.length > 0) {
+%>
 \section{Core Competency}
-\vspace{-0.75em}
+\vspace{-1em}
 \begin{multicols}{2}
-{\small
-\begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
-     \item Project management
-     \item Process review and improvement
-     \item Requirements gathering
-     \item Critical thinker
-     \item Knowledge engineering
-     \item Team leadership
-     \item Compliance program development	
-     \item Customer support and issue resolution
-     \item Training development
-     \item Clinical system implementation
-     \item Communication and interpersonal skills
-     \item Perform well under pressure
-     \item Attention to detail
-     \item Proven track record of project delivery results
+\begin{itemize}[noitemsep,left=0pt]
+<%
+    coreSkills.keywords.forEach(x => {
+%>
+    \item <%= x %>
+<%
+    })
+%>
 \end{itemize}
-}
 \end{multicols}
-%
-%\section{Key Achievements}
-<% work.forEach(x => { %>
-  \begin{tabu}{r|X}
-   \textsc{<%= date2(x.startDate) %>--<%= date2(x.endDate) %>} & <%= x.position %> \newline \emph{<%= x.location %>}
-  \end{tabu}
-    <% if (!!x.highlights) { %>
-    {\small
-      \begin{itemize}[topsep=0pt,nosep,noitemsep]
-      <% x.highlights.forEach(y => { %>
-        \item <%= y %>
-      <% }) %>
-      \end{itemize}
-    }
-  <% } %>
-<% }) %>
+<%
+  }
+%>
 
-%\begin{tabu}{r|X}
-%\textsc{November 2018} & \emph{Discharge Process Optimization} \\ 
-%  \begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
-%       \item Angular-based single page web app hosted in SCM. Centralized tool to facilitate patient discharge where previously providers were forced to use various non-connecting modules.
-%       \item Increase efficiency of discharging workflow related to consulting services, providers, nurses, and case managers.
-%       \item Increase usability and functionality of follow up appointment request and management.
-%       \item Improve quality and content of discharge instructions given to patient.
-%       \item Guide provider workflow aligned with hospital policies and regulatory requirements.
-%  \end{itemize} \\
-%\end{tabu}
-%
-%Section: Professional Experience
 \section{Professional Experience}
 <% work.forEach(x => { %>
-\begin{tabu}{r|X}
- \textsc{<%= date2(x.startDate) %>--<%= date2(x.endDate) %>} & <%= x.position %> \newline \emph{<%= x.location %>}
+\begin{tabu}{r|Xr}
+ \textsc{<%= date2(x.startDate) %>--<%= x.endDate ? date2(x.endDate) : 'Present' %>} & \textbf{<%= x.name %>} & \textsc{<%= x.location %>}  \\
+ & \textit{<%= x.position %>} & \\
 \end{tabu}
-  <% if (!!x.highlights) { %>
-  {\small
-    \begin{itemize}[topsep=0pt,nosep,noitemsep]
+<% 
+  if (!!x.description) { 
+%>
+  \vspace{0.25em} <%= x.description %>
+<% 
+  } 
+%>
+  <% if (!!x.highlights) { %>  
+    \begin{itemize}[noitemsep,left=0pt]
     <% x.highlights.forEach(y => { %>
       \item <%= y %>
     <% }) %>
     \end{itemize}
-  }
   <% } %>
 <% }) %>
 
@@ -154,6 +129,23 @@ Experience with business intelligence platforms and data analysis
 
 
 \section{Technical Skills}
+<%
+const techSkills = skills.filter(x => x.name != 'Core')
+if (techSkills && techSkills.length > 0) {
+%>
+\begin{tabu}{rX}
+<%
+  techSkills.forEach(x => {
+%>
+\textit{<%= x.name %>} & <%= x.keywords.join(', ') %> \\
+<%
+  })
+%>
+\end{tabu}
+<%
+}
+%>
+
 \begin{tabu}{rX}
 Expert:& Arden, HL7, T-SQL \\
 Intermediate:& LaTeX, C\#, XML/XSLT, JavaScript, TypeScript, Angular, web service (RESTful), reStructuredText, Python, WPF, VBA, HTML, Splunk, SSIS/SSRS, PowerShell \\
@@ -178,6 +170,44 @@ Intermediate:& LaTeX, C\#, XML/XSLT, JavaScript, TypeScript, Angular, web servic
   \end{tabu}
 <% }) %>
 
+\vspace{\fill}
+\center\textbf{\textsc{References available upon request}}
+
+\pagebreak
+\section{Key Achievements}
+<% 
+projects.forEach(x => { 
+%>
+\begin{tabu}{X[r]|X[5]}
+  \textsc{<%= date(x.endDate) %>} & \textit{<%= x.name %>} \\
+<% 
+  if (!!x.description) { 
+%>
+  & \vspace{0.25em} <%= x.description %> \\
+<% 
+  } 
+%>
+<% 
+  if (!!x.highlights && x.highlights.length > 0) { 
+%>
+  & 
+  \begin{itemize}[noitemsep,left=0pt,after=\vspace{-1em}]
+<% 
+    x.highlights.forEach(y => { 
+%>
+      \item <%= y %>
+<% 
+    }) 
+%>
+    \end{itemize} \\
+<%
+  }
+%>
+\end{tabu}
+\vspace{1em}
+<% 
+}) 
+%>
 
 
 \end{document}

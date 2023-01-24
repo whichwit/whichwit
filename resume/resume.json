@@ -17,8 +17,17 @@
   },
   "work": [
     {
+      "name": "Lake Regional Health System",
+      "position": "Independent Consultant",
+      "location": "Missouri",
+      "startDate": "2020-09-01",
+      "description": "Developed in-house complete downtime solution to supplement client's EHR (Meditech). The solution produces and distributes scheduled downtime reports to local machines in the event of system or network downtime. Tailored report showcase "
+      
+    },
+    {
+      "name": "University Hospitals",
       "position": "Custom Content Developer",
-      "location": "University Hospitals, Ohio",
+      "location": "Ohio",
       "startDate": "2021-04-01",
       "endDate": "2023-01-01",
       "highlights": [
@@ -30,9 +39,9 @@
       ]
     },
     {
-      "name": "Independent Contractor",
+      "name": "University of Kentucky Healthcare",
       "position": "MLM Writer",
-      "location": "University of Kentucky Healthcare, Kentucky",
+      "location": "Kentucky",
       "startDate": "2016-03-01",
       "endDate": "2021-06-01",
       "highlights": [
@@ -44,9 +53,9 @@
       ]
     },
     {
-      "name": "Tegria",
+      "name": "Jefferson Regional Medical Center",
       "position": "Intergration Consultant",
-      "location": "Jefferson Regional Medical Center, Arkansas",
+      "location": "Arkansas",
       "startDate": "2017-07-01",
       "endDate": "2018-11-01",
       "highlights": [
@@ -58,9 +67,9 @@
       ]
     },
     {
-      "name": "Leidos Health",
+      "name": "St. Vincent Health",
       "position": "Implementation Consultant",
-      "location": "St. Vincent Health, Indiana",
+      "location": "Indiana",
       "startDate": "2010-10",
       "endDate": "2016-03",
       "highlights": [
@@ -76,6 +85,21 @@
         "Supported activation of various projects including big-bang CPOE rollout and system upgrades.",
         "Documented and categorized model system workflows, processes, and configured options.",
         "Conducted shared learning and knowledge sharing for team members."
+      ]
+    },
+    {
+      "name": "Bronx-Lebanon Hospital",
+      "position": "Sr. Clinical Application Analyst",
+      "location": "New York City",
+      "startDate": "2006-07-01",
+      "endDate": "2009-05-01",
+      "highlights": [
+        "Participated in design, build and validation for system-wide Sunrise Clinical Manager EHR.",
+        "Worked with and reported directly to C-level executives.",
+        "Served as team lead for customization, core, and interfaces.",
+        "Implemented all Allscripts Sunrise modules big bang in under 13 months, on time and on budget.",
+        "Migrated and managed 20+ interfaces to new platform across multiple domains (ADT, results, document, financial, orders) while meeting previously established requirements.",
+        "Established protocols for product documentation and change management."
       ]
     }
   ],
@@ -107,12 +131,44 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Core",
       "keywords": [
+        "project management",
+        "process review and improvement",
+        "critical thinker",
+        "knowledge engineering",
+        "proven track record of project delivery results",
+        "attention to detail",
+        "perform well under pressure",
+        "team leadership"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
         "HTML",
         "CSS",
-        "JavaScript"
+        "Angular",
+        "GraphQL",
+        "OData"
+      ]
+    },
+    {
+      "name": "Data Analytics",
+      "keywords": [
+        "SSIS/SSRS",
+        "XML/XSLT",
+        "T-SQL",
+        "HL7"
+      ]
+    },
+    {
+      "name": "General Computing",
+      "keywords": [
+        "Arden",
+        "PowerShell"
       ]
     }
   ],
@@ -134,10 +190,132 @@
     },
     {
       "name": "Integration: Orchard Harvest Laboratory Information Systems",
-      "description": "Order and results interfaces between Harvest, Sunrise Clinical Manager, HCLL (blood bank), Quest (reference lab). ADT and nancial interfaces between Harvest and Soarian Financials.",
+      "description": "Order and results interfaces between Harvest, Sunrise Clinical Manager, HCLL (blood bank), Quest (reference lab). ADT and financial interfaces between Harvest and Soarian Financials.",
       "highlights": [],
       "keywords": [],
       "endDate": "2018-09-01"
+    },
+    {
+      "name": "Integration: Soarian Financials",
+      "description": "",
+      "highlights": [
+        "Bi-directional ADT, scheduling, and Financial interfaces between Soarian Financials and Sunrise Clinical Manager.",
+        "Custom adapter to periodically query and generate batch charges.",
+        "Automated charge reconciliation and error reporting.",
+        "Update DRG and expected length of stay from interim coding."
+      ],
+      "keywords": [],
+      "endDate": "2018-05-01"
+    },
+    {
+      "name": "CREST - Clinical Reasoning, Efficiency, and Surveillance Tools",
+      "description": "",
+      "highlights": [
+        "University of Kentucky Medical Center's premier clinical decision support tools embedded into EMR.",
+        "A central dashboard for clinicians to review relevant and time-sensitive data in order to provide prompt clinical care to patients. Clinicians can perform various actions and interact with current chart directly from the dashboard.",
+        "Improved clinical response efficiency by over 300% when compared to previous workflow.",
+        "Used modern web front- and back-end technology to deliver modular, fast, and aesthetically pleasing dashboard.",
+        "Leveraged platform API to provide tight integration and additional capabilities when used within enterprise EHR."
+      ],
+      "keywords": [],
+      "endDate": "2017-04-01"
+    },
+    {
+      "name": "SCM Web Service",
+      "description": "",
+      "highlights": [
+        "Designed and developed web service layered on top of SCM.",
+        "Provided end points for querying many clinical and business data e.g. visit, orders, documents, results, flowsheets, etc.",
+        "Provided end point to add, delete, and update custom data.",
+        "Allow rapid application development with easy data access and processing.",
+        "Filled the critical missing piece in SCM product offering."
+      ],
+      "keywords": [],
+      "endDate": "2017-03-01"
+    },
+    {
+      "name": "Automated JCode Waste Billing",
+      "description": "",
+      "highlights": [
+        "Respond to regulatory change to capture medication wastage, especially for high ticketed items.",
+        "Automated waste charge entry from reported usage.",
+        "Helped organization to reduce risk of losing many thousands of dollars in reimbursement due to potential missed wastage billing."
+      ],
+      "keywords": [],
+      "endDate": "2016-12-01"
+    },
+    {
+      "name": "Enterprise Data Batch Update",
+      "description": "",
+      "highlights": [
+        "Scheduled and on-demand batch update of clinical and business data.",
+        "Designed workflow to allow easy integration to update additional component. Initial release updates enterprise visit data and comment.",
+        "Provided critical support to ER tracking.",
+        "Replaced MLM-based approach that is error-prone and indeterministic."
+      ],
+      "keywords": [],
+      "endDate": "2016-07-01"
+    },
+    {
+      "name": "Continuous Integration",
+      "description": "",
+      "highlights": [
+        "Designed and setup automatic deployment and refresh of MLM upon code checking in.",
+        "Enforced deployment workflow with syntax and status checking of committed assets.",
+        "Improved accuracy and efficiency with new environment setup, such as during an upgrade."
+      ],
+      "keywords": [],
+      "endDate": "2016-06-01"
+    },
+    {
+      "name": "Medication Reconciliation Enhancements",
+      "description": "",
+      "highlights": [
+        "Automatic substitution of combo medication to component orders.",
+        "Minimize order form open during admission reconciliation.",
+        "Custom prompt for mandatory/required information without complete form open.",
+        "Submission of clarification order for medications marked with pending review during admission reconciliation.",
+        "Custom discharge medication report."
+      ],
+      "keywords": [],
+      "endDate": "2016-02-01"
+    },
+    {
+      "name": "Non-Violent Restraint Order Renewal",
+      "description": "",
+      "highlights": [
+        "Enforce non-violent restraint order to expire before midnight.",
+        "Prompt requesting provider upon logging into SCM to renew previously expired non-violent restraint orders.",
+        "Automated order submission from provider selection without any additional action from provider."
+      ],
+      "keywords": [],
+      "endDate": "2016-02-01"
+    },
+    {
+      "name": "Inpatient Admission Order and Certification",
+      "description": "",
+      "highlights": [
+        "Designed and developed workflow to meet CMS requirement on inpatient admission order and certification.",
+        "Helped to improve St. Vincent's financial integrity and outcome.",
+        "Minimal impact to existing provider admission workflow."
+      ],
+      "keywords": [],
+      "endDate": "2015-10-01"
+    },
+    {
+      "name": "Sunrise Clinical Manager Implementation at The Heart Center of Indiana",
+      "endDate": "2015-10-01"
+    },
+    {
+      "name": "Sunrise Clinical Manager Implementation at St. Mary's Health System",
+      "description": "",
+      "highlights": [
+        "Large regional health care center with multitude of clinical services.",
+        "Total EHR replacement for inpatient, surgery, outpatient, emergency care, long term facility, and mental health services.",
+        "On time project implementation to allow successful attestation of Meaningful Use Stage I."
+      ],
+      "keywords": [],
+      "endDate": "2015-10-01"
     }
   ]
 }
