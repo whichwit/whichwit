@@ -22,7 +22,7 @@
       "location": "Missouri",
       "startDate": "2020-09-01",
       "description": "Developed in-house complete downtime solution to supplement client's EHR (Meditech). The solution produces and distributes scheduled downtime reports to local machines in the event of system or network downtime. Tailored report showcase "
-      
+
     },
     {
       "name": "University Hospitals",
@@ -31,11 +31,12 @@
       "startDate": "2021-04-01",
       "endDate": "2023-01-01",
       "highlights": [
-        "Develop Medical Logic Modules (MLM) using Arden Syntax standards to supplement system logic including alerts and hard stops, data integration, result processing, order generation, enforcement of adherence to workflows and automation of document or order entry.",
-        "Plan, manage and lead the development, implementation, ongoing maintenance, testing, and support of the MLM enhancements to the enterprise clinical system.",
-        "Monitor the system on a daily basis to ensure data integrity, consistency and accuracy.",
-        "Work with other application team members to determine strategies for meeting service-specific needs through the implementation of MLM.",
-        "Integrate standard-based technologies within the Allscripts platform to deliver platform agnostic solutions to work orders and service requests."
+        "Provided clinical decision support during the hospital's transition to another EHR",
+        "Developed process to allow persistent outcome tracking and handling. Improved component interaction.",
+        "Optimized application performance through code or process enhancements",
+        "Educate team members on best practice approaches for their assigned tasks",
+        "Participated in internal code review to improve code quality and to aid knowledge transfer.",
+        "Lead specialty projects through requirements gathering, coding, testing, and documentation."
       ]
     },
     {
@@ -173,6 +174,20 @@
     }
   ],
   "projects": [
+    {
+      "name": "DocView: Phase I",
+      "description": "",
+      "highlights": [
+        "Downtime solution developed from scratch to tailor-fit specific client requirements.",
+        "Leverged proven technology and frameworks--including many open-source projects--to maximize longevity and cost "
+      ],
+      "keywords": [
+        "Angular",
+        "Node",
+        "Electron"
+      ],
+      "endDate": "2022-02-01"
+    },
     {
       "name": "Discharge Process Optimization",
       "description": "",
