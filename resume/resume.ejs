@@ -23,8 +23,7 @@ function date2(value) {
 \usepackage{multicol}
 \usepackage{libertine}
 \usepackage{titlesec}
-\usepackage{enumitem}
-
+\usepackage[document]{ragged2e}
 \usepackage[margin=2cm]{geometry}
 
 %--------------------BEGIN DOCUMENT----------------------
@@ -32,7 +31,7 @@ function date2(value) {
 \pagestyle{empty}
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{3pt}{0.75em}
-
+\raggedright
 
 
 %--------------------TITLE-------------
@@ -57,22 +56,18 @@ function date2(value) {
 
 %Section: Professional Summary
 \section{Professional Summary}
-More than 13 years working with various information platforms, and 10 years working with the Allscripts Sunrise platform, including Clinical Manager, Emergency Care, eLink, SIM, and CDS; 
-Core, interface, and customization team lead with major configuration and development experience; 
-Implementation architect for workflow analysis and design, implementation, build, training, and activation support; 
-Ability to create a safe and efficient patient care environment with process improvement and technology; 
-Experience with business intelligence platforms and data analysis
+<%= basics.summary %>
 
 <%
-const coreSkills = skills.find(x => x.name === 'Core')
-if (coreSkills && coreSkills.keywords && coreSkills.keywords.length > 0) {
+const coreComp = skills.find(x => x.name === 'Core')
+if (coreComp && coreComp.keywords && coreComp.keywords.length > 0) {
 %>
 \section{Core Competency}
 \vspace{-1em}
 \begin{multicols}{2}
 \begin{itemize}[noitemsep,left=0pt]
 <%
-    coreSkills.keywords.forEach(x => {
+    coreComp.keywords.forEach(x => {
 %>
     \item <%= x %>
 <%
@@ -106,61 +101,49 @@ if (coreSkills && coreSkills.keywords && coreSkills.keywords.length > 0) {
   <% } %>
 <% }) %>
 
-%Section: Technical Competency
+
+<%
+const techComp = skills.find(x => x.name === 'Technical')
+if (techComp && techComp.keywords && techComp.keywords.length > 0) {
+%>
 \section{Technical Competency}
+\vspace{-1em}
 \begin{multicols}{2}
-\vspace{-0.5em}
-{\small
-\begin{itemize}[topsep=0pt,nosep,noitemsep,leftmargin=1em]
-    \item Sunrise Clinical Manager (SCM)
-    \item SCM 17.3 Training completed
-    \item HL7 interface design and development (eLink)
-    \item Business intelligence
-    \item Testing planning and execution
-    \item Custom program development
-    \item External data exchange
-    \item Medical Logic Module (MLM) authoring
-    \item Scripting and task automation
-    \item Data processing and transformation
-    \item Structured content and presentation
+\begin{itemize}[noitemsep,left=0pt]
+<%
+techComp.keywords.forEach(x => {
+%>
+    \item <%= x %>
+<%
+    })
+%>
 \end{itemize}
-}
 \end{multicols}
-
-
-\section{Technical Skills}
 <%
-const techSkills = skills.filter(x => x.name != 'Core')
+  }
+%>
+
+
+<%
+const techSkills = skills.filter(x => !['Core','Technical'].includes(x.name))
 if (techSkills && techSkills.length > 0) {
-%>
-\begin{tabu}{rX}
+  %>
+\section{Technical Skills}
+\vspace{-1em}
+\begin{multicols}{4}
+\begin{itemize}[noitemsep,left=0pt]
 <%
-  techSkills.forEach(x => {
+[].concat(...techSkills.map(x => x.keywords)).forEach(x => {
 %>
-\textit{<%= x.name %>} & <%= x.keywords.join(', ') %> \\
+    \item <%= x %>
 <%
-  })
+    })
 %>
-\end{tabu}
+\end{itemize}
+\end{multicols}
 <%
-}
+  }
 %>
-
-\begin{tabu}{rX}
-Expert:& Arden, HL7, T-SQL \\
-Intermediate:& LaTeX, C\#, XML/XSLT, JavaScript, TypeScript, Angular, web service (RESTful), reStructuredText, Python, WPF, VBA, HTML, Splunk, SSIS/SSRS, PowerShell \\
- Basic:& Shell Script, awk, sed 
-\end{tabu}
-
-%Section: Education
-\section{Education}
-\begin{tabu}{rl}
-<% education.forEach(x => { %>
- \textsc{<%= date(x.endDate) %>} & \textbf{<%= x.institution %>}
- \\ & <%= x.studyType %> in <%= x.area %>
- \\
-<% }) %>
-\end{tabu}
 
 %Section: Certification
 \section{Certification}
@@ -174,12 +157,12 @@ Intermediate:& LaTeX, C\#, XML/XSLT, JavaScript, TypeScript, Angular, web servic
 \center\textbf{\textsc{References available upon request}}
 
 \pagebreak
-\section{Key Achievements}
+\section{Achievements}
 <% 
 projects.forEach(x => { 
 %>
 \begin{tabu}{X[r]|X[5]}
-  \textsc{<%= date(x.endDate) %>} & \textit{<%= x.name %>} \\
+  \textsc{<%= date(x.endDate) %>} & \textbf{<%= x.name %>} \\
 <% 
   if (!!x.description) { 
 %>
