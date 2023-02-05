@@ -7,7 +7,7 @@
     "name": "Le Yang",
     "email": "le.yang@gmail.com",
     "phone": "(718) 751-5228",
-    "summary": "More than 17 years working with various information platforms, and 15 years working with the Allscripts Sunrise platform - Clinical Manager, Emergency Care, eLink, SIM, and CDS; Core, interface, and customization team lead with major configuration and development experience; Solution architect for workflow analysis and design, implementation, build, training, and activation support; Ability to create a safe and efficient patient care environment with process improvement and technology; Experience with business intelligence platforms and data analysis; Full-stack web developer",
+    "summary": "Senior software engineer, full-stack developer, ensusiastic data architect. Decades of experience working with various information systems, with specialization in Altera's Sunrise platform. Solution architect for workflow analysis and system design,  implementation, build, training, and activation support. Ability to create a safe and efficient patient care environment with process improvement and technology. Experience with business intelligence, data analysis, and data transformation.",
     "location": {
       "address": "12150 Ams Run",
       "city": "Carmel",
@@ -18,22 +18,22 @@
   "work": [
     {
       "name": "University Hospitals",
-      "position": "Custom Content Developer",
+      "position": "Software Developer",
       "location": "Cleveland, Ohio",
       "startDate": "2021-04-01",
       "endDate": "2023-01-01",
       "highlights": [
         "Provided clinical decision and custom content support during client's transition to another EHR.",
         "Developed process to allow persistent outcome tracking and handling. Improved component interaction.",
-        "Optimized application performance through code and process enhancements.",
+        "Improved system performance through code and process optimization.",
         "Educated team members on best practice approaches for their assigned tasks.",
         "Participated in internal code review to improve code quality and to aid knowledge transfer.",
         "Led specialty projects through requirements gathering, coding, testing, and documentation."
       ]
     },
     {
-      "name": "University of Kentucky Healthcare",
-      "position": "MLM Writer",
+      "name": "UK HealthCare",
+      "position": "Senior Software Engineer, Full-stack Developer",
       "location": "Lexington, Kentucky",
       "startDate": "2016-03-01",
       "endDate": "2021-06-01",
@@ -42,6 +42,7 @@
         "Planned, managed, and led the development, implementation, ongoing maintenance, testing, and support of the MLM enhancements to the enterprise clinical system.",
         "Monitored the system on daily to ensure data integrity, consistency, and accuracy.",
         "Worked with other application team members to determine strategies for meeting service-specific needs through the implementation of MLM.",
+        "Developed Angular-based web application for discharge planning, with OData (Entity Framework and ASP.NET) backend. Web app is embedded in the hospital's electronic health record system to achieve an integrated experience for the providers.",
         "Integrated standard-based technologies within the Allscripts platform to deliver platform agnostic solutions to work orders and service requests."
       ]
     },
@@ -154,31 +155,41 @@
         "Angular",
         "GraphQL",
         "OData",
-        "eLink",
         "Node.js",
         "Electron",
-        "Bazel"
+        "Bazel",
+        "SQL Server",
+        "Bootstrap",
+        "JQuery",
+        "Express.js",
+        "ASP.NET / ASP.NET Core",
+        "Entity Framework"
       ]
     },
     {
-      "name": "Data Analytics",
+      "name": "Data Transformation and Analytics",
       "keywords": [
         "SSIS/SSRS",
-        "XML/XSLT"
+        "YAML",
+        "XML",
+        "XSLT",
+        "XPath",
+        "JSON"
       ]
     },
     {
       "name": "Programming",
       "keywords": [
-        "Arden",
+        "Arden Syntax",
         "JavaScript",
         "TypeScript",
         "Python",
         "PowerShell",
-        "XML",
-        "XSLT",
-        "Transact-SQL",
-        "LaTeX"
+        "SQL",
+        "LaTeX",
+        "Go",
+        "HTML5",
+        "CSS"
       ]
     }
   ],
