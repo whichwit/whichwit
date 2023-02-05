@@ -1,0 +1,2 @@
+build --define TEXLIVE_FULL_DIR=/usr/local/texlive/2022
+run --define TEXLIVE_FULL_DIR=/usr/local/texlive/2022
