@@ -25,9 +25,9 @@ latex_repositories()
 
 http_archive(
     name = "aspect_rules_js",
-    sha256 = "7cb2d84b7d5220194627c9a0267ae599e357350e75ea4f28f337a25ca6219b83",
-    strip_prefix = "rules_js-1.29.2",
-    url = "https://github.com/aspect-build/rules_js/archive/refs/tags/v1.29.2.tar.gz",
+    sha256 = "fc6887091ee3243661fb532fd3244230b6e193c22566a038c9fd748ca68fb880",
+    strip_prefix = "rules_js-1.42.3",
+    url = "https://github.com/aspect-build/rules_js/archive/refs/tags/v1.42.3.tar.gz",
 )
 
 load("@aspect_rules_js//js:repositories.bzl", "rules_js_dependencies")
